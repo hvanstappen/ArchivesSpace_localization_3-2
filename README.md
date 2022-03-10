@@ -1,5 +1,6 @@
 # ArchivesSpace_localization_3-2
 Dutch localization files for v.3-2
+translations in branch https://github.com/hvanstappen/ArchivesSpace_localization_3-2/tree/l10n_main
 
 1. Overwrite existing en localisation
 /en_common_locales.yml:  rename to en.yml and add to /common/locales/en.yml
@@ -7,4 +8,5 @@ Dutch localization files for v.3-2
 /en_frontend_config_locales.yml:  rename to en.yml and add to /frontend/config/locales.yml
 
 2. Add as a new language
+
 TODO
