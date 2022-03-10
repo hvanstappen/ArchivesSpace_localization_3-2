@@ -603,8 +603,8 @@ nl:
     searching: Aan het zoeken...
     delete: "&times;"
   mixed_content:
-    wrap_prefix: "Wrap with:"
-    help: "Mixed Content Enabled&#160;&#160;--&#160;&#160;Type '<' for elements or highlight text to wrap"
+    wrap_prefix: "Insluiten in tekstopmaak:"
+    help: "Gemengde tekstopmaak ingeschakeld&#160;&#160;--&#160;&#160;Typ '<' voor elementen of markeer tekst om in te sluiten"
   import:
     eac_title: Importeer een EAC bestand
     ead_title: Importeer een EAD bestand
