@@ -744,7 +744,7 @@ nl:
     use_dates_tooltip: |
       <p>Datums waarop deze naam is gebruikt voor de agent.</p>
     parallel_names_tooltip: |
-      <p>Can be used to record a parallel form of the name in different languages and/or scripts or transliterated forms of the name.</p>
+      <p>Kan worden gebruikt voor een parallelle naamvorm in andere talen en/of schriften, of voor een getranslitereerde naamvorm.</p>
     qualifier: Qualifier
     qualifier_tooltip: |2
       <p>Een term of zin om twee naamvormen te onderscheiden die identiek zijn, maar twee verschillende entiteiten identificeren. De term kan een datum, een plaats of een andere geschikte omschrijving zijn.</p>
@@ -797,7 +797,7 @@ nl:
     dates_tooltip: "<p>Gebruik dit veld voor afstemming met MARC-autorisatierecords. Deze datums worden in plaats van de datums van bestaan toegevoegd aan de naaminvoer op het scherm.</p>\n<p>Bestaansdatums voor de genoemde entiteit.</p>\n<p>Voorbeelden:</p>\n<ul>\n<li>1886-1961 <em>(voor H.D., Hilda Doolittle, 1886-1961)</em></li>\n </ul>"
     use_dates: Datering gebruik
     use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de agent.</p>
-    parallel_names_tooltip: <p>Can be used to record a parallel form of the name in different languages and/or scripts or transliterated forms of the name.</p>
+    parallel_names_tooltip: <p>Kan worden gebruikt voor een parallelle naamvorm in andere talen en/of schriften, of voor een getranslitereerde naamvorm.</p>
     qualifier: Qualifier
     qualifier_tooltip: "<p>Een term of zin om twee naamvormen te onderscheiden die identiek zijn, maar twee verschillende entiteiten identificeren. De term kan een datum, een plaats of een andere geschikte omschrijving zijn.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Bloemisten <em>(voor de familie Smith family (Bloemisten))</em>)</li>\n<li>Bronx, New York, N.Y. <em>(voor St. James Church (Bronx, New York, N.Y.))</em></li>\n </ul>"
     sort_name: Sorteernaam
@@ -839,7 +839,7 @@ nl:
     dates_tooltip: "<p>Gebruik dit veld voor afstemming met MARC-autorisatierecords. Deze datums worden in plaats van de datums van bestaan toegevoegd aan de naaminvoer op het scherm.</p>\n<p>Bestaansdatums voor de genoemde entiteit.</p>\n<p>Voorbeelden:</p>\n<ul>\n<li>1886-1961 <em>(voor H.D., Hilda Doolittle, 1886-1961)</em></li>\n </ul>"
     use_dates: Datering gebruik
     use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de agent.</p>
-    parallel_names_tooltip: <p>Can be used to record a parallel form of the name in different languages and/or scripts or transliterated forms of the name.</p>
+    parallel_names_tooltip: <p>Kan worden gebruikt voor een parallelle naamvorm in andere talen en/of schriften, of voor een getranslitereerde naamvorm.</p>
     qualifier: Qualifier
     qualifier_tooltip: "<p>Een term of zin om twee naamvormen te onderscheiden die identiek zijn, maar twee verschillende entiteiten identificeren. De term kan een datum, een plaats of een andere geschikte omschrijving zijn.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Bloemisten <em>(voor de familie Smith family (Bloemisten))</em>)</li>\n<li>Bronx, New York, N.Y. <em>(voor St. James Church (Bronx, New York, N.Y.))</em></li>\n </ul>"
     sort_name: Sorteernaam
@@ -881,7 +881,7 @@ nl:
     dates_tooltip: "<p>Gebruik dit veld voor afstemming met MARC-autorisatierecords. Deze datums worden in plaats van de datums van bestaan toegevoegd aan de naaminvoer op het scherm.</p>\n<p>Bestaansdatums voor de genoemde entiteit.</p>\n<p>Voorbeelden:</p>\n<ul>\n<li>1886-1961 <em>(voor H.D., Hilda Doolittle, 1886-1961)</em></li>\n </ul>"
     use_dates: Datering gebruik
     use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de agent.</p>
-    parallel_names_tooltip: <p>Can be used to record a parallel form of the name in different languages and/or scripts or transliterated forms of the name.</p>
+    parallel_names_tooltip: <p>Kan worden gebruikt voor een parallelle naamvorm in andere talen en/of schriften, of voor een getranslitereerde naamvorm.</p>
     qualifier: Qualifier
     qualifier_tooltip: "<p>Een term of zin om twee naamvormen te onderscheiden die identiek zijn, maar twee verschillende entiteiten identificeren. De term kan een datum, een plaats of een andere geschikte omschrijving zijn.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Bloemisten <em>(voor de familie Smith family (Bloemisten))</em>)</li>\n<li>Bronx, New York, N.Y. <em>(voor St. James Church (Bronx, New York, N.Y.))</em></li>\n </ul>"
     sort_name: Sorteernaam
@@ -932,7 +932,7 @@ nl:
     dates_tooltip: "<p>Gebruik dit veld voor afstemming met MARC-autorisatierecords. Deze datums worden in plaats van de datums van bestaan toegevoegd aan de naaminvoer op het scherm.</p>\n<p>Bestaansdatums voor de genoemde entiteit.</p>\n<p>Voorbeelden:</p>\n<ul>\n<li>1886-1961 <em>(voor H.D., Hilda Doolittle, 1886-1961)</em></li>\n </ul>"
     use_dates: Datering gebruik
     use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de agent.</p>
-    parallel_names_tooltip: <p>Can be used to record a parallel form of the name in different languages and/or scripts or transliterated forms of the name.</p>
+    parallel_names_tooltip: <p>Kan worden gebruikt voor een parallelle naamvorm in andere talen en/of schriften, of voor een getranslitereerde naamvorm.</p>
     qualifier: Qualifier
     qualifier_tooltip: "<p>Een term of zin om twee naamvormen te onderscheiden die identiek zijn, maar twee verschillende entiteiten identificeren. De term kan een datum, een plaats of een andere geschikte omschrijving zijn.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Bloemisten <em>(voor de familie Smith family (Bloemisten))</em>)</li>\n<li>Bronx, New York, N.Y. <em>(voor St. James Church (Bronx, New York, N.Y.))</em></li>\n </ul>"
     sort_name: Sorteernaam
@@ -980,7 +980,7 @@ nl:
     dates_tooltip: "<p>Gebruik dit veld voor afstemming met MARC-autorisatierecords. Deze datums worden in plaats van de datums van bestaan toegevoegd aan de naaminvoer op het scherm.</p>\n<p>Bestaansdatums voor de genoemde entiteit.</p>\n<p>Voorbeelden:</p>\n<ul>\n<li>1886-1961 <em>(voor H.D., Hilda Doolittle, 1886-1961)</em></li>\n </ul>"
     use_dates: Datering gebruik
     use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de agent.</p>
-    parallel_names_tooltip: <p>Can be used to record a parallel form of the name in different languages and/or scripts or transliterated forms of the name.</p>
+    parallel_names_tooltip: <p>Kan worden gebruikt voor een parallelle naamvorm in andere talen en/of schriften, of voor een getranslitereerde naamvorm.</p>
     qualifier: Qualifier
     qualifier_tooltip: "<p>Een term of zin om twee naamvormen te onderscheiden die identiek zijn, maar twee verschillende entiteiten identificeren. De term kan een datum, een plaats of een andere geschikte omschrijving zijn.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Bloemisten <em>(voor de familie Smith family (Bloemisten))</em>)</li>\n<li>Bronx, New York, N.Y. <em>(voor St. James Church (Bronx, New York, N.Y.))</em></li>\n </ul>"
     sort_name: Sorteernaam
@@ -1041,7 +1041,7 @@ nl:
     dates_tooltip: "<p>Gebruik dit veld voor afstemming met MARC-autorisatierecords. Deze datums worden in plaats van de datums van bestaan toegevoegd aan de naaminvoer op het scherm.</p>\n<p>Bestaansdatums voor de genoemde entiteit.</p>\n<p>Voorbeelden:</p>\n<ul>\n<li>1886-1961 <em>(voor H.D., Hilda Doolittle, 1886-1961)</em></li>\n </ul>"
     use_dates: Datering gebruik
     use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de agent.</p>
-    parallel_names_tooltip: <p>Can be used to record a parallel form of the name in different languages and/or scripts or transliterated forms of the name.</p>
+    parallel_names_tooltip: <p>Kan worden gebruikt voor een parallelle naamvorm in andere talen en/of schriften, of voor een getranslitereerde naamvorm.</p>
     qualifier: Qualifier
     qualifier_tooltip: "<p>Een term of zin om twee naamvormen te onderscheiden die identiek zijn, maar twee verschillende entiteiten identificeren. De term kan een datum, een plaats of een andere geschikte omschrijving zijn.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Bloemisten <em>(voor de familie Smith family (Bloemisten))</em>)</li>\n<li>Bronx, New York, N.Y. <em>(voor St. James Church (Bronx, New York, N.Y.))</em></li>\n </ul>"
     sort_name: Sorteernaam
@@ -1093,7 +1093,7 @@ nl:
     dates_tooltip: "<p>Gebruik dit veld voor afstemming met MARC-autorisatierecords. Deze datums worden in plaats van de datums van bestaan toegevoegd aan de naaminvoer op het scherm.</p>\n<p>Bestaansdatums voor de genoemde entiteit.</p>\n<p>Voorbeelden:</p>\n<ul>\n<li>1886-1961 <em>(voor H.D., Hilda Doolittle, 1886-1961)</em></li>\n </ul>"
     use_dates: Datering gebruik
     use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de agent.</p>
-    parallel_names_tooltip: <p>Can be used to record a parallel form of the name in different languages and/or scripts or transliterated forms of the name.</p>
+    parallel_names_tooltip: <p>Kan worden gebruikt voor een parallelle naamvorm in andere talen en/of schriften, of voor een getranslitereerde naamvorm.</p>
     qualifier: Qualifier
     qualifier_tooltip: "<p>Een term of zin om twee naamvormen te onderscheiden die identiek zijn, maar twee verschillende entiteiten identificeren. De term kan een datum, een plaats of een andere geschikte omschrijving zijn.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Bloemisten <em>(voor de familie Smith family (Bloemisten))</em>)</li>\n<li>Bronx, New York, N.Y. <em>(voor St. James Church (Bronx, New York, N.Y.))</em></li>\n </ul>"
     sort_name: Sorteernaam
@@ -1159,7 +1159,7 @@ nl:
     dates_tooltip: "<p>Gebruik dit veld voor afstemming met MARC-autorisatierecords. Deze datums worden in plaats van de datums van bestaan toegevoegd aan de naaminvoer op het scherm.</p>\n<p>Bestaansdatums voor de genoemde entiteit.</p>\n<p>Voorbeelden:</p>\n<ul>\n<li>1886-1961 <em>(voor H.D., Hilda Doolittle, 1886-1961)</em></li>\n </ul>"
     use_dates: Datering gebruik
     use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de agent.</p>
-    parallel_names_tooltip: <p>Can be used to record a parallel form of the name in different languages and/or scripts or transliterated forms of the name.</p>
+    parallel_names_tooltip: <p>Kan worden gebruikt voor een parallelle naamvorm in andere talen en/of schriften, of voor een getranslitereerde naamvorm.</p>
     qualifier: Qualifier
     qualifier_tooltip: "<p>Een term of zin om twee naamvormen te onderscheiden die identiek zijn, maar twee verschillende entiteiten identificeren. De term kan een datum, een plaats of een andere geschikte omschrijving zijn.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Bloemisten <em>(voor de familie Smith family (Bloemisten))</em>)</li>\n<li>Bronx, New York, N.Y. <em>(voor St. James Church (Bronx, New York, N.Y.))</em></li>\n </ul>"
     sort_name: Sorteernaam
