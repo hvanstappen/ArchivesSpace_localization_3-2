@@ -7,7 +7,7 @@ nl:
     "true": "Ja"
     "false": "Nee"
   user_defined:
-    boolean_1: Boolean 1
+    boolean_1: Boolean 1$
     boolean_2: Boolean 2
     boolean_3: Boolean 3
     integer_1: Integer 1
