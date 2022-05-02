@@ -413,7 +413,7 @@ nl:
       container_profile_width_u_sstr: Breedte
       container_profile_height_u_sstr: Hoogte
       container_profile_depth_u_sstr: Diepte
-      container_profile_dimension_units_u_sstr: Dimensie eenheden
+      container_profile_dimension_units_u_sstr: Maateenheid
       audit_info: Audit informatie
       user_mtime: Aangepast
       create_time: Gemaakt
@@ -426,7 +426,7 @@ nl:
       location_profile_width_u_sstr: Breedte
       location_profile_height_u_sstr: Hoogte
       location_profile_depth_u_sstr: Diepte
-      location_profile_dimension_units_u_sstr: Dimensie eenheden
+      location_profile_dimension_units_u_sstr: Maateenheid
       audit_info: Audit informatie
       user_mtime: Aangepast
       create_time: Gemaakt
@@ -1201,7 +1201,7 @@ nl:
   user:
     is_active_user: Actief
     active: "Ja"
-    inactive: "false"
+    inactive: "Nee"
     _frontend:
       messages:
         access_denied: Toegang geweigerd. Log in als de admin-gebruiker om deze actie uit te voeren.
@@ -1223,7 +1223,7 @@ nl:
         new_account: Nieuw Account
       action:
         create_account: Maak Account
-        update_account: Update Account
+        update_account: Pas Account aan
         create: Maak Gebruiker
         edit: Bewerk Gebruiker
         show_active: Toon actieve gebruikers
@@ -1326,7 +1326,7 @@ nl:
   job:
     _frontend:
       audit_data: Audit data
-      external_repo: Record belongs to a different repository
+      external_repo: Record hoort bij een ander repository
       actions:
         create: Maak Taak
         save: Start Taak
@@ -1558,7 +1558,7 @@ nl:
     url: URL
     url_tooltip: |
       <p>Een hyperlink voor een externe beschrijving van de container.</p>
-    dimension_units: Dimensie eenheden
+    dimension_units: Maateenheid
     dimension_units_tooltip: |
       <p>Maateenheid voor afmeting.  </p>
        <p>Waarden in deze Waardenlijst kunnen worden aangepast. </p>
@@ -1632,7 +1632,7 @@ nl:
       section:
         basic_information: Basisgegevens
     name: Naam
-    dimension_units: Dimensie eenheden
+    dimension_units: Maateenheid
     depth: Diepte
     height: Hoogte
     width: Breedte
@@ -2041,7 +2041,7 @@ nl:
   agent_place:
     _frontend:
       action:
-        add: Voeg Plaats toe
+        add: Voeg plaats toe
     section:
       dates: Datums
     _plural: Plaatsen
@@ -2054,7 +2054,7 @@ nl:
   agent_place_required:
     _frontend:
       action:
-        add: Voeg Plaats toe
+        add: Voeg plaats toe
     section:
       dates: Datums
     _plural: Plaatsen
@@ -2067,7 +2067,7 @@ nl:
   agent_places:
     _frontend:
       action:
-        add: Voeg Plaats toe
+        add: Voeg plaats toe
     section:
       dates: Datums
     _plural: Plaatsen
@@ -2080,7 +2080,7 @@ nl:
   agent_place_merge_target:
     _frontend:
       action:
-        add: Voeg Plaats toe
+        add: Voeg plaats toe
     section:
       dates: Datums
     _plural: Plaatsen
@@ -2093,7 +2093,7 @@ nl:
   agent_place_merge_victim:
     _frontend:
       action:
-        add: Voeg Plaats toe
+        add: Voeg plaats toe
     section:
       dates: Datums
     _plural: Plaatsen
@@ -2302,7 +2302,7 @@ nl:
     _plural: Plaatsen
     _frontend:
       action:
-        add: Voeg Plaats toe
+        add: Voeg plaats toe
   agent_alternate_set:
     _plural: Alternatieve Sets
     _singular: Alternatieve Set
