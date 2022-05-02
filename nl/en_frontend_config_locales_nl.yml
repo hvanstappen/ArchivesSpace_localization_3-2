@@ -35,7 +35,7 @@ nl:
     view: Bekijk
     spawn: Spawn
     show_all: Toon alle
-    transfer_record: Transfer
+    transfer_record: Record overbrengen
     more: Meer
     lightmode_toggle: Light Mode
     link_to: Koppel met
@@ -69,7 +69,7 @@ nl:
     suppress: Verbergen
     suppress_confirm_title: Dit record verbergen?
     suppress_confirm_message: "Hoewel een verborgen record in de database blijft, is het niet zichtbaar voor de meeste gebruikers en is het niet beschikbaar voor de meeste functies."
-    transfer: Transfer
+    transfer: Overbrengen
     transfer_confirm_title: Dit record overbrengen?
     transfer_confirm_message: "Het record '%{target}' wordt overgebracht naar de geselecteerde repository."
     transfer_successful: Overbrengen geslaagd.  Het kan even duren voordat records in de doelrepository verschijnen terwijl het opnieuw indexeren plaatsvindt.
@@ -327,7 +327,7 @@ nl:
     event:
       score: Relevantie
       agents: Agent
-      event_type: Voeg gebeurtenistype toe
+      event_type: Type
       outcome: Resultaat
       linked_records: Record koppelingen
       audit_info: Audit informatie
@@ -397,7 +397,7 @@ nl:
       publish: Gepubliceerd
       container_profile_display_string_u_sstr: Containerprofiel
       location_display_string_u_sstr: Locatie
-      type: Voeg gebeurtenistype toe
+      type: Type
       indicator: Indicator
       barcode: Barcode
       context: Archief/Collectie / Aanwinst
@@ -537,7 +537,7 @@ nl:
     global_preferences: Globale voorkeuren
     global_settings: Globale instellingen
     user_repo_preferences: Gebruikersvoorkeuren
-    repo_preferences: Gebruikersvoorkeuren
+    repo_preferences: Repository voorkeuren
     manage_user_access: Beheer Gebruikerstoegang
     logout: Log uit
     register: Registreer nu
@@ -615,7 +615,7 @@ nl:
     import_report: Importeer Rapport
     import_another: Importeer een ander bestand
     file_select: Selecteer een bestand
-    submit: Import
+    submit: Importeer
     submit_busy_message: Aan het importeren...
     messages:
       missing_repo: Je moet een repository selecteren voordat je gaat importeren
