@@ -138,7 +138,7 @@ nl:
        </ul>
     publish: Publiceren?
     publish_tooltip: |
-      <p>Bepaalt of dit digitale object of component wordt gepubliceerd naar Publieke interface (PUI).</p>
+      <p>Bepaalt of dit digitale object of component wordt gepubliceerd in de publieksinterface.</p>
     level: VRA Core Level
     level_tooltip: |
       <p>Hoofdzakelijk voor gebruik in VRA Core-compatibele records met meerdere niveaus om aan te geven dat de beschrijving over een collectie, een werk of een afbeelding gaat.</p>
@@ -191,7 +191,7 @@ nl:
     digital_object_id: Identificatiecode
     digital_object_id_tooltip: "<p>Een unieke identificatie voor het digitale object als geheel. Dit kan een ARK, HANDLE, een URI of een willekeurige tekenreeks zijn die het digitale object uniek identificeert. Het veld moet worden ingevuld om een geldig METS-record te kunnen exporteren.</p>\n<p>Voorbeelden:</p>\n <ul>\n<li>http://hdl.handle.net/1813/13524</li>\n </ul>"
     publish: Publiceren?
-    publish_tooltip: <p>Bepaalt of dit digitale object of component wordt gepubliceerd naar Publieke interface (PUI).</p>
+    publish_tooltip: <p>Bepaalt of dit digitale object of component wordt gepubliceerd in de publieksinterface.</p>
     level: VRA Core Level
     level_tooltip: <p>Hoofdzakelijk voor gebruik in VRA Core-compatibele records met meerdere niveaus om aan te geven dat de beschrijving over een collectie, een werk of een afbeelding gaat.</p>
     digital_object_type: Digitaal object type
@@ -268,7 +268,7 @@ nl:
     has_unpublished_ancestor: Heeft niet-gepubliceerde Ancestor?
     holdings: Bezit
     owner_repo: Gereserveerd voor
-    owner_repo_tooltip: Een repository die deze locatie heeft gereserveerd
+    owner_repo_tooltip: Een repository dat deze locatie heeft gereserveerd
     _singular: Locatie
     _plural: Locaties
     new_title: Nieuwe Locatie
@@ -306,7 +306,7 @@ nl:
     has_unpublished_ancestor: Heeft niet-gepubliceerde Ancestor?
     holdings: Bezit
     owner_repo: Gereserveerd voor
-    owner_repo_tooltip: Een repository die deze locatie heeft gereserveerd
+    owner_repo_tooltip: Een repository dat deze locatie heeft gereserveerd
     _singular: Batch Locaties
     _plural: Batch Locaties
     new_title: Nieuwe Locatie
@@ -2863,7 +2863,7 @@ nl:
     created_by: Gemaakt door
     last_modified_by: Laatst bewerkt door
     create_time: Gemaakt
-    user_mtime: Aangepast
+    user_mtime: Bewerkt
     _singular: Aanwinst
     _plural: Aanwinsten
     new_title: Nieuwe aanwinst
@@ -3467,16 +3467,16 @@ nl:
     created_by: Gemaakt door
     last_modified_by: Laatst bewerkt door
     create_time: Gemaakt
-    user_mtime: Aangepast
+    user_mtime: Bewerkt
     _singular: Archief/collectie
-    _plural: Archieven/Collecties
+    _plural: Archieven/collecties
     new_title: Nieuw(e) archief/collectie
   resource_and_archival_object:
     _singular: Archief/collectie en/of archiefonderdeel
     _plural: Archieven/collecties en/of archiefonderdelen
   related_accession:
     _singular: Aanwinst
-    _plural: Gerelateerde Aanwinsten
+    _plural: Aanwinsten
   revision_statement:
     _singlular: Revisie toelichting
     _plural: Revisie toelichtingen
@@ -3488,7 +3488,7 @@ nl:
       <p>Een beschrijving van de laatste revisie(s) die aan het zoekhulpmiddel zijn gedaan.</p>
     publish: Publiceren?
     publish_tooltip: |
-      <p>Bepaalt of deze Revisieverklaring wordt gepubliceerd naar publieke interfaces.</p>
+      <p>Bepaalt of deze Revisieverklaring wordt gepubliceerd in de publieksinterface.</p>
   related_resource:
     _singular: Gerelateerd Archief/Collectie
     _plural: Gerelateerde Archieven/Collecties
@@ -3512,7 +3512,7 @@ nl:
        </ul>
     name: Repository Naam
     name_tooltip: |2
-      <p>VERPLICHT VELD. De naam van het repository die de administratieve verantwoordelijkheid heeft voor en de bewaring van de materialen beschreven in de Aanwinst-, Archief/Collectie- en Digitale objectmodules van de applicatie.</p>
+      <p>VERPLICHT VELD. De naam van het repository dat de administratieve verantwoordelijkheid heeft voor en de bewaring van de materialen beschreven in de Aanwinst-, Archief/Collectie- en Digitale objectmodules van de applicatie.</p>
       <p>Zie DACS 2.2</p>
        <p> Voorbeelden: </p>
        <ul>
@@ -3657,7 +3657,7 @@ nl:
     is_admin_tooltip: |
       <p>Wordt gebruikt om aan te geven of de gebruiker volledige beheerdersrechten voor de toepassing moet hebben.</p>
     create_time: Gemaakt
-    user_mtime: Aangepast
+    user_mtime: Bewerkt
     admin: Administrator
     _singular: Gebruiker
     _plural: Gebruikers
@@ -3836,7 +3836,7 @@ nl:
       locations: Locaties
       scope_by_date: Scope naar Datum
       template: Template
-      rating: Beoordeling
+      rating: Score
       values: Waarden
     formats:
       json: JSON
@@ -3911,7 +3911,7 @@ nl:
     invalid_characters: Bevat ongeldige tekens
     conflicting_record: "<a href='/resolve/readonly?uri=%{record_uri}' target='_blank'>Bekijk conflicting record</a>"
     or_date_expression_is_required: Datums moeten minstens één datumexpressie geven
-    must_specify_either_a_single_or_ranged_date: Datums moeten gespecificeerd als ofwel enkelvoudig ofwel datumbereik
+    must_specify_either_a_single_or_ranged_date: Datums moeten worden gespecificeerd als ofwel enkelvoudig ofwel datumbereik
     "must_be_in_yyyy[yyy][yy][y]__yyyy[yyy][yy][y]-mm__or_yyyy-mm-dd_format": Gestandaardiseerde datums moeten in een gestandaardiseerd formaat zijn
     generic_validation_error: Validatiefout
     requires_that_end_dates_are_after_begin_dates: Einddatums moeten na de startdatums liggen
@@ -3923,7 +3923,7 @@ nl:
   job:
     _singular: Achtergrond taak
     _plural: Achtergrond taken
-    new_title: Nieuwe Background Taak
+    new_title: Nieuwe achtergrond taak
     job_type: Taak type
     types:
       print_to_pdf_job: Genereer PDF
@@ -3991,7 +3991,7 @@ nl:
     include_unpublished: Inclusief niet-gepubliceerd
     source: Bron
   top_container_linker_job:
-    _singular: Top Container Linker Job
+    _singular: Taak voor het koppelen van top containers
     filename: Bestanddeel
     content_type: Bestandstype
     resource_id: Archief/Collectie Identificatiecode
@@ -4034,7 +4034,7 @@ nl:
       suppressed: Verborgen?
     date:
       create_time: Gemaakt
-      user_mtime: Aangepast
+      user_mtime: Bewerkt
   system_info:
     frontend: Frontend UI
     backend: Backend
@@ -4448,7 +4448,7 @@ nl:
   created_by: Gemaakt door
   last_modified_by: Laatst bewerkt door
   create_time: Gemaakt
-  user_mtime: Aangepast
+  user_mtime: Bewerkt
   arks:
     ark: ARK
     edit: Bewerk ARK's
