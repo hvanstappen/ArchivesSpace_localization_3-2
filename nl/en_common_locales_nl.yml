@@ -2,7 +2,7 @@ nl:
   states:
     suppressed: Verborgen
     deleted: Verwijderd
-    auto_generated: Gegenereerd door systeem bij Bewaren
+    auto_generated: Gecreëerd door systeem na bewaren van wijzigingen
   boolean:
     "true": "Ja"
     "false": "Nee"
@@ -20,7 +20,7 @@ nl:
     string_2: String 2
     string_3: String 3
     string_4: String 4
-    text_1: Brocade record history
+    text_1: Brocade bewerkingshistoriek
     text_2: Magazijnplaatsing
     text_3: Text 3
     text_4: Text 4
@@ -43,12 +43,12 @@ nl:
       <p>Bij gebruik van human-readable URLs: het laatste deel van de publieke URL voor dit record in de ArchivesSpace publieke interface. De slug kan handmatig worden toegevoegd of bijgewerkt, of automatisch worden gegenereerd op basis van de configuratie-instellingen voor human-readable URL's in het config.rb bestand op de server.</p>
     public_url: Publieke URL
     public_url_tooltip: |
-      <p>Als dit record is gepubliceerd of is bijgewerkt om gepubliceerd te worden, de volledige URL voor dit record in de publieke gebruikersinterface. Als menselijk leesbare URL's worden gebruikt, zal het einde van de URL de slug zijn.</p>
-      <p>De oorspronkelijke URI voor deze record blijft altijd geldig, ook als er geen human-readable URL's worden gebruikt.</p>
-    is_slug_auto: Automatisch Slug genereren?
+      <p>Als dit record is gepubliceerd of is bijgewerkt om gepubliceerd te worden, bevat dit veld de volledige URL voor dit record in de publieke gebruikersinterface. Als menselijk leesbare URL's worden gebruikt, zal het einde van de URL de slug zijn.</p>
+      <p>De oorspronkelijke URI voor dit record blijft altijd geldig, ook als er geen menselijk leesbare URL's worden gebruikt.</p>
+    is_slug_auto: Automatisch slug genereren?
     is_slug_auto_tooltip: |
       <p>Als dit veld is aangevinkt, wordt de slug voor dit record automatisch gegenereerd wanneer het record wordt opgeslagen, gebaseerd op de configuratie-instellingen voor menselijk leesbare URL's in het config.rb bestand op de server.</p>
-    autogen_disabled: "Een slug kan niet automatisch worden gegenereerd uit de aangeleverde gegevens op basis van de huidige configuratie-instellingen"
+    autogen_disabled: "Op basis van de huidige configuratie-instellingen kan van de ingevoerde gegevens niet automatisch een slug worden gegenereerd."
     autogen_repo_slug: "Omdat er niet handmatig een slug is ingevoerd, is de slug van de repository automatisch gegenereerd met de korte naam van de repository"
   content_items:
     content: Inhoud
@@ -65,9 +65,9 @@ nl:
       <p>Geeft de omvang en de fysieke aard van de materialen aan die worden beschreven.</p>
       <p>Zie DACS 2.5</p>
     linked_agents_tooltip: |
-      <p>Koppelt agents maker, bron of onderwerp van de beschreven materialen.</p>
+      <p>Koppelt actoren als maker, bron of onderwerp van de beschreven materialen.</p>
     subjects_tooltip: |
-      <p>Gebruikt om Onderwerpen te koppelen met de beschreven materialen.</p>
+      <p>Koppelt onderwerpen aan de beschreven materialen.</p>
     notes_tooltip: |
       <p>Aanvullende beschrijvende informatie over de beschreven materialen, meestal in de vorm van tekst of gestructureerde lijsten.</p>
     external_documents_tooltip: |
@@ -102,7 +102,7 @@ nl:
       string_2: String 2
       string_3: String 3
       string_4: String 4
-      text_1: Brocade record history
+      text_1: Brocade bewerkingshistoriek
       text_2: Magazijnplaatsing
       text_3: Text 3
       text_4: Text 4
@@ -169,7 +169,7 @@ nl:
       string_2: String 2
       string_3: String 3
       string_4: String 4
-      text_1: Brocade record history
+      text_1: Brocade bewerkingshistoriek
       text_2: Magazijnplaatsing
       text_3: Text 3
       text_4: Text 4
@@ -456,7 +456,7 @@ nl:
     extents_tooltip: "<p>Geeft de omvang en de fysieke aard van de materialen aan die worden beschreven.</p>\n<p>Zie DACS 2.5</p>"
     linked_agents_tooltip: |
       <p>VERPLICHT SUBRECORD: Koppelt één of meer Agents als deelnemer aan deze gebeurtenis.</p>
-    subjects_tooltip: <p>Gebruikt om Onderwerpen te koppelen met de beschreven materialen.</p>
+    subjects_tooltip: <p>Koppelt onderwerpen aan de beschreven materialen.</p>
     notes_tooltip: <p>Aanvullende beschrijvende informatie over de beschreven materialen, meestal in de vorm van tekst of gestructureerde lijsten.</p>
     external_documents_tooltip: <p>Links naar informatie in andere beschrijvings- of beheersystemen, zoals donorbestanden, verwerkingsplannen, enz.</p>
     rights_statements_tooltip: <p>Informatie over de rechtenstatus van de beschreven materialen en vermelding van specifieke beperkingen of toestemmingen.</p>
@@ -537,7 +537,7 @@ nl:
     dates_tooltip: "<p>Identificeert en registreert de datums die betrekking hebben op de creatie, montage, accumulatie en / of onderhoud en gebruik van de beschreven materialen.</p>\n<p>Zie DACS 2.4</p>"
     extents_tooltip: "<p>Geeft de omvang en de fysieke aard van de materialen aan die worden beschreven.</p>\n<p>Zie DACS 2.5</p>"
     linked_agents_tooltip: '<p>VERPLICHT SUBRECORD: Koppelt één of meer Agents als deelnemer aan deze gebeurtenis.</p>'
-    subjects_tooltip: <p>Gebruikt om Onderwerpen te koppelen met de beschreven materialen.</p>
+    subjects_tooltip: <p>Koppelt onderwerpen aan de beschreven materialen.</p>
     notes_tooltip: <p>Aanvullende beschrijvende informatie over de beschreven materialen, meestal in de vorm van tekst of gestructureerde lijsten.</p>
     external_documents_tooltip: <p>Links naar informatie in andere beschrijvings- of beheersystemen, zoals donorbestanden, verwerkingsplannen, enz.</p>
     rights_statements_tooltip: <p>Informatie over de rechtenstatus van de beschreven materialen en vermelding van specifieke beperkingen of toestemmingen.</p>
@@ -606,8 +606,8 @@ nl:
     lang_materials_tooltip: "<p>Taal en schrift van de beschreven materialen.</p>\n<p>Zie DACS 4.5</p>"
     dates_tooltip: "<p>Identificeert en registreert de datums die betrekking hebben op de creatie, montage, accumulatie en / of onderhoud en gebruik van de beschreven materialen.</p>\n<p>Zie DACS 2.4</p>"
     extents_tooltip: "<p>Geeft de omvang en de fysieke aard van de materialen aan die worden beschreven.</p>\n<p>Zie DACS 2.5</p>"
-    linked_agents_tooltip: <p>Koppelt agents maker, bron of onderwerp van de beschreven materialen.</p>
-    subjects_tooltip: <p>Gebruikt om Onderwerpen te koppelen met de beschreven materialen.</p>
+    linked_agents_tooltip: <p>Koppelt actoren als maker, bron of onderwerp van de beschreven materialen.</p>
+    subjects_tooltip: <p>Koppelt onderwerpen aan de beschreven materialen.</p>
     notes_tooltip: <p>Aanvullende beschrijvende informatie over de beschreven materialen, meestal in de vorm van tekst of gestructureerde lijsten.</p>
     external_documents_tooltip: <p>Links naar informatie in andere beschrijvings- of beheersystemen, zoals donorbestanden, verwerkingsplannen, enz.</p>
     rights_statements_tooltip: <p>Informatie over de rechtenstatus van de beschreven materialen en vermelding van specifieke beperkingen of toestemmingen.</p>
@@ -1337,7 +1337,7 @@ nl:
       <p> Een geografische locatie die aan de agent is gekoppeld. </p>
   subrecord_subject_agent_occupation:
     subjects_tooltip: |
-      <p> Het beroep van de makelaar. </p>
+      <p> Het beroep van de actor. </p>
   subrecord_subject_agent_occupation_place:
     places_tooltip: |
       <p> Een geografische locatie die verband houdt met de beroepen. </p>
@@ -2719,7 +2719,7 @@ nl:
       string_2: String 2
       string_3: String 3
       string_4: String 4
-      text_1: Brocade record history
+      text_1: Brocade bewerkingshistoriek
       text_2: Magazijnplaatsing
       text_3: Text 3
       text_4: Text 4
@@ -2887,10 +2887,10 @@ nl:
     slug: Slug
     slug_tooltip: '<p>Bij gebruik van human-readable URLs: het laatste deel van de publieke URL voor dit record in de ArchivesSpace publieke interface. De slug kan handmatig worden toegevoegd of bijgewerkt, of automatisch worden gegenereerd op basis van de configuratie-instellingen voor human-readable URL''s in het config.rb bestand op de server.</p>'
     public_url: Publieke URL
-    public_url_tooltip: "<p>Als dit record is gepubliceerd of is bijgewerkt om gepubliceerd te worden, de volledige URL voor dit record in de publieke gebruikersinterface. Als menselijk leesbare URL's worden gebruikt, zal het einde van de URL de slug zijn.</p>\n<p>De oorspronkelijke URI voor deze record blijft altijd geldig, ook als er geen human-readable URL's worden gebruikt.</p>"
-    is_slug_auto: Automatisch Slug genereren?
+    public_url_tooltip: "<p>Als dit record is gepubliceerd of is bijgewerkt om gepubliceerd te worden, bevat dit veld de volledige URL voor dit record in de publieke gebruikersinterface. Als menselijk leesbare URL's worden gebruikt, zal het einde van de URL de slug zijn.</p>\n<p>De oorspronkelijke URI voor dit record blijft altijd geldig, ook als er geen menselijk leesbare URL's worden gebruikt.</p>"
+    is_slug_auto: Automatisch slug genereren?
     is_slug_auto_tooltip: <p>Als dit veld is aangevinkt, wordt de slug voor dit record automatisch gegenereerd wanneer het record wordt opgeslagen, gebaseerd op de configuratie-instellingen voor menselijk leesbare URL's in het config.rb bestand op de server.</p>
-    autogen_disabled: Een slug kan niet automatisch worden gegenereerd uit de aangeleverde gegevens op basis van de huidige configuratie-instellingen
+    autogen_disabled: Op basis van de huidige configuratie-instellingen kan van de ingevoerde gegevens niet automatisch een slug worden gegenereerd.
     autogen_repo_slug: Omdat er niet handmatig een slug is ingevoerd, is de slug van de repository automatisch gegenereerd met de korte naam van de repository
     type: Agent type
     type_tooltip: |
@@ -2963,10 +2963,10 @@ nl:
     slug: Slug
     slug_tooltip: '<p>Bij gebruik van human-readable URLs: het laatste deel van de publieke URL voor dit record in de ArchivesSpace publieke interface. De slug kan handmatig worden toegevoegd of bijgewerkt, of automatisch worden gegenereerd op basis van de configuratie-instellingen voor human-readable URL''s in het config.rb bestand op de server.</p>'
     public_url: Publieke URL
-    public_url_tooltip: "<p>Als dit record is gepubliceerd of is bijgewerkt om gepubliceerd te worden, de volledige URL voor dit record in de publieke gebruikersinterface. Als menselijk leesbare URL's worden gebruikt, zal het einde van de URL de slug zijn.</p>\n<p>De oorspronkelijke URI voor deze record blijft altijd geldig, ook als er geen human-readable URL's worden gebruikt.</p>"
-    is_slug_auto: Automatisch Slug genereren?
+    public_url_tooltip: "<p>Als dit record is gepubliceerd of is bijgewerkt om gepubliceerd te worden, bevat dit veld de volledige URL voor dit record in de publieke gebruikersinterface. Als menselijk leesbare URL's worden gebruikt, zal het einde van de URL de slug zijn.</p>\n<p>De oorspronkelijke URI voor dit record blijft altijd geldig, ook als er geen menselijk leesbare URL's worden gebruikt.</p>"
+    is_slug_auto: Automatisch slug genereren?
     is_slug_auto_tooltip: <p>Als dit veld is aangevinkt, wordt de slug voor dit record automatisch gegenereerd wanneer het record wordt opgeslagen, gebaseerd op de configuratie-instellingen voor menselijk leesbare URL's in het config.rb bestand op de server.</p>
-    autogen_disabled: Een slug kan niet automatisch worden gegenereerd uit de aangeleverde gegevens op basis van de huidige configuratie-instellingen
+    autogen_disabled: Op basis van de huidige configuratie-instellingen kan van de ingevoerde gegevens niet automatisch een slug worden gegenereerd.
     autogen_repo_slug: Omdat er niet handmatig een slug is ingevoerd, is de slug van de repository automatisch gegenereerd met de korte naam van de repository
     type: Agent type
     type_tooltip: "<p>Het type entiteit dat wordt vertegenwoordigd door het agentrecord.</p>\n<p>Zie DACS 10.2 and PREMIS Agent entity</p>"
@@ -3017,12 +3017,12 @@ nl:
     publish_tooltip: <p>Geeft aan of de agent al dan niet is opgenomen in exports en gepubliceerd naar de openbare interface (indien gebruikt)</p>
   agent_family:
     slug: Slug
-    slug_tooltip: '<p>Bij gebruik van human-readable URLs: het laatste deel van de publieke URL voor dit record in de ArchivesSpace publieke interface. De slug kan handmatig worden toegevoegd of bijgewerkt, of automatisch worden gegenereerd op basis van de configuratie-instellingen voor human-readable URL''s in het config.rb bestand op de server.</p>'
+    slug_tooltip: '<p>Bij gebruik van menselijk leesbare URL''s: het laatste deel van de publieke URL voor dit record in de ArchivesSpace publieke interface. De slug kan handmatig worden toegevoegd of bijgewerkt, of automatisch worden gegenereerd op basis van de configuratie-instellingen voor menselijk leesbare URL''s in het config.rb bestand op de server.</p>'
     public_url: Publieke URL
-    public_url_tooltip: "<p>Als dit record is gepubliceerd of is bijgewerkt om gepubliceerd te worden, de volledige URL voor dit record in de publieke gebruikersinterface. Als menselijk leesbare URL's worden gebruikt, zal het einde van de URL de slug zijn.</p>\n<p>De oorspronkelijke URI voor deze record blijft altijd geldig, ook als er geen human-readable URL's worden gebruikt.</p>"
-    is_slug_auto: Automatisch Slug genereren?
+    public_url_tooltip: "<p>Als dit record is gepubliceerd of is bijgewerkt om gepubliceerd te worden, bevat dit veld de volledige URL voor dit record in de publieke gebruikersinterface. Als menselijk leesbare URL's worden gebruikt, zal het einde van de URL de slug zijn.</p>\n<p>De oorspronkelijke URI voor dit record blijft altijd geldig, ook als er geen menselijk leesbare URL's worden gebruikt.</p>"
+    is_slug_auto: Automatisch slug genereren?
     is_slug_auto_tooltip: <p>Als dit veld is aangevinkt, wordt de slug voor dit record automatisch gegenereerd wanneer het record wordt opgeslagen, gebaseerd op de configuratie-instellingen voor menselijk leesbare URL's in het config.rb bestand op de server.</p>
-    autogen_disabled: Een slug kan niet automatisch worden gegenereerd uit de aangeleverde gegevens op basis van de huidige configuratie-instellingen
+    autogen_disabled: Op basis van de huidige configuratie-instellingen kan van de ingevoerde gegevens niet automatisch een slug worden gegenereerd.
     autogen_repo_slug: Omdat er niet handmatig een slug is ingevoerd, is de slug van de repository automatisch gegenereerd met de korte naam van de repository
     type: Agent type
     type_tooltip: "<p>Het type entiteit dat wordt vertegenwoordigd door het agentrecord.</p>\n<p>Zie DACS 10.2 and PREMIS Agent entity</p>"
@@ -3073,12 +3073,12 @@ nl:
     publish_tooltip: <p>Geeft aan of de agent al dan niet is opgenomen in exports en gepubliceerd naar de openbare interface (indien gebruikt)</p>
   agent_software:
     slug: Slug
-    slug_tooltip: '<p>Bij gebruik van human-readable URLs: het laatste deel van de publieke URL voor dit record in de ArchivesSpace publieke interface. De slug kan handmatig worden toegevoegd of bijgewerkt, of automatisch worden gegenereerd op basis van de configuratie-instellingen voor human-readable URL''s in het config.rb bestand op de server.</p>'
+    slug_tooltip: '<p>Bij gebruik van menselijk leesbare URL''s: het laatste deel van de publieke URL voor dit record in de ArchivesSpace publieke interface. De slug kan handmatig worden toegevoegd of bijgewerkt, of automatisch worden gegenereerd op basis van de configuratie-instellingen voor menselijk leesbare URL''s in het config.rb bestand op de server.</p>'
     public_url: Publieke URL
-    public_url_tooltip: "<p>Als dit record is gepubliceerd of is bijgewerkt om gepubliceerd te worden, de volledige URL voor dit record in de publieke gebruikersinterface. Als menselijk leesbare URL's worden gebruikt, zal het einde van de URL de slug zijn.</p>\n<p>De oorspronkelijke URI voor deze record blijft altijd geldig, ook als er geen human-readable URL's worden gebruikt.</p>"
+    public_url_tooltip: "<p>Als dit record is gepubliceerd of is bijgewerkt om gepubliceerd te worden, bevat dit veld de volledige URL voor dit record in de publieke gebruikersinterface. Als menselijk leesbare URL's worden gebruikt, zal het einde van de URL de slug zijn.</p>\n<p>De oorspronkelijke URI voor dit record blijft altijd geldig, ook als er geen menselijk leesbare URL's worden gebruikt.</p>"
     is_slug_auto: Automatisch Slug genereren?
     is_slug_auto_tooltip: <p>Als dit veld is aangevinkt, wordt de slug voor dit record automatisch gegenereerd wanneer het record wordt opgeslagen, gebaseerd op de configuratie-instellingen voor menselijk leesbare URL's in het config.rb bestand op de server.</p>
-    autogen_disabled: Een slug kan niet automatisch worden gegenereerd uit de aangeleverde gegevens op basis van de huidige configuratie-instellingen
+    autogen_disabled: Op basis van de huidige configuratie-instellingen kan van de ingevoerde gegevens niet automatisch een slug worden gegenereerd.
     autogen_repo_slug: Omdat er niet handmatig een slug is ingevoerd, is de slug van de repository automatisch gegenereerd met de korte naam van de repository
     type: Agent type
     type_tooltip: "<p>Het type entiteit dat wordt vertegenwoordigd door het agentrecord.</p>\n<p>Zie DACS 10.2 and PREMIS Agent entity</p>"
@@ -3129,12 +3129,12 @@ nl:
     publish_tooltip: <p>Geeft aan of de agent al dan niet is opgenomen in exports en gepubliceerd naar de openbare interface (indien gebruikt)</p>
   agent_corporate_entity:
     slug: Slug
-    slug_tooltip: '<p>Bij gebruik van human-readable URLs: het laatste deel van de publieke URL voor dit record in de ArchivesSpace publieke interface. De slug kan handmatig worden toegevoegd of bijgewerkt, of automatisch worden gegenereerd op basis van de configuratie-instellingen voor human-readable URL''s in het config.rb bestand op de server.</p>'
+    slug_tooltip: '<p>Bij gebruik van menselijk leesbare URL''s: het laatste deel van de publieke URL voor dit record in de ArchivesSpace publieke interface. De slug kan handmatig worden toegevoegd of bijgewerkt, of automatisch worden gegenereerd op basis van de configuratie-instellingen voor menselijk leesbare URL''s in het config.rb bestand op de server.</p>'
     public_url: Publieke URL
-    public_url_tooltip: "<p>Als dit record is gepubliceerd of is bijgewerkt om gepubliceerd te worden, de volledige URL voor dit record in de publieke gebruikersinterface. Als menselijk leesbare URL's worden gebruikt, zal het einde van de URL de slug zijn.</p>\n<p>De oorspronkelijke URI voor deze record blijft altijd geldig, ook als er geen human-readable URL's worden gebruikt.</p>"
-    is_slug_auto: Automatisch Slug genereren?
+    public_url_tooltip: "<p>Als dit record is gepubliceerd of is bijgewerkt om gepubliceerd te worden, bevat dit veld de volledige URL voor dit record in de publieke gebruikersinterface. Als menselijk leesbare URL's worden gebruikt, zal het einde van de URL de slug zijn.</p>\n<p>De oorspronkelijke URI voor dit record blijft altijd geldig, ook als er geen menselijk leesbare URL's worden gebruikt.</p>"
+    is_slug_auto: Automatisch slug genereren?
     is_slug_auto_tooltip: <p>Als dit veld is aangevinkt, wordt de slug voor dit record automatisch gegenereerd wanneer het record wordt opgeslagen, gebaseerd op de configuratie-instellingen voor menselijk leesbare URL's in het config.rb bestand op de server.</p>
-    autogen_disabled: Een slug kan niet automatisch worden gegenereerd uit de aangeleverde gegevens op basis van de huidige configuratie-instellingen
+    autogen_disabled: Op basis van de huidige configuratie-instellingen kan van de ingevoerde gegevens niet automatisch een slug worden gegenereerd.
     autogen_repo_slug: Omdat er niet handmatig een slug is ingevoerd, is de slug van de repository automatisch gegenereerd met de korte naam van de repository
     type: Agent type
     type_tooltip: "<p>Het type entiteit dat wordt vertegenwoordigd door het agentrecord.</p>\n<p>Zie DACS 10.2 and PREMIS Agent entity</p>"
@@ -3339,7 +3339,7 @@ nl:
       string_2: String 2
       string_3: String 3
       string_4: String 4
-      text_1: Brocade record history
+      text_1: Brocade bewerkingshistoriek
       text_2: Magazijnplaatsing
       text_3: Text 3
       text_4: Text 4
@@ -3494,12 +3494,12 @@ nl:
     _plural: Gerelateerde Archieven/Collecties
   repository:
     slug: Slug
-    slug_tooltip: '<p>Bij gebruik van human-readable URLs: het laatste deel van de publieke URL voor dit record in de ArchivesSpace publieke interface. De slug kan handmatig worden toegevoegd of bijgewerkt, of automatisch worden gegenereerd op basis van de configuratie-instellingen voor human-readable URL''s in het config.rb bestand op de server.</p>'
+    slug_tooltip: '<p>Bij gebruik van menselijk leesbare URL''s: het laatste deel van de publieke URL voor dit record in de ArchivesSpace publieke interface. De slug kan handmatig worden toegevoegd of bijgewerkt, of automatisch worden gegenereerd op basis van de configuratie-instellingen voor menselijk leesbare URL''s in het config.rb bestand op de server.</p>'
     public_url: Publieke URL
-    public_url_tooltip: "<p>Als dit record is gepubliceerd of is bijgewerkt om gepubliceerd te worden, de volledige URL voor dit record in de publieke gebruikersinterface. Als menselijk leesbare URL's worden gebruikt, zal het einde van de URL de slug zijn.</p>\n<p>De oorspronkelijke URI voor deze record blijft altijd geldig, ook als er geen human-readable URL's worden gebruikt.</p>"
-    is_slug_auto: Automatisch Slug genereren?
+    public_url_tooltip: "<p>Als dit record is gepubliceerd of is bijgewerkt om gepubliceerd te worden, bevat dit veld de volledige URL voor dit record in de publieke gebruikersinterface. Als menselijk leesbare URL's worden gebruikt, zal het einde van de URL de slug zijn.</p>\n<p>De oorspronkelijke URI voor dit record blijft altijd geldig, ook als er geen menselijk leesbare URL's worden gebruikt.</p>"
+    is_slug_auto: Automatisch slug genereren?
     is_slug_auto_tooltip: <p>Als dit veld is aangevinkt, wordt de slug voor dit record automatisch gegenereerd wanneer het record wordt opgeslagen, gebaseerd op de configuratie-instellingen voor menselijk leesbare URL's in het config.rb bestand op de server.</p>
-    autogen_disabled: Een slug kan niet automatisch worden gegenereerd uit de aangeleverde gegevens op basis van de huidige configuratie-instellingen
+    autogen_disabled: Op basis van de huidige configuratie-instellingen kan van de ingevoerde gegevens niet automatisch een slug worden gegenereerd.
     autogen_repo_slug: Omdat er niet handmatig een slug is ingevoerd, is de slug van de repository automatisch gegenereerd met de korte naam van de repository
     repo_code: Repository afkorting
     repo_code_tooltip: |2
@@ -3582,12 +3582,12 @@ nl:
     _plural: Termen
   subject:
     slug: Slug
-    slug_tooltip: '<p>Bij gebruik van human-readable URLs: het laatste deel van de publieke URL voor dit record in de ArchivesSpace publieke interface. De slug kan handmatig worden toegevoegd of bijgewerkt, of automatisch worden gegenereerd op basis van de configuratie-instellingen voor human-readable URL''s in het config.rb bestand op de server.</p>'
+    slug_tooltip: '<p>Bij gebruik van menselijk leesbare URL''s: het laatste deel van de publieke URL voor dit record in de ArchivesSpace publieke interface. De slug kan handmatig worden toegevoegd of bijgewerkt, of automatisch worden gegenereerd op basis van de configuratie-instellingen voor menselijk leesbare URL''s in het config.rb bestand op de server.</p>'
     public_url: Publieke URL
-    public_url_tooltip: "<p>Als dit record is gepubliceerd of is bijgewerkt om gepubliceerd te worden, de volledige URL voor dit record in de publieke gebruikersinterface. Als menselijk leesbare URL's worden gebruikt, zal het einde van de URL de slug zijn.</p>\n<p>De oorspronkelijke URI voor deze record blijft altijd geldig, ook als er geen human-readable URL's worden gebruikt.</p>"
-    is_slug_auto: Automatisch Slug genereren?
+    public_url_tooltip: "<p>Als dit record is gepubliceerd of is bijgewerkt om gepubliceerd te worden, bevat dit veld de volledige URL voor dit record in de publieke gebruikersinterface. Als menselijk leesbare URL's worden gebruikt, zal het einde van de URL de slug zijn.</p>\n<p>De oorspronkelijke URI voor dit record blijft altijd geldig, ook als er geen menselijk leesbare URL's worden gebruikt.</p>"
+    is_slug_auto: Automatisch slug genereren?
     is_slug_auto_tooltip: <p>Als dit veld is aangevinkt, wordt de slug voor dit record automatisch gegenereerd wanneer het record wordt opgeslagen, gebaseerd op de configuratie-instellingen voor menselijk leesbare URL's in het config.rb bestand op de server.</p>
-    autogen_disabled: Een slug kan niet automatisch worden gegenereerd uit de aangeleverde gegevens op basis van de huidige configuratie-instellingen
+    autogen_disabled: Op basis van de huidige configuratie-instellingen kan van de ingevoerde gegevens niet automatisch een slug worden gegenereerd.
     autogen_repo_slug: Omdat er niet handmatig een slug is ingevoerd, is de slug van de repository automatisch gegenereerd met de korte naam van de repository
     authority_id: Authority ID
     authority_id_tooltip: |
@@ -3745,12 +3745,12 @@ nl:
     default: Standaardwaarde
   classification:
     slug: Slug
-    slug_tooltip: '<p>Bij gebruik van human-readable URLs: het laatste deel van de publieke URL voor dit record in de ArchivesSpace publieke interface. De slug kan handmatig worden toegevoegd of bijgewerkt, of automatisch worden gegenereerd op basis van de configuratie-instellingen voor human-readable URL''s in het config.rb bestand op de server.</p>'
+    slug_tooltip: '<p>Bij gebruik van menselijk leesbare URL''s: het laatste deel van de publieke URL voor dit record in de ArchivesSpace publieke interface. De slug kan handmatig worden toegevoegd of bijgewerkt, of automatisch worden gegenereerd op basis van de configuratie-instellingen voor menselijk leesbare URL''s in het config.rb bestand op de server.</p>'
     public_url: Publieke URL
-    public_url_tooltip: "<p>Als dit record is gepubliceerd of is bijgewerkt om gepubliceerd te worden, de volledige URL voor dit record in de publieke gebruikersinterface. Als menselijk leesbare URL's worden gebruikt, zal het einde van de URL de slug zijn.</p>\n<p>De oorspronkelijke URI voor deze record blijft altijd geldig, ook als er geen human-readable URL's worden gebruikt.</p>"
-    is_slug_auto: Automatisch Slug genereren?
+    public_url_tooltip: "<p>Als dit record is gepubliceerd of is bijgewerkt om gepubliceerd te worden, bevat dit veld de volledige URL voor dit record in de publieke gebruikersinterface. Als menselijk leesbare URL's worden gebruikt, zal het einde van de URL de slug zijn.</p>\n<p>De oorspronkelijke URI voor dit record blijft altijd geldig, ook als er geen menselijk leesbare URL's worden gebruikt.</p>"
+    is_slug_auto: Automatisch slug genereren?
     is_slug_auto_tooltip: <p>Als dit veld is aangevinkt, wordt de slug voor dit record automatisch gegenereerd wanneer het record wordt opgeslagen, gebaseerd op de configuratie-instellingen voor menselijk leesbare URL's in het config.rb bestand op de server.</p>
-    autogen_disabled: Een slug kan niet automatisch worden gegenereerd uit de aangeleverde gegevens op basis van de huidige configuratie-instellingen
+    autogen_disabled: Op basis van de huidige configuratie-instellingen kan van de ingevoerde gegevens niet automatisch een slug worden gegenereerd.
     autogen_repo_slug: Omdat er niet handmatig een slug is ingevoerd, is de slug van de repository automatisch gegenereerd met de korte naam van de repository
     _singular: Classificatie
     _plural: Classificaties
@@ -3762,12 +3762,12 @@ nl:
     id_separator: /
   classification_term:
     slug: Slug
-    slug_tooltip: '<p>Bij gebruik van human-readable URLs: het laatste deel van de publieke URL voor dit record in de ArchivesSpace publieke interface. De slug kan handmatig worden toegevoegd of bijgewerkt, of automatisch worden gegenereerd op basis van de configuratie-instellingen voor human-readable URL''s in het config.rb bestand op de server.</p>'
+    slug_tooltip: '<p>Bij gebruik van menselijk leesbare URL''s: het laatste deel van de publieke URL voor dit record in de ArchivesSpace publieke interface. De slug kan handmatig worden toegevoegd of bijgewerkt, of automatisch worden gegenereerd op basis van de configuratie-instellingen voor menselijk leesbare URL''s in het config.rb bestand op de server.</p>'
     public_url: Publieke URL
-    public_url_tooltip: "<p>Als dit record is gepubliceerd of is bijgewerkt om gepubliceerd te worden, de volledige URL voor dit record in de publieke gebruikersinterface. Als menselijk leesbare URL's worden gebruikt, zal het einde van de URL de slug zijn.</p>\n<p>De oorspronkelijke URI voor deze record blijft altijd geldig, ook als er geen human-readable URL's worden gebruikt.</p>"
-    is_slug_auto: Automatisch Slug genereren?
+    public_url_tooltip: "<p>Als dit record is gepubliceerd of is bijgewerkt om gepubliceerd te worden, bevat dit veld de volledige URL voor dit record in de publieke gebruikersinterface. Als menselijk leesbare URL's worden gebruikt, zal het einde van de URL de slug zijn.</p>\n<p>De oorspronkelijke URI voor dit record blijft altijd geldig, ook als er geen menselijk leesbare URL's worden gebruikt.</p>"
+    is_slug_auto: Automatisch slug genereren?
     is_slug_auto_tooltip: <p>Als dit veld is aangevinkt, wordt de slug voor dit record automatisch gegenereerd wanneer het record wordt opgeslagen, gebaseerd op de configuratie-instellingen voor menselijk leesbare URL's in het config.rb bestand op de server.</p>
-    autogen_disabled: Een slug kan niet automatisch worden gegenereerd uit de aangeleverde gegevens op basis van de huidige configuratie-instellingen
+    autogen_disabled: Op basis van de huidige configuratie-instellingen kan van de ingevoerde gegevens niet automatisch een slug worden gegenereerd.
     autogen_repo_slug: Omdat er niet handmatig een slug is ingevoerd, is de slug van de repository automatisch gegenereerd met de korte naam van de repository
     _singular: Classificatieterm
     _plural: Classificatietermen
