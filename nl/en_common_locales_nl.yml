@@ -75,15 +75,15 @@ nl:
     rights_statements_tooltip: |
       <p>Informatie over de rechtenstatus van de beschreven materialen en vermelding van specifieke beperkingen of toestemmingen.</p>
     metadata_rights_declarations_tooltip: |
-      <p>Based on DACS 8.2 and 13.11</p>
+      <p>Gebaseerd op DACS 8.2 en 13.11</p>
     instances_tooltip: |
-      <p>Koppelt beschrijving naar informatie over fysieke of digitale versies van het beschreven materiaal.</p>
+      <p>Koppelt de beschrijving aan informatie over fysieke of digitale versies van het beschreven materiaal.</p>
     deaccessions_tooltip: |
       <p>Registreert informatie over materialen die mogelijk werden verwijderd, teruggegeven aan een donor of overgedragen aan een andere instelling.</p>
     collection_management_tooltip: |
       <p>Aanvullende, interne informatie over hoe de beschreven materialen werden verwerkt of zullen worden verwerkt.</p>
     classification_tooltip: |
-      <p>Wordt gebruikt voor het koppelen van de beschreven materialen aan een classificatie of een classificatieterm die binnen de applicatie beheerd wordt.</p>
+      <p>Koppelt de beschreven materialen aan een classificatie of een classificatieterm die binnen de applicatie beheerd wordt.</p>
     user_defined_tooltip: |
       <p>Door de gebruiker gedefinieerde velden voor het vastleggen van aanvullende informatie die niet is vastgelegd in andere secties van de applicatie.</p>
   digital_object:
@@ -187,7 +187,7 @@ nl:
       _singular: Extra gegevens
       _plural: Extra gegevens
     title: Titel
-    title_tooltip: "<p>Een titel voor het digitale object. De titel kan worden getranscribeerd van het object, of worden overgenomen van een archief/collectie-record, of geleverd door de repository.</p>\n <p> De titel van het digitale object als geheel kan dezelfde zijn als die van het bron- of broncomponentrecord waaraan het digitale objectrecord is gekoppeld. Het kan echter anders zijn dan uitgedrukt in het gekoppelde bronrecord.</p>\n <p> Voorbeelden: </p>\n <ul>\n <li> Stanley Elkins, grootvader <em>(gekoppeld aan een broncomponentrecord met de titel \"Familieportretten\")</em> </li>\n <li> Brief aan New Atlantic <em>(gekoppeld aan een broncomponentrecord met de titel \"Brief aan New Atlantic\")</em> </li>\n <li> Cedar Fire <em>(gekoppeld aan een broncomponentrecord met de titel \"Cedar Fire\")</em> </li>\n </ul>"
+    title_tooltip: "<p>Een titel voor het digitale object. De titel kan worden getranscribeerd van het object, of worden overgenomen van het archief/collectie-record, of geleverd door het repository.</p>\n <p> De titel van het digitale object als geheel kan dezelfde zijn als die van het bron- of broncomponentrecord waaraan het digitale objectrecord is gekoppeld. Het kan echter anders zijn dan uitgedrukt in het gekoppelde bronrecord.</p>\n <p> Voorbeelden: </p>\n <ul>\n <li> Stanley Elkins, grootvader <em>(gekoppeld aan een broncomponentrecord met de titel \"Familieportretten\")</em> </li>\n <li> Brief aan New Atlantic <em>(gekoppeld aan een broncomponentrecord met de titel \"Brief aan New Atlantic\")</em> </li>\n <li> Cedar Fire <em>(gekoppeld aan een broncomponentrecord met de titel \"Cedar Fire\")</em> </li>\n </ul>"
     digital_object_id: Identificatiecode
     digital_object_id_tooltip: "<p>Een unieke identificatie voor het digitale object als geheel. Dit kan een ARK, HANDLE, een URI of een willekeurige tekenreeks zijn die het digitale object uniek identificeert. Het veld moet worden ingevuld om een geldig METS-record te kunnen exporteren.</p>\n<p>Voorbeelden:</p>\n <ul>\n<li>http://hdl.handle.net/1813/13524</li>\n </ul>"
     publish: Publiceren?
@@ -377,7 +377,7 @@ nl:
       <p>Bijvoorbeeld:</p>
       <ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>
     _singular: Gerelateerde actor
-    _plural: Gerelateerde Actoren
+    _plural: Gerelateerde actoren
   accession_linked_agent:
     role: Rol
     role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de Agent heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
@@ -389,7 +389,7 @@ nl:
     title: Titel
     title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een Agent die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
     _singular: Gerelateerde actor
-    _plural: Gerelateerde Actoren
+    _plural: Gerelateerde actoren
   event_linked_agent:
     role: Rol
     role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de Agent heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
@@ -401,7 +401,7 @@ nl:
     title: Titel
     title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een Agent die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
     _singular: Gerelateerde actor
-    _plural: Gerelateerde Actoren
+    _plural: Gerelateerde actoren
   resource_linked_agent:
     role: Rol
     role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de Agent heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
@@ -413,7 +413,7 @@ nl:
     title: Titel
     title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een Agent die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
     _singular: Gerelateerde actor
-    _plural: Gerelateerde Actoren
+    _plural: Gerelateerde actoren
   archival_object_linked_agent:
     role: Rol
     role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de Agent heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
@@ -425,7 +425,7 @@ nl:
     title: Titel
     title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een Agent die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
     _singular: Gerelateerde actor
-    _plural: Gerelateerde Actoren
+    _plural: Gerelateerde actoren
   digital_object_linked_agent:
     role: Rol
     role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de Agent heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
@@ -437,7 +437,7 @@ nl:
     title: Titel
     title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een Agent die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
     _singular: Gerelateerde actor
-    _plural: Gerelateerde Actoren
+    _plural: Gerelateerde actoren
   digital_object_component_linked_agent:
     role: Rol
     role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de Agent heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
@@ -449,7 +449,7 @@ nl:
     title: Titel
     title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een Agent die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
     _singular: Gerelateerde actor
-    _plural: Gerelateerde Actoren
+    _plural: Gerelateerde actoren
   event:
     lang_materials_tooltip: "<p>Taal en schrift van de beschreven materialen.</p>\n<p>Zie DACS 4.5</p>"
     dates_tooltip: "<p>Identificeert en registreert de datums die betrekking hebben op de creatie, montage, accumulatie en / of onderhoud en gebruik van de beschreven materialen.</p>\n<p>Zie DACS 2.4</p>"
@@ -460,11 +460,11 @@ nl:
     notes_tooltip: <p>Aanvullende beschrijvende informatie over de beschreven materialen, meestal in de vorm van tekst of gestructureerde lijsten.</p>
     external_documents_tooltip: <p>Links naar informatie in andere beschrijvings- of beheersystemen, zoals donorbestanden, verwerkingsplannen, enz.</p>
     rights_statements_tooltip: <p>Informatie over de rechtenstatus van de beschreven materialen en vermelding van specifieke beperkingen of toestemmingen.</p>
-    metadata_rights_declarations_tooltip: <p>Based on DACS 8.2 and 13.11</p>
-    instances_tooltip: <p>Koppelt beschrijving naar informatie over fysieke of digitale versies van het beschreven materiaal.</p>
+    metadata_rights_declarations_tooltip: <p>Gebaseerd op DACS 8.2 en 13.11</p>
+    instances_tooltip: <p>Koppelt de beschrijving aan informatie over fysieke of digitale versies van het beschreven materiaal.</p>
     deaccessions_tooltip: <p>Registreert informatie over materialen die mogelijk werden verwijderd, teruggegeven aan een donor of overgedragen aan een andere instelling.</p>
     collection_management_tooltip: <p>Aanvullende, interne informatie over hoe de beschreven materialen werden verwerkt of zullen worden verwerkt.</p>
-    classification_tooltip: <p>Wordt gebruikt voor het koppelen van de beschreven materialen aan een classificatie of een classificatieterm die binnen de applicatie beheerd wordt.</p>
+    classification_tooltip: <p>Koppelt de beschreven materialen aan een classificatie of een classificatieterm die binnen de applicatie beheerd wordt.</p>
     user_defined_tooltip: <p>Door de gebruiker gedefinieerde velden voor het vastleggen van aanvullende informatie die niet is vastgelegd in andere secties van de applicatie.</p>
     event_type: Voeg gebeurtenistype toe
     event_type_tooltip: |
@@ -541,11 +541,11 @@ nl:
     notes_tooltip: <p>Aanvullende beschrijvende informatie over de beschreven materialen, meestal in de vorm van tekst of gestructureerde lijsten.</p>
     external_documents_tooltip: <p>Links naar informatie in andere beschrijvings- of beheersystemen, zoals donorbestanden, verwerkingsplannen, enz.</p>
     rights_statements_tooltip: <p>Informatie over de rechtenstatus van de beschreven materialen en vermelding van specifieke beperkingen of toestemmingen.</p>
-    metadata_rights_declarations_tooltip: <p>Based on DACS 8.2 and 13.11</p>
-    instances_tooltip: <p>Koppelt beschrijving naar informatie over fysieke of digitale versies van het beschreven materiaal.</p>
+    metadata_rights_declarations_tooltip: <p>Gebaseerd op DACS 8.2 en 13.11</p>
+    instances_tooltip: <p>Koppelt de beschrijving aan informatie over fysieke of digitale versies van het beschreven materiaal.</p>
     deaccessions_tooltip: <p>Registreert informatie over materialen die mogelijk werden verwijderd, teruggegeven aan een donor of overgedragen aan een andere instelling.</p>
     collection_management_tooltip: <p>Aanvullende, interne informatie over hoe de beschreven materialen werden verwerkt of zullen worden verwerkt.</p>
-    classification_tooltip: <p>Wordt gebruikt voor het koppelen van de beschreven materialen aan een classificatie of een classificatieterm die binnen de applicatie beheerd wordt.</p>
+    classification_tooltip: <p>Koppelt de beschreven materialen aan een classificatie of een classificatieterm die binnen de applicatie beheerd wordt.</p>
     user_defined_tooltip: <p>Door de gebruiker gedefinieerde velden voor het vastleggen van aanvullende informatie die niet is vastgelegd in andere secties van de applicatie.</p>
     event_type: Voeg gebeurtenistype toe
     event_type_tooltip: "<p>Een categorisering van de aard van de gebeurtenis. </p>\n<p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>\n<p>Zie PREMIS eventType</p>"
@@ -611,11 +611,11 @@ nl:
     notes_tooltip: <p>Aanvullende beschrijvende informatie over de beschreven materialen, meestal in de vorm van tekst of gestructureerde lijsten.</p>
     external_documents_tooltip: <p>Links naar informatie in andere beschrijvings- of beheersystemen, zoals donorbestanden, verwerkingsplannen, enz.</p>
     rights_statements_tooltip: <p>Informatie over de rechtenstatus van de beschreven materialen en vermelding van specifieke beperkingen of toestemmingen.</p>
-    metadata_rights_declarations_tooltip: <p>Based on DACS 8.2 and 13.11</p>
-    instances_tooltip: <p>Koppelt beschrijving naar informatie over fysieke of digitale versies van het beschreven materiaal.</p>
+    metadata_rights_declarations_tooltip: <p>Gebaseerd op DACS 8.2 en 13.11</p>
+    instances_tooltip: <p>Koppelt de beschrijving aan informatie over fysieke of digitale versies van het beschreven materiaal.</p>
     deaccessions_tooltip: <p>Registreert informatie over materialen die mogelijk werden verwijderd, teruggegeven aan een donor of overgedragen aan een andere instelling.</p>
     collection_management_tooltip: <p>Aanvullende, interne informatie over hoe de beschreven materialen werden verwerkt of zullen worden verwerkt.</p>
-    classification_tooltip: <p>Wordt gebruikt voor het koppelen van de beschreven materialen aan een classificatie of een classificatieterm die binnen de applicatie beheerd wordt.</p>
+    classification_tooltip: <p>Koppelt de beschreven materialen aan een classificatie of een classificatieterm die binnen de applicatie beheerd wordt.</p>
     user_defined_tooltip: <p>Door de gebruiker gedefinieerde velden voor het vastleggen van aanvullende informatie die niet is vastgelegd in andere secties van de applicatie.</p>
     scope: Deel
     scope_tooltip: |
@@ -2266,7 +2266,7 @@ nl:
        </ul>
     publish: Publiceren?
     publish_tooltip: |
-      <p>Bepaalt of dit externe document wordt gepubliceerd naar openbare (publieke) interfaces.</p>
+      <p>Bepaalt of dit externe document wordt gepubliceerd in de publieksinterface.</p>
     document_link: Documentkoppeling
     _plural: Externe documenten
     _singular: Extern document
@@ -2276,7 +2276,7 @@ nl:
     location: Locatie
     location_tooltip: "<p>De locatie van het bestand, bij voorkeur een resolvable URI.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>http://www.archivesspace.org/</li>\n<li>file:///c:/path/to/the%20file.txt</li>\n </ul>"
     publish: Publiceren?
-    publish_tooltip: <p>Bepaalt of dit externe document wordt gepubliceerd naar openbare (publieke) interfaces.</p>
+    publish_tooltip: <p>Bepaalt of dit externe document wordt gepubliceerd in de publieksinterface.</p>
     document_link: Documentkoppeling
     _plural: Externe documenten
     _singular: Extern document
@@ -2806,9 +2806,9 @@ nl:
     restrictions_apply_tooltip: |
       <p>Indicatie of er beperkingen gelden voor de Aanwinst.</p>
       <p>Zie DACS 4.1.5-4.1.6; 4.2.5-4.2.7, 4.3.4-4.3.6</p>
-    resource_type: Resource type
+    resource_type: Samenstelling
     resource_type_tooltip: |
-      <p>Een lijst met termen die door een repository worden gebruikt om zijn Archieven/Collecties in basistypen te categoriseren.</p>
+      <p>Een lijst met termen die door een repository worden gebruikt om zijn Archieven/Collecties in basistypes te categoriseren.</p>
       <p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>
     language: Taal van de beschrijving
     language_tooltip: |
@@ -2835,7 +2835,7 @@ nl:
       <p>Een verklaring die aangeeft voor welke materialen gebruiksbeperkingen gelden, hoe de materialen kunnen worden gebruikt, wat de autoriteit van de beperking is en hoe lang de beperking van kracht zal zijn. Aanvullende informatie kan ook worden vastgelegd in een onderregistratie Rechten.</p>
        <p> Voorbeelden: </p>
       <p>Manuscripten in doos 33 zijn kwetsbaar; in plaats daarvan moeten fotokopieën worden gebruikt.</p>
-    acquisition_type: Verwerving type
+    acquisition_type: Verwervingsprocedure
     acquisition_type_tooltip: |2
       <p>Een aanduiding van de verwervingsprocedure. Repositories kunnen de lijst met gegevenswaarden aanpassen.</p>
       <p> Voorbeelden: </p>
@@ -3245,7 +3245,7 @@ nl:
        </ul>
     publish: Publiceren?
     publish_tooltip: |
-      <p>Bepaalt of dit Archiefonderdeel wordt gepubliceerd naar openbare (publieke) interfaces.</p>
+      <p>Bepaalt of dit Archiefonderdeel wordt gepubliceerd in de publieksinterface.</p>
     restrictions_apply: Beperkingen?
     restrictions_apply_tooltip: |
       <p>Geeft aan of de beschreven materialen op enigerlei wijze aan beperkingen onderhevig zijn. Een aanvullende beschrijving van de beperking dient te worden verstrekt in de desbetreffende opmerkingen of rechtenverklaringen voor de goede orde waar de beperking zich voordoet.</p>
@@ -3282,29 +3282,29 @@ nl:
       basic_data_entry: "Basis-invoerders van het %{repo_code} repository"
       repository_viewers: "Lezers van het %{repo_code} repository"
     permission_types:
-      manage_repository: beheer deze repository (verander groepen en andere instellingen)
-      update_location_record: locatierecords in deze Repository maken/wijzigen/verwijderen
+      manage_repository: beheer dit repository (verander groepen en andere instellingen)
+      update_location_record: locatierecords in dit repository maken/wijzigen/verwijderen
       update_subject_record: onderwerprecords maken/aanpassen
       update_agent_record: agentrecords maken/aanpassen
       view_agent_contact_record: contactgegevens voor agentrecords bekijken
       show_full_agents: work with agents in full mode
       update_vocabulary_record: records maken/aanpassen
-      update_accession_record: aanwinsten in deze Repository maken/aanpassen
-      update_resource_record: archieven/collecties in deze Repository maken/aanpassen
-      update_digital_object_record: create/update digitale objecten in deze Repository maken/aanpassen
-      update_event_record: gebeurtenis records in deze Repository maken/aanpassen
-      view_repository: de records in deze Repository bekijken
-      view_suppressed: verborgen records in deze Repository bekijk
-      suppress_archival_record: de belangrijkste recordtypes in deze Repository verbergen
-      delete_archival_record: de belangrijkste record types in deze Repository verwijderen
-      delete_event_record: gebeurtenisrecords in deze Repository verwijderen
+      update_accession_record: aanwinsten in dit repository maken/aanpassen
+      update_resource_record: archieven/collecties in dit repository maken/aanpassen
+      update_digital_object_record: digitale objecten in dit repository maken/aanpassen
+      update_event_record: gebeurtenisrecords in dit repository maken/aanpassen
+      view_repository: de records in dit repository bekijken
+      view_suppressed: verborgen records in dit repository bekijken
+      suppress_archival_record: de belangrijkste recordtypes in dit repository verbergen
+      delete_archival_record: de belangrijkste record types in dit repository verwijderen
+      delete_event_record: gebeurtenisrecords in dit repository verwijderen
       update_classification_record: classificaties en classificatietermen maken/aanpassen
       delete_classification_record: classificaties en classificatietermen verwijderen
       merge_agents_and_subjects: agent/subject records samenvoegen
-      merge_archival_record: de belangrijkse recordtypes in deze Repository samenvoegen
+      merge_archival_record: de belangrijkse recordtypes in dit repository samenvoegen
       manage_rde_templates: RDE templates beheren
       transfer_repository: de volledige inhoud van een repository overdragen
-      transfer_archival_record: de belangrijkste recordtypes in deze Repository overdragen
+      transfer_archival_record: de belangrijkste recordtypes in dit repository overdragen
       manage_subject_record: onderwerpsrecords maken/aanpassen/verwijderen
       manage_agent_record: agentrecords maken/aanpassen/verwijderen
       manage_vocabulary_record: vocabularyrecords maken/aanpassen/verwijderen
@@ -3361,7 +3361,7 @@ nl:
     id_2: Identificatiecode 3
     id_3: Identificatiecode 4
     id_0_tooltip: |2
-      <p>VERPLICHT VELD. Het identificatienummer dat aan elke afzonderlijke Archief/Collectie-record binnen een Repository is toegewezen.</p>
+      <p>VERPLICHT VELD. Het identificatienummer dat aan elk afzonderlijk Archief/Collectie-record binnen een Repository is toegewezen.</p>
       <p>Zie DACS 2.1.3</p>
       <p>Voorbeelden:</p>
        <ul>
@@ -3373,7 +3373,7 @@ nl:
     "[:repo_id, :identifier]": Identificatiecode
     identifier: Identificatiecode
     title_tooltip: |2
-      <p>VERPLICHT VELD. De titel die aan het Arhief/Collectie-record is toegekend.</p>
+      <p>VERPLICHT VELD. De titel die aan het Archief/Collectie-record is toegekend.</p>
       <p>Zie DACS 2.3</p>
        <p> Voorbeelden: </p>
        <ul>
@@ -3384,9 +3384,9 @@ nl:
       <li>National Academy of Sciences correspondence</li>
       <li>Audio and video recordings</li>
        </ul>
-    resource_type: Resource type
+    resource_type: Samenstelling
     resource_type_tooltip: |
-      <p>Een lijst met termen die door een repository worden gebruikt om zijn Archieven/Collecties in basistypen te categoriseren.</p>
+      <p>Een lijst met termen die door een repository worden gebruikt om zijn Archieven/Collecties in basistypes te categoriseren.</p>
       <p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>
     repository_processing_note: Repository verwerkingsnoot
     extents_tooltip: |
@@ -3395,7 +3395,7 @@ nl:
     related_accessions_tooltip: |
       <p>Wordt gebruikt om Aanwinsten vast te leggen die gekoppeld zijn aan het Archief/Collectie-record.</p>
     publish_tooltip: |
-      <p>Bepaalt of dit Archief/Collectie-record wordt gepubliceerd naar publieke interfaces.</p>
+      <p>Bepaalt of dit Archief/Collectie-record wordt gepubliceerd in de publieksinterface.</p>
     restrictions: Beperkingen?
     restrictions_tooltip: |
       <p>Geeft aan of de beschreven materialen op enigerlei wijze aan beperkingen onderhevig zijn. Een aanvullende beschrijving van de beperking dient te worden verstrekt in de desbetreffende opmerkingen of rechtenverklaringen voor de goede orde waar de beperking zich voordoet.</p>
@@ -3512,7 +3512,7 @@ nl:
        </ul>
     name: Repository Naam
     name_tooltip: |2
-      <p>VERPLICHT VELD. De naam van de repository die de administratieve verantwoordelijkheid heeft voor en de bewaring van de materialen beschreven in de Aanwinst-, Archief/Collectie- en Digitale objectmodules van de applicatie.</p>
+      <p>VERPLICHT VELD. De naam van het repository die de administratieve verantwoordelijkheid heeft voor en de bewaring van de materialen beschreven in de Aanwinst-, Archief/Collectie- en Digitale objectmodules van de applicatie.</p>
       <p>Zie DACS 2.2</p>
        <p> Voorbeelden: </p>
        <ul>
@@ -3532,7 +3532,7 @@ nl:
        </ul>
     parent_institution_name: Naam van de koepelorganisatie
     parent_institution_name_tooltip: |2
-      <p>De naam van de moederinstelling waarvan de repository deel uitmaakt.</p>
+      <p>De naam van de moederinstelling waarvan het repository deel uitmaakt.</p>
        <p> Voorbeelden: </p>
        <ul>
       <li>University of Illinois <em>(for University of Illinois Archives)</em></li>
@@ -3540,17 +3540,17 @@ nl:
        </ul>
     address_1: Adres 1
     address_1_tooltip: |
-      <p>Het postadres of straatadres voor de Repository.</p>
+      <p>Het postadres of straatadres voor het repository.</p>
     address_2: Adres 2
     address_2_tooltip: <p>Het postadres of straatadres voor de Repository.</p>
     city: Stad
     district: Staat of provincie
     country: Land
     country_tooltip: |
-      <p>Het land waarin de repository zich bevindt, ontleend aan de ISO 3166-codelijst.</p>
+      <p>Het land waarin het repository zich bevindt, ontleend aan de ISO 3166-codelijst.</p>
     description: Beschrijving
     description_tooltip: |
-      <p>Een beschrijvende samenvatting voor de repository.</p>
+      <p>Een beschrijvende samenvatting voor het repository.</p>
     post_code: Postcode
     telephone: Telefoonnummer
     telephone_ext: Extensie
@@ -3563,7 +3563,7 @@ nl:
     contact_persons: Contactpersonen
     image_url: Logo URL
     image_url_tooltip: |
-      <p>Een externe URL of pad naar een lokaal bestand dat een merkafbeelding bevat (zoals een logo of zegel) voor gebruik in de online vindhulpmiddelen van de repository. Deze afbeelding verschijnt op de openbare pdf's, pdf's aan de personeelszijde en op de repositories-pagina.</p>
+      <p>Een externe URL of pad naar een lokaal bestand dat een merkafbeelding bevat (zoals een logo of zegel) voor gebruik in de online vindhulpmiddelen van het repository. Deze afbeelding verschijnt op de openbare pdf's, pdf's aan de personeelszijde en op de repositories-pagina.</p>
     _singular: Repository
     _plural: Repositories
     new_title: Nieuw repository
@@ -3778,7 +3778,7 @@ nl:
   preference:
     defaults: Standaardwaarden
     global: Standaardinstellingen voor algemene voorkeuren
-    global_message: Bewerk deze waarden om systeembrede standaardinstellingen voor gebruikersvoorkeuren in te stellen. Deze waarden kunnen worden overschreven door de standaardinstellingen van de repository of de eigen voorkeuren van de gebruiker.
+    global_message: Bewerk deze waarden om systeembrede standaardinstellingen voor gebruikersvoorkeuren in te stellen. Deze waarden kunnen worden overschreven door de standaardinstellingen van het repository of de eigen voorkeuren van de gebruiker.
     repo: Gebruikersvoorkeuren
     repo_message: Bewerk deze waarden om voorkeuren in te stellen voor de huidige repository. Deze waarden kunnen worden overschreven door de eigen voorkeuren van de gebruiker.
     user_global: Globale voorkeuren
@@ -3871,7 +3871,7 @@ nl:
     username_already_in_use: Gebruikersnaam '%{username}' is al in gebruik
     cant_be_empty: mag niet leeg zijn
     password_did_not_match: De ingevoerde waarde komt niet overeen met het wachtwoord
-    group_code_already_in_use: Groep code moet uniek zijn binnen de Repository
+    group_code_already_in_use: Groep code moet uniek zijn binnen het repository
     one_or_more_required_(or_enter_a_title): een of meer zijn vereist (of geef een titel)
     must_not_be_an_empty_string_(or_enter_a_date): mag niet leeg zijn (of geef een datum)
     is_required_when__source__is_blank: is vereist wanneer 'Bron' leeg is
@@ -3889,7 +3889,7 @@ nl:
     container_2_requires_both_a_type_and_indicator: Je moet een Indicator geven als je een Type geeft
     container_3_requires_both_a_type_and_indicator: Je moet een Indicator geven als je een Type geeft
     container_2_is_required_if_container_3_is_provided: Je moet een Kind-container geven als ke een Kleinkind-container geeft.
-    a_barcode_must_be_unique_within_a_repository: Een barcode moet uniek zijn binnen de Repository
+    a_barcode_must_be_unique_within_a_repository: Een barcode moet uniek zijn binnen het repository
     container_profile_name_not_unique: Container Profilenaam moet uniek zijn
     must_be_a_number_with_no_more_than_2_decimal_places: Moet een getal zijn met niet meer dan 2 decimalen
     length_must_be_within_the_range_set_in_configuration: De lengte moet binnen het bereik zijn dat in de configuratie is ingesteld
@@ -3897,7 +3897,7 @@ nl:
     location_profile_name_not_unique: Locatie Profile name moet uniek zijn
     must_be_a_positive_integer: Must be a positive integer
     must_be_unique_to_its_level_in_the_tree: Deze waarde moet uniek zijn voor dit niveau in de hierarchie
-    short_name_already_in_use: De korte naam voor de repository moet uniek zijn in deze ArchivesSpace instantie
+    short_name_already_in_use: De korte naam voor het repository moet uniek zijn in deze ArchivesSpace instantie
     custom_report_template_name_not_unique: De naam van het aangepast rapport template moet uniek zijn.
     custom_report_must_include_field_or_subreport: Het aangepaste rapporttemplate moet ten minste één veld of subrapport bevatten.
     missing_end_filter_date: Begin- en einddatums zijn vereist voor een datumfilter. Vul een einddatum in.
