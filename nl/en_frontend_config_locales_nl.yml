@@ -957,7 +957,7 @@ nl:
       action:
         save: Bewaar Gebeurtenis
         create: Maak Gebeurtenis
-    linked_agents: Gerelateerde Actoren
+    linked_agents: Gerelateerde actoren
   extent:
     _frontend:
       action:
@@ -992,7 +992,7 @@ nl:
   linked_agent:
     _frontend:
       action:
-        add: Voeg koppeling met Actor toe
+        add: Voeg koppeling met actor toe
   linked_record:
     _frontend:
       action:
@@ -1090,7 +1090,7 @@ nl:
       messages:
         select_a_type: "<em>Selecteer een Relatietype</em>"
       action:
-        add: Voeg gerelateerde Agent toe
+        add: Voeg koppeling met actor toe
   related_resource:
     _frontend:
       action:
@@ -2695,13 +2695,13 @@ nl:
     section:
       dates: Datums
       places: Plaatsen
-    _plural: Gerelateerde externe Archief/Collectie-records
-    _singular: Gerelateerde externe Archief/Collectie-record
+    _plural: Gerelateerde externe archief/collectie-records
+    _singular: Gerelateerd extern archief/collectie-record
     dates: Datums
     places: Plaatsen
     publish: Gepubliceerd
     linked_agent_role: Archief/Collectie relatie type
-    linked_resource: Gerelateerde externe Archief/Collectie-record
+    linked_resource: Gerelateerd extern archief/collectie-record
     linked_resource_description: Beschrijving
     file_uri: BestandsURI
     xlink_title_attribute: Xlink Titel Attribuut
@@ -2717,13 +2717,13 @@ nl:
     section:
       dates: Datums
       places: Plaatsen
-    _plural: Gerelateerde externe Archief/Collectie-records
-    _singular: Gerelateerde externe Archief/Collectie-record
+    _plural: Gerelateerde externe archief/collectie-records
+    _singular: Gerelateerde extern archief/collectie-record
     dates: Datums
     places: Plaatsen
     publish: Gepubliceerd
     linked_agent_role: Archief/Collectie relatie type
-    linked_resource: Gerelateerde externe Archief/Collectie-record
+    linked_resource: Gerelateerd extern archief/collectie-record
     linked_resource_description: Beschrijving
     file_uri: BestandsURI
     xlink_title_attribute: Xlink Titel Attribuut
@@ -2739,13 +2739,13 @@ nl:
     section:
       dates: Datums
       places: Plaatsen
-    _plural: Gerelateerde externe Archief/Collectie-records
-    _singular: Gerelateerde externe Archief/Collectie-record
+    _plural: Gerelateerde externe archief/collectie-records
+    _singular: Gerelateerd extern archief/collectie-record
     dates: Datums
     places: Plaatsen
     publish: Gepubliceerd
     linked_agent_role: Archief/Collectie relatie type
-    linked_resource: Gerelateerde externe Archief/Collectie-record
+    linked_resource: Gerelateerd extern archief/collectie-record
     linked_resource_description: Beschrijving
     file_uri: BestandsURI
     xlink_title_attribute: Xlink Titel Attribuut
@@ -2761,13 +2761,13 @@ nl:
     section:
       dates: Datums
       places: Plaatsen
-    _plural: Gerelateerde externe Archief/Collectie-records
-    _singular: Gerelateerde externe Archief/Collectie-record
+    _plural: Gerelateerde externe archief/collectie-records
+    _singular: Gerelateerd extern archief/collectie-record
     dates: Datums
     places: Plaatsen
     publish: Gepubliceerd
     linked_agent_role: Archief/Collectie relatie type
-    linked_resource: Gerelateerde externe Archief/Collectie-record
+    linked_resource: Gerelateerd extern archief/collectie-record
     linked_resource_description: Beschrijving
     file_uri: BestandsURI
     xlink_title_attribute: Xlink Titel Attribuut
@@ -2783,13 +2783,13 @@ nl:
     section:
       dates: Datums
       places: Plaatsen
-    _plural: Gerelateerde externe Archief/Collectie-records
-    _singular: Gerelateerde externe Archief/Collectie-record
+    _plural: Gerelateerde externe archief/collectie-records
+    _singular: Gerelateerd extern archief/collectie-record
     dates: Datums
     places: Plaatsen
     publish: Gepubliceerd
     linked_agent_role: Archief/Collectie relatie type
-    linked_resource: Gerelateerde externe Archief/Collectie-record
+    linked_resource: Gerelateerd extern archief/collectie-record
     linked_resource_description: Beschrijving
     file_uri: BestandsURI
     xlink_title_attribute: Xlink Titel Attribuut
