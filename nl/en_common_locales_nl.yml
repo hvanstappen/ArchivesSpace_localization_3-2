@@ -1534,10 +1534,10 @@ nl:
     description_tooltip: Een vrij tekstveld dat de aard van de realtie beschrijft
     date: Datum
     dates: Datums
-    ref: Gerelateerde Agent
+    ref: Gerelateerde actor
     related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire agent.
-    _singular: Gerelateerde Agent
-    _plural: Gerelateerde Agents
+    _singular: Gerelateerde actor
+    _plural: Gerelateerde actoren
   related_agents:
     relationship_type: Algemeen relatietype
     relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de agents beschrijft.
@@ -1551,10 +1551,10 @@ nl:
     description_tooltip: Een vrij tekstveld dat de aard van de realtie beschrijft
     date: Datum
     dates: Datums
-    ref: Gerelateerde Agent
+    ref: Gerelateerde actor
     related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire agent.
-    _singular: Gerelateerde Agent
-    _plural: Gerelateerde Agents
+    _singular: Gerelateerde actor
+    _plural: Gerelateerde actoren
   agent_relationship_parentchild:
     relationship_type: Algemeen relatietype
     relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de agents beschrijft.
@@ -1568,10 +1568,10 @@ nl:
     description_tooltip: Een vrij tekstveld dat de aard van de realtie beschrijft
     date: Datum
     dates: Datums
-    ref: Gerelateerde Agent
+    ref: Gerelateerde actor
     related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire agent.
     _singular: Ouder/Kind relatie
-    _plural: Gerelateerde Agents
+    _plural: Gerelateerde actoren
   agent_relationship_earlierlater:
     relationship_type: Algemeen relatietype
     relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de agents beschrijft.
@@ -1585,10 +1585,10 @@ nl:
     description_tooltip: Een vrij tekstveld dat de aard van de realtie beschrijft
     date: Datum
     dates: Datums
-    ref: Gerelateerde Agent
+    ref: Gerelateerde actor
     related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire agent.
     _singular: Vroeger/Later relatie
-    _plural: Gerelateerde Agents
+    _plural: Gerelateerde actoren
   agent_relationship_subordinatesuperior:
     relationship_type: Algemeen relatietype
     relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de agents beschrijft.
@@ -1602,10 +1602,10 @@ nl:
     description_tooltip: Een vrij tekstveld dat de aard van de realtie beschrijft
     date: Datum
     dates: Datums
-    ref: Gerelateerde Agent
+    ref: Gerelateerde actor
     related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire agent.
     _singular: Ondergeschikte/bovengeschikte relatie
-    _plural: Gerelateerde Agents
+    _plural: Gerelateerde actoren
   agent_relationship_associative:
     relationship_type: Algemeen relatietype
     relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de agents beschrijft.
@@ -1619,10 +1619,10 @@ nl:
     description_tooltip: Een vrij tekstveld dat de aard van de realtie beschrijft
     date: Datum
     dates: Datums
-    ref: Gerelateerde Agent
+    ref: Gerelateerde actor
     related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire agent.
     _singular: Associative relatie
-    _plural: Gerelateerde Agents
+    _plural: Gerelateerde actoren
   agent_relationship_identity:
     relationship_type: Algemeen relatietype
     relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de agents beschrijft.
@@ -1636,10 +1636,10 @@ nl:
     description_tooltip: Een vrij tekstveld dat de aard van de realtie beschrijft
     date: Datum
     dates: Datums
-    ref: Gerelateerde Agent
+    ref: Gerelateerde actor
     related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire agent.
     _singular: Identiteitsrelatie
-    _plural: Gerelateerde Agents
+    _plural: Gerelateerde actoren
   agent_relationship_hierarchical:
     relationship_type: Algemeen relatietype
     relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de agents beschrijft.
@@ -1653,10 +1653,10 @@ nl:
     description_tooltip: Een vrij tekstveld dat de aard van de realtie beschrijft
     date: Datum
     dates: Datums
-    ref: Gerelateerde Agent
+    ref: Gerelateerde actor
     related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire agent.
     _singular: Hiërarchische relatie
-    _plural: Gerelateerde Agents
+    _plural: Gerelateerde actoren
   agent_relationship_temporal:
     relationship_type: Algemeen relatietype
     relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de agents beschrijft.
@@ -1670,10 +1670,10 @@ nl:
     description_tooltip: Een vrij tekstveld dat de aard van de realtie beschrijft
     date: Datum
     dates: Datums
-    ref: Gerelateerde Agent
+    ref: Gerelateerde actor
     related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire agent.
     _singular: Temporele relatie
-    _plural: Gerelateerde Agents
+    _plural: Gerelateerde actoren
   agent_relationship_family:
     relationship_type: Algemeen relatietype
     relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de agents beschrijft.
@@ -1687,10 +1687,10 @@ nl:
     description_tooltip: Een vrij tekstveld dat de aard van de realtie beschrijft
     date: Datum
     dates: Datums
-    ref: Gerelateerde Agent
+    ref: Gerelateerde actor
     related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire agent.
     _singular: Familie relatie
-    _plural: Gerelateerde Agents
+    _plural: Gerelateerde actoren
   note:
     item: Object
     content_item: Inhoud Item
@@ -3184,13 +3184,13 @@ nl:
     related_agent_tooltip: Wordt gebruikt om andere agenten met een relatie met de agent te verbinden en om de aard van de relatie aan te geven.
     publish_tooltip: <p>Geeft aan of de agent al dan niet is opgenomen in exports en gepubliceerd naar de openbare interface (indien gebruikt)</p>
   related_agents_agent_person:
-    related_agents: Gerelateerde Agents
+    related_agents: Gerelateerde actoren
   related_agents_agent_family:
-    related_agents: Gerelateerde Agents
+    related_agents: Gerelateerde actoren
   related_agents_agent_software:
-    related_agents: Gerelateerde Agents
+    related_agents: Gerelateerde actoren
   related_agents_agent_corporate_entity:
-    related_agents: Gerelateerde Agents
+    related_agents: Gerelateerde actoren
   archival_object:
     <<: null
     title: Titel
