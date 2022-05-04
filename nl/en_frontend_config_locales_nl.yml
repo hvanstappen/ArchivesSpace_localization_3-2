@@ -965,7 +965,7 @@ nl:
   external_document:
     _frontend:
       action:
-        add: Voeg Externe document toe
+        add: Voeg extern document toe
   file_version:
     _frontend:
       action:
@@ -1171,7 +1171,7 @@ nl:
   rights_statement:
     _frontend:
       action:
-        add: Voeg Rechtenverklaring in
+        add: Voeg rechtenverklaring toe
   term:
     _frontend:
       messages:
