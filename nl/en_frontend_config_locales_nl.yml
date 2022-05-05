@@ -43,11 +43,11 @@ nl:
     merge_replace: Vervang
     merge_add: Voeg toe
     merge_confirm_title: samenvoegen in dit record?
-    merge_agent_compare_agent_details: Vergelijk Agents
+    merge_agent_compare_agent_details: Vergelijk actoren
     merge_from_browse_confirm_title: Geselecteerde records samenvoegen?
     merge_subject_confirm_message: "Het trefwoord '%{source}' zal de geselecteerde records erin samenvoegen. Alle geselecteerde records worden verwijderd en eventuele gekoppelde records worden opnieuw aan dit onderwerp gekoppeld."
-    merge_agent_confirm_message: "Het geselecteerde record zal worden samengevoegd met de Agent '%{source}'. Het geselecteerde record wordt verwijderd en alle gekoppelde records worden opnieuw aan deze Agent gekoppeld. Als je op de knop Agents vergelijken klikt, verschijnt een scherm waarin je kan kiezen welke velden en subrecords je van elk record wil behouden."
-    merge_agent_from_browse_confirm_message: "Bij de eerste geselecteerde Agent worden de daaropvolgende geselecteerde records erin samengevoegd. Alle volgende geselecteerde records worden verwijderd en alle gekoppelde records worden opnieuw gekoppeld aan de eerste geselecteerde Agent."
+    merge_agent_confirm_message: "Het geselecteerde record zal worden samengevoegd met de actor '%{source}'. Het geselecteerde record wordt verwijderd en alle gekoppelde records worden opnieuw aan deze actor gekoppeld. Als je op de knop actoren vergelijken klikt, verschijnt een scherm waarin je kan kiezen welke velden en subrecords je van elk record wil behouden."
+    merge_agent_from_browse_confirm_message: "Bij de eerste geselecteerde actor worden de daaropvolgende geselecteerde records erin samengevoegd. Alle volgende geselecteerde records worden verwijderd en alle gekoppelde records worden opnieuw gekoppeld aan de eerste geselecteerde actor."
     merge_resource_confirm_message: "Het archief/collectie-record '%{source}' zal de geselecteerde records erin samenvoegen. Alle geselecteerde records worden verwijderd en alle gekoppelde records worden opnieuw aan deze bron gekoppeld."
     merge_container_profile_confirm_message: "De geselecteerde records worden samengevoegd met het containerprofiel '%{target}'. Alle geselecteerde records worden verwijderd en alle gekoppelde records worden opnieuw aan dit containerprofiel gekoppeld."
     batch_merge: "Selecteer het record waarin alle andere getoonde record(s) moeten worden samengevoegd. Alle gekoppelde records worden opnieuw aan dit record gekoppeld en alle informatie voor de andere record (s) wordt verwijderd."
@@ -292,7 +292,7 @@ nl:
     agent:
       score: Relevantie
       title: Naam
-      primary_type: Agent type
+      primary_type: Actor type
       publish: Gepubliceerd
       authority_id: Authority ID
       source: Bron
@@ -566,8 +566,8 @@ nl:
       success: Onderwerpen verwijderd
       error: "Kan Onderwerpen niet verwijderen:"
     agents:
-      success: Agents verwijderd
-      error: "Kan Agents niet verwijderen:"
+      success: actoren verwijderd
+      error: "Kan actoren niet verwijderen:"
     locations:
       success: Locaties verwijderd
       error: "Kan Locaties niet verwijderen:"
@@ -609,7 +609,7 @@ nl:
     eac_title: Importeer een EAC bestand
     ead_title: Importeer een EAD bestand
     marcxml_title: Importeer een MARCXML bestand
-    marcxml_subjects_and_agents_title: Importeer Onderwerpen en Agents uit een MARCXML bestand
+    marcxml_subjects_and_agents_title: Importeer Onderwerpen en actoren uit een MARCXML bestand
     accession_csv_title: Importeer Aanwinstenrecords uit een CSV bestand
     digital_object_csv_title: Importeer Digitale Object Records uit een CSV bestand
     import_report: Importeer Rapport
@@ -628,10 +628,10 @@ nl:
       resource: Archief/Collectie-record standaardinstellingen
       accession: Aanwinstenrecord standaardinstellingen
       subject: Onderwerprecord standaardinstellingen
-      agent_person: Agentrecord standaardinstellingen (Persoon)
-      agent_family: Agentrecord standaardinstellingen (Familie)
-      agent_corporate_entity: Agentrecord standaardinstellingen (Organisatie)
-      agent_software: Agentrecord standaardinstellingen (Software)
+      agent_person: Actorrecord standaardinstellingen (Persoon)
+      agent_family: Actorrecord standaardinstellingen (Familie)
+      agent_corporate_entity: Actorrecord standaardinstellingen (Organisatie)
+      agent_software: Actorrecord standaardinstellingen (Software)
       digital_object: Digitaal object standaardinstellingen
       digital_object_component: Digitaal object onderdeel standaardinstellingen
       location: Locatierecord standaardinstellingen
@@ -642,10 +642,10 @@ nl:
       defaults_updated: Standaardwaarden aangepast
   required_fields:
     form_title:
-      agent_person: Agent Record verplichte velden (Persoon)
-      agent_family: Agent Record verplichte velden (Familie)
-      agent_corporate_entity: Agent Record verplichte velden (Organisatie)
-      agent_software: Agent Record verplichte velden (Software)
+      agent_person: Actor Record verplichte velden (Persoon)
+      agent_family: Actor Record verplichte velden (Familie)
+      agent_corporate_entity: Actor Record verplichte velden (Organisatie)
+      agent_software: Actor Record verplichte velden (Software)
     messages:
       required_fields_updated: Verplichte velden aangepast
   tree:
@@ -662,14 +662,14 @@ nl:
     error_404: Record niet gevonden
     error_404_message: "Het record dat je probeert te openen, bestaat mogelijk niet meer of je hebt mogelijk geen toestemming om het te bekijken."
     error_tree_pane_ajax: Er is een fout opgetreden bij het laden van dit formulier.
-    merge_conflict: "Samenvoegen van Agent(s) kon niet worden voltooid: %{message}"
-    merge_too_many_victims: Er kan slechts één agent worden geselecteerd voor deze samenvoeging.
-    merge_different_types: Agenten die voor deze samenvoeging zijn geselecteerd, moeten van hetzelfde type zijn.
-    merge_denied_for_system_user: Eén of meer Agents is een system user.
+    merge_conflict: "Samenvoegen van actor(en) kon niet worden voltooid: %{message}"
+    merge_too_many_victims: Er kan slechts één actor worden geselecteerd voor deze samenvoeging.
+    merge_different_types: Actoren die voor deze samenvoeging zijn geselecteerd, moeten van hetzelfde type zijn.
+    merge_denied_for_system_user: Eén of meer actoren is een system user.
     merge_denied_relationship: These agents have a relationship. Remove relationship before proceeding with merge.
-    merge_restricted_contact_details: De samenvoeging kan niet worden voltooid omdat een of meer van de agenten contactgegevens hebben waartoe je geen toegang hebt.
+    merge_restricted_contact_details: De samenvoeging kan niet worden voltooid omdat een of meer van de actoren contactgegevens hebben waartoe je geen toegang hebt.
     linked_to_assessment: Record kan niet worden verwijderd omdat het is gekoppeld aan een waarderingsrecord.
-    cannot_delete_repository_agent: Deze Agent is gekoppeld met een repository en kan niet worden verwijderd.
+    cannot_delete_repository_agent: Deze actor is gekoppeld met een repository en kan niet worden verwijderd.
   accession:
     _frontend:
       messages:
@@ -691,14 +691,14 @@ nl:
   agent:
     _frontend:
       messages:
-        created: Agent gemaakt
-        updated: Agent bewaard
-        deleted: Agent verwijderd
-        published: "De Agent <strong>%{agent.title}</strong>, de subrecords en componenten zijn gepubliceerd"
-        delete_conflict: "Agent kon niet worden verwijderd: <pre>%{error}</pre>"
-        merge_description: Selecteer een Agent om mee samen te voegen
-        merged: Agent(s) samebgevoegd
-        please_select_a_agent_to_merge: Selecteer een Agent
+        created: Actor gemaakt
+        updated: Actor bewaard
+        deleted: Actor verwijderd
+        published: "De actor <strong>%{agent.title}</strong>, de subrecords en componenten zijn gepubliceerd"
+        delete_conflict: "Actor kon niet worden verwijderd: <pre>%{error}</pre>"
+        merge_description: Selecteer een actor om mee samen te voegen
+        merged: Actor(en) samengevoegd
+        please_select_a_agent_to_merge: Selecteer een actor
       section:
         basic_information: Basisgegevens
         record_control_information: Record Control informatie
@@ -717,7 +717,7 @@ nl:
         structured_date_single_fields: Enkelvoudige datum
         structured_date_range_fields: Datumbereik
       action:
-        create: Maak Agent
+        create: Maak actor
         preview: Voeg preview samen
   agent_contact:
     is_representative: Is primair contact
@@ -1359,7 +1359,7 @@ nl:
         find_and_replace_instructions: Kies een basisrecord om deze zoek- en vervangbewerking uit te voeren. Kies vervolgens een recordtype om te targeten en een eigenschap van dat type. De bewerking wordt uitgevoerd in elk doelrecord in de boomstructuur van het basisrecord, of in het basisrecord zelf als het doeltype 'Bron' is..
         report_instructions: Kies een rapport om uit te voeren met de knop <b> Selecteren </b>.
         slug_lost_warning: <b> WAARSCHUWING! </b> Alle automatisch gegenereerde slugs worden opnieuw gegenereerd! Deze taak is van toepassing op alle records in alle repositories.
-        slug_generation: Deze job genereert slugs voor alle <b> Bronnen </b>, <b> Archiefonderdelen </b>, <b> Digitale objecten </b>, <b> Digitaal object Componenten </b>, <b> Aanwinsten </b>, <b> Classificaties </b>, <b> Agents </b>, <b> Onderwerpen </b> en <b> Repositories </b> die nog geen handmatig toegevoegde slug hebben. <br /> <br /> <em> Slugs die handmatig zijn toegevoegd, worden niet gewijzigd, tenzij het vakje Automatisch slug genereren op de record is aangevinkt om aan te geven dat de slug moet worden vervangen. </em>
+        slug_generation: Deze job genereert slugs voor alle <b> Bronnen </b>, <b> Archiefonderdelen </b>, <b> Digitale objecten </b>, <b> Digitaal object Componenten </b>, <b> Aanwinsten </b>, <b> Classificaties </b>, <b> actoren </b>, <b> Onderwerpen </b> en <b> Repositories </b> die nog geen handmatig toegevoegde slug hebben. <br /> <br /> <em> Slugs die handmatig zijn toegevoegd, worden niet gewijzigd, tenzij het vakje Automatisch slug genereren op de record is aangevinkt om aan te geven dat de slug moet worden vervangen. </em>
         slug_config_msg: <b>Gebaseerd op je configuratie instellingen in config.rb:</b>
         slug_config_id: Slugs worden waar nodig gegenereerd met behulp van de entiteits-Identificatiecode.
         slug_config_title: Slugs worden gegenereerd met behulp van de naam of titel van de entiteit.
@@ -2046,7 +2046,7 @@ nl:
       dates: Datums
     _plural: Plaatsen
     _singular: Plaats
-    place_role: Agent Plaats rol
+    place_role: Actor Plaats rol
     text_note: Noot
     dates: Datums
     subjects: Plaatsen
@@ -2059,7 +2059,7 @@ nl:
       dates: Datums
     _plural: Plaatsen
     _singular: Plaats
-    place_role: Agent Plaats rol
+    place_role: Actor Plaats rol
     text_note: Noot
     dates: Datums
     subjects: Plaatsen
@@ -2072,7 +2072,7 @@ nl:
       dates: Datums
     _plural: Plaatsen
     _singular: Plaats
-    place_role: Agent Plaats rol
+    place_role: Actor Plaats rol
     text_note: Noot
     dates: Datums
     subjects: Plaatsen
@@ -2085,7 +2085,7 @@ nl:
       dates: Datums
     _plural: Plaatsen
     _singular: Plaats
-    place_role: Agent Plaats rol
+    place_role: Actor Plaats rol
     text_note: Noot
     dates: Datums
     subjects: Plaatsen
@@ -2098,7 +2098,7 @@ nl:
       dates: Datums
     _plural: Plaatsen
     _singular: Plaats
-    place_role: Agent Plaats rol
+    place_role: Actor Plaats rol
     text_note: Noot
     dates: Datums
     subjects: Plaatsen
@@ -2499,57 +2499,57 @@ nl:
     agency_code_type: Record Controle agentschapscode Type
     maintenance_agency: Onderhoudsorganisatie
   agent_maintenance_history:
-    _plural: Agent Onderhoudgeschiedenis
-    _singular: Agent Onderhoudsgeschiedenissen
+    _plural: Actor Onderhoudgeschiedenis
+    _singular: Actor Onderhoudsgeschiedenissen
     _frontend:
       action:
         add: Voeg gebeurtenis toe
     maintenance_event_type: Record Controle Onderhoudsgebeurtenis Type
-    maintenance_agent_type: Record Controle Onderhoud Agent Type
+    maintenance_agent_type: Record Controle Onderhoud actor Type
     agent: Agent
     descriptive_note: Beschrijvende noot
     event_date: Datum gebeurtenis
   agent_maintenance_histories:
-    _plural: Agent Onderhoudgeschiedenis
-    _singular: Agent Onderhoudsgeschiedenissen
+    _plural: Actor Onderhoudgeschiedenis
+    _singular: Actor Onderhoudsgeschiedenissen
     _frontend:
       action:
         add: Voeg gebeurtenis toe
     maintenance_event_type: Record Controle Onderhoudsgebeurtenis Type
-    maintenance_agent_type: Record Controle Onderhoud Agent Type
+    maintenance_agent_type: Record Controle Onderhoud actor Type
     agent: Agent
     descriptive_note: Beschrijvende noot
     event_date: Datum gebeurtenis
   agent_maintenance_history_required:
-    _plural: Agent Onderhoudgeschiedenis
-    _singular: Agent Onderhoudsgeschiedenissen
+    _plural: Actor Onderhoudgeschiedenis
+    _singular: Actor Onderhoudsgeschiedenissen
     _frontend:
       action:
         add: Voeg gebeurtenis toe
     maintenance_event_type: Record Controle Onderhoudsgebeurtenis Type
-    maintenance_agent_type: Record Controle Onderhoud Agent Type
+    maintenance_agent_type: Record Controle Onderhoud actor Type
     agent: Agent
     descriptive_note: Beschrijvende noot
     event_date: Datum gebeurtenis
   agent_maintenance_history_merge_target:
-    _plural: Agent Onderhoudgeschiedenis
-    _singular: Agent Onderhoudsgeschiedenissen
+    _plural: Actor Onderhoudgeschiedenis
+    _singular: Actor Onderhoudsgeschiedenissen
     _frontend:
       action:
         add: Voeg gebeurtenis toe
     maintenance_event_type: Record Controle Onderhoudsgebeurtenis Type
-    maintenance_agent_type: Record Controle Onderhoud Agent Type
+    maintenance_agent_type: Record Controle Onderhoud actor Type
     agent: Agent
     descriptive_note: Beschrijvende noot
     event_date: Datum gebeurtenis
   agent_maintenance_history_merge_victim:
-    _plural: Agent Onderhoudgeschiedenis
-    _singular: Agent Onderhoudsgeschiedenissen
+    _plural: Actor Onderhoudgeschiedenis
+    _singular: Actor Onderhoudsgeschiedenissen
     _frontend:
       action:
         add: Voeg gebeurtenis toe
     maintenance_event_type: Record Controle Onderhoudsgebeurtenis Type
-    maintenance_agent_type: Record Controle Onderhoud Agent Type
+    maintenance_agent_type: Record Controle Onderhoud actor Type
     agent: Agent
     descriptive_note: Beschrijvende noot
     event_date: Datum gebeurtenis
@@ -2610,7 +2610,7 @@ nl:
     record_identifier: Record Identificatiecode
   agent_source:
     _plural: Bronnen
-    _singular: Agent bronnen
+    _singular: Actor bronnen
     _frontend:
       action:
         add: Voeg Bron toe
@@ -2625,7 +2625,7 @@ nl:
     last_verified_date: Datum laatste verificatie
   agent_sources:
     _plural: Bronnen
-    _singular: Agent bronnen
+    _singular: Actor bronnen
     _frontend:
       action:
         add: Voeg Bron toe
@@ -2640,7 +2640,7 @@ nl:
     last_verified_date: Datum laatste verificatie
   agent_source_required:
     _plural: Bronnen
-    _singular: Agent bronnen
+    _singular: Actor bronnen
     _frontend:
       action:
         add: Voeg Bron toe
@@ -2655,7 +2655,7 @@ nl:
     last_verified_date: Datum laatste verificatie
   agent_source_merge_target:
     _plural: Bronnen
-    _singular: Agent bronnen
+    _singular: Actor bronnen
     _frontend:
       action:
         add: Voeg Bron toe
@@ -2670,7 +2670,7 @@ nl:
     last_verified_date: Datum laatste verificatie
   agent_source_merge_victim:
     _plural: Bronnen
-    _singular: Agent bronnen
+    _singular: Actor bronnen
     _frontend:
       action:
         add: Voeg Bron toe
@@ -2803,15 +2803,15 @@ nl:
     dates: Datums
   section_headings:
     basic_information_tooltip: |
-      <p>Deze sectie geeft het type agent aan en of de agent is gepubliceerd of niet.</p>
+      <p>Deze sectie geeft het type actor aan en of de actor is gepubliceerd of niet.</p>
     record_control_information_tooltip: |
       <p>Deze sectie bevat informatie over het record zelf, met de verwachting dat het afkomstig is van buiten ArchivesSpace of zal worden gedeeld met een ander systeem dan ArchivesSpace.</p>
     identity_information_tooltip: |
-      <p>Dit gedeelte bevat de kerninformatie over de agent zelf. Een naamformulier is het enige vereiste subrecord in een agentrecord.</p>
+      <p>Dit gedeelte bevat de kerninformatie over de actor zelf. Een naamformulier is het enige vereiste subrecord in een actorrecord.</p>
     description_information_tooltip: |
-      <p>Dit gedeelte bevat de kerninformatie over de agent zelf. Een naamformulier is het enige vereiste subrecord in een agentrecord.</p>
+      <p>Dit gedeelte bevat de kerninformatie over de actor zelf. Een naamformulier is het enige vereiste subrecord in een actorrecord.</p>
     relation_information_tooltip: |
-      <p>Deze sectie wordt gebruikt om relaties aan te geven met andere agenten of materialen binnen of buiten ArchivesSpace.</p>
+      <p>Deze sectie wordt gebruikt om relaties aan te geven met andere actoren of materialen binnen of buiten ArchivesSpace.</p>
   bulk_import:
     _frontend:
       actions:
