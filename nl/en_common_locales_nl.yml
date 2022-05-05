@@ -130,7 +130,7 @@ nl:
        <li> Cedar Fire <em>(gekoppeld aan een broncomponentrecord met de titel "Cedar Fire")</em> </li>
        </ul>
     digital_object_id: Identificatiecode
-    digital_object_id_tooltip: |2
+    digital_object_id_tooltip: |
       <p>Een unieke identificatie voor het digitale object als geheel. Dit kan een ARK, HANDLE, een URI of een willekeurige tekenreeks zijn die het digitale object uniek identificeert. Het veld moet worden ingevuld om een geldig METS-record te kunnen exporteren.</p>
       <p>Voorbeelden:</p>
        <ul>
@@ -203,7 +203,7 @@ nl:
     _plural: Digitale Object Componenten
     new_title: Nieuw Digitaal object
     label: Label
-    label_tooltip: |2
+    label_tooltip: |
       <p>Een term die wordt gebruikt om het onderdeel en zijn positie binnen het beschreven digitale object te beschrijven. Vaker gebruikt voor de samenstellende delen van het digitale object dan het digitale objectrecord op het hoogste niveau.</p>
       <p>Voorbeelden:</p>
        <ul>
@@ -365,11 +365,11 @@ nl:
     relator_tooltip: |
       <p>Een indicatie van de rol die de Agent heeft met betrekking tot zijn functie, zoals aangegeven in de koppeling (bijvoorbeeld maker, bron of onderwerp) aan een bepaald beschrijvingsrecord. Een Agent kan bijvoorbeeld als maker aan een record worden gekoppeld, maar met de meer specifieke rol van "illustrator".</p>
       <p>Zie MARC Code List for Relators (https://www.loc.gov/marc/relators/).</p>
-    ref: Agent
+    ref: Actor
     #ref_tooltip is not displaying
     ref_tooltip: |
-      <p>De agent met betrekking tot het materiaal beschreven in het record.</p>
-      <p>Agenten kunnen worden gezocht met behulp van autocomplete, met behulp van een bladerfunctie, of kunnen worden toegevoegd.</p>
+      <p>De actor met betrekking tot het materiaal beschreven in het record.</p>
+      <p>Actoren kunnen worden gezocht met behulp van autocomplete, met behulp van een bladerfunctie, of kunnen worden toegevoegd.</p>
     terms: Termen
     title: Titel
     title_tooltip: |
@@ -383,8 +383,8 @@ nl:
     role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de Agent heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
     relator: Relator
     relator_tooltip: "<p>Een indicatie van de rol die de Agent heeft met betrekking tot zijn functie, zoals aangegeven in de koppeling (bijvoorbeeld maker, bron of onderwerp) aan een bepaald beschrijvingsrecord. Een Agent kan bijvoorbeeld als maker aan een record worden gekoppeld, maar met de meer specifieke rol van \"illustrator\".</p>\n<p>Zie MARC Code List for Relators (https://www.loc.gov/marc/relators/).</p>"
-    ref: Agent
-    ref_tooltip: "<p>De agent met betrekking tot het materiaal beschreven in het record.</p>\n<p>Agenten kunnen worden gezocht met behulp van autocomplete, met behulp van een bladerfunctie, of kunnen worden toegevoegd.</p>"
+    ref: Actor
+    ref_tooltip: "<p>De actor met betrekking tot het materiaal beschreven in het record.</p>\n<p>Actoren kunnen worden gezocht met behulp van autocomplete, met behulp van een bladerfunctie, of kunnen worden toegevoegd.</p>"
     terms: Termen
     title: Titel
     title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een Agent die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
@@ -395,8 +395,8 @@ nl:
     role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de Agent heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
     relator: Relator
     relator_tooltip: "<p>Een indicatie van de rol die de Agent heeft met betrekking tot zijn functie, zoals aangegeven in de koppeling (bijvoorbeeld maker, bron of onderwerp) aan een bepaald beschrijvingsrecord. Een Agent kan bijvoorbeeld als maker aan een record worden gekoppeld, maar met de meer specifieke rol van \"illustrator\".</p>\n<p>Zie MARC Code List for Relators (https://www.loc.gov/marc/relators/).</p>"
-    ref: Agent
-    ref_tooltip: "<p>De agent met betrekking tot het materiaal beschreven in het record.</p>\n<p>Agenten kunnen worden gezocht met behulp van autocomplete, met behulp van een bladerfunctie, of kunnen worden toegevoegd.</p>"
+    ref: Actor
+    ref_tooltip: "<p>De actor met betrekking tot het materiaal beschreven in het record.</p>\n<p>Actoren kunnen worden gezocht met behulp van autocomplete, met behulp van een bladerfunctie, of kunnen worden toegevoegd.</p>"
     terms: Termen
     title: Titel
     title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een Agent die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
@@ -407,8 +407,8 @@ nl:
     role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de Agent heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
     relator: Relator
     relator_tooltip: "<p>Een indicatie van de rol die de Agent heeft met betrekking tot zijn functie, zoals aangegeven in de koppeling (bijvoorbeeld maker, bron of onderwerp) aan een bepaald beschrijvingsrecord. Een Agent kan bijvoorbeeld als maker aan een record worden gekoppeld, maar met de meer specifieke rol van \"illustrator\".</p>\n<p>Zie MARC Code List for Relators (https://www.loc.gov/marc/relators/).</p>"
-    ref: Agent
-    ref_tooltip: "<p>De agent met betrekking tot het materiaal beschreven in het record.</p>\n<p>Agenten kunnen worden gezocht met behulp van autocomplete, met behulp van een bladerfunctie, of kunnen worden toegevoegd.</p>"
+    ref: Actor
+    ref_tooltip: "<p>De actor met betrekking tot het materiaal beschreven in het record.</p>\n<p>Actoren kunnen worden gezocht met behulp van autocomplete, met behulp van een bladerfunctie, of kunnen worden toegevoegd.</p>"
     terms: Termen
     title: Titel
     title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een Agent die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
@@ -419,8 +419,8 @@ nl:
     role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de Agent heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
     relator: Relator
     relator_tooltip: "<p>Een indicatie van de rol die de Agent heeft met betrekking tot zijn functie, zoals aangegeven in de koppeling (bijvoorbeeld maker, bron of onderwerp) aan een bepaald beschrijvingsrecord. Een Agent kan bijvoorbeeld als maker aan een record worden gekoppeld, maar met de meer specifieke rol van \"illustrator\".</p>\n<p>Zie MARC Code List for Relators (https://www.loc.gov/marc/relators/).</p>"
-    ref: Agent
-    ref_tooltip: "<p>De agent met betrekking tot het materiaal beschreven in het record.</p>\n<p>Agenten kunnen worden gezocht met behulp van autocomplete, met behulp van een bladerfunctie, of kunnen worden toegevoegd.</p>"
+    ref: Actor
+    ref_tooltip: "<p>De actor met betrekking tot het materiaal beschreven in het record.</p>\n<p>Actoren kunnen worden gezocht met behulp van autocomplete, met behulp van een bladerfunctie, of kunnen worden toegevoegd.</p>"
     terms: Termen
     title: Titel
     title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een Agent die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
@@ -431,8 +431,8 @@ nl:
     role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de Agent heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
     relator: Relator
     relator_tooltip: "<p>Een indicatie van de rol die de Agent heeft met betrekking tot zijn functie, zoals aangegeven in de koppeling (bijvoorbeeld maker, bron of onderwerp) aan een bepaald beschrijvingsrecord. Een Agent kan bijvoorbeeld als maker aan een record worden gekoppeld, maar met de meer specifieke rol van \"illustrator\".</p>\n<p>Zie MARC Code List for Relators (https://www.loc.gov/marc/relators/).</p>"
-    ref: Agent
-    ref_tooltip: "<p>De agent met betrekking tot het materiaal beschreven in het record.</p>\n<p>Agenten kunnen worden gezocht met behulp van autocomplete, met behulp van een bladerfunctie, of kunnen worden toegevoegd.</p>"
+    ref: Actor
+    ref_tooltip: "<p>De actor met betrekking tot het materiaal beschreven in het record.</p>\n<p>Actoren kunnen worden gezocht met behulp van autocomplete, met behulp van een bladerfunctie, of kunnen worden toegevoegd.</p>"
     terms: Termen
     title: Titel
     title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een Agent die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
@@ -443,8 +443,8 @@ nl:
     role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de Agent heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
     relator: Relator
     relator_tooltip: "<p>Een indicatie van de rol die de Agent heeft met betrekking tot zijn functie, zoals aangegeven in de koppeling (bijvoorbeeld maker, bron of onderwerp) aan een bepaald beschrijvingsrecord. Een Agent kan bijvoorbeeld als maker aan een record worden gekoppeld, maar met de meer specifieke rol van \"illustrator\".</p>\n<p>Zie MARC Code List for Relators (https://www.loc.gov/marc/relators/).</p>"
-    ref: Agent
-    ref_tooltip: "<p>De agent met betrekking tot het materiaal beschreven in het record.</p>\n<p>Agenten kunnen worden gezocht met behulp van autocomplete, met behulp van een bladerfunctie, of kunnen worden toegevoegd.</p>"
+    ref: Actor
+    ref_tooltip: "<p>De actor met betrekking tot het materiaal beschreven in het record.</p>\n<p>Actoren kunnen worden gezocht met behulp van autocomplete, met behulp van een bladerfunctie, of kunnen worden toegevoegd.</p>"
     terms: Termen
     title: Titel
     title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een Agent die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
@@ -455,7 +455,7 @@ nl:
     dates_tooltip: "<p>Identificeert en registreert de datums die betrekking hebben op de creatie, montage, accumulatie en / of onderhoud en gebruik van de beschreven materialen.</p>\n<p>Zie DACS 2.4</p>"
     extents_tooltip: "<p>Geeft de omvang en de fysieke aard van de materialen aan die worden beschreven.</p>\n<p>Zie DACS 2.5</p>"
     linked_agents_tooltip: |
-      <p>VERPLICHT SUBRECORD: Koppelt één of meer Agents als deelnemer aan deze gebeurtenis.</p>
+      <p>VERPLICHT SUBRECORD: Koppelt één of meer actoren als deelnemer aan deze gebeurtenis.</p>
     subjects_tooltip: <p>Koppelt onderwerpen aan de beschreven materialen.</p>
     notes_tooltip: <p>Aanvullende beschrijvende informatie over de beschreven materialen, meestal in de vorm van tekst of gestructureerde lijsten.</p>
     external_documents_tooltip: <p>Links naar informatie in andere beschrijvings- of beheersystemen, zoals donorbestanden, verwerkingsplannen, enz.</p>
@@ -536,7 +536,7 @@ nl:
     lang_materials_tooltip: "<p>Taal en schrift van de beschreven materialen.</p>\n<p>Zie DACS 4.5</p>"
     dates_tooltip: "<p>Identificeert en registreert de datums die betrekking hebben op de creatie, montage, accumulatie en / of onderhoud en gebruik van de beschreven materialen.</p>\n<p>Zie DACS 2.4</p>"
     extents_tooltip: "<p>Geeft de omvang en de fysieke aard van de materialen aan die worden beschreven.</p>\n<p>Zie DACS 2.5</p>"
-    linked_agents_tooltip: '<p>VERPLICHT SUBRECORD: Koppelt één of meer Agents als deelnemer aan deze gebeurtenis.</p>'
+    linked_agents_tooltip: '<p>VERPLICHT SUBRECORD: Koppelt één of meer actoren als deelnemer aan deze gebeurtenis.</p>'
     subjects_tooltip: <p>Koppelt onderwerpen aan de beschreven materialen.</p>
     notes_tooltip: <p>Aanvullende beschrijvende informatie over de beschreven materialen, meestal in de vorm van tekst of gestructureerde lijsten.</p>
     external_documents_tooltip: <p>Links naar informatie in andere beschrijvings- of beheersystemen, zoals donorbestanden, verwerkingsplannen, enz.</p>
@@ -621,7 +621,7 @@ nl:
     scope_tooltip: |
       <p>VERPLICHT VELD: Wordt gebruikt om aan te geven of de beschrijving van de omvang betrekking heeft op het geheel of een deel van een gegeven beschreven aggregatie of object.</p>
     description: Beschrijving
-    description_tooltip: |2
+    description_tooltip: |
       <p>VERPLICHT VELD: Beschrijving van de materialen die werden afgestoten.</p>
       <p>Voorbeelden:</p>
        <ul>
@@ -629,14 +629,14 @@ nl:
       <li>Trofeeën die op hondenshows worden uitgereikt.</li>
        </ul>
     reason: Reden
-    reason_tooltip: |2
+    reason_tooltip: |
       <p>De reden voor het afstoten van de beschreven materialen.</p>
       <p>Voorbeelden:</p>
        <ul>
       <li>De donor was niet van plan deze materialen over te dragen.</li>
        </ul>
     disposition: Bestemming
-    disposition_tooltip: |2
+    disposition_tooltip: |
       <p>Een beschrijving die aangeeft wat er met de afgestoten materialen is gedaan.</p>
       <p>Voorbeelden:</p>
        <ul>
@@ -655,8 +655,8 @@ nl:
         add: Voeg Parallelle naam toe
   agent_name:
     authority_id: Authority ID
-    authority_id_tooltip: |2
-      <p>De unieke identificatie voor het naamformulier voor een agent binnen de bron waarvan deze is verkregen (d.w.z. een MADS-record-ID of EAC-record-ID). De identificatie kan worden weergegeven als een URI.</p>
+    authority_id_tooltip: |
+      <p>De unieke identificatie voor het naamformulier voor een actor binnen de bron waarvan deze is verkregen (d.w.z. een MADS-record-ID of EAC-record-ID). De identificatie kan worden weergegeven als een URI.</p>
       <p>Zie DACS 13.2</p>
       <p>Voorbeelden:</p>
        <ul>
@@ -676,7 +676,7 @@ nl:
     name_order_tooltip: |
       <p>Geeft aan of de naamvorm moet worden weergegeven in omgekeerde volgorde (achternaam, voornaam) of in directe volgorde (voornaam achternaam).</p>
     prefix: Prefix
-    prefix_tooltip: |2
+    prefix_tooltip: |
       <p>Elke term die is gekoppeld aan een naam die bij normatief gebruik de volledige naam zou voorafgaan.</p>
       <p>Voorbeelden:</p>
        <ul>
@@ -692,7 +692,7 @@ nl:
       <li>Keizer <em>(voor Karel V)</em></li>
       </ul>
     primary_name: Primaire deel van de naam
-    primary_name_tooltip: |2
+    primary_name_tooltip: |
       <p>Het primaire deel van een naamvorm (bijvoorbeeld een achternaam of familienaam van een persoon).</p>
       <p>Voorbeelden:</p>
        <ul>
@@ -742,11 +742,11 @@ nl:
        </ul>
     use_dates: Datering gebruik
     use_dates_tooltip: |
-      <p>Datums waarop deze naam is gebruikt voor de agent.</p>
+      <p>Datums waarop deze naam is gebruikt voor de actor.</p>
     parallel_names_tooltip: |
       <p>Kan worden gebruikt voor een parallelle naamvorm in andere talen en/of schriften, of voor een getranslitereerde naamvorm.</p>
     qualifier: Qualifier
-    qualifier_tooltip: |2
+    qualifier_tooltip: |
       <p>Een term of zin om twee naamvormen te onderscheiden die identiek zijn, maar twee verschillende entiteiten identificeren. De term kan een datum, een plaats of een andere geschikte omschrijving zijn.</p>
        <p> Voorbeelden: </p>
        <ul>
@@ -755,7 +755,7 @@ nl:
        </ul>
     sort_name: Sorteernaam
     sort_name_tooltip: |
-      <p>Een versie van de naam die alle delen van de naam in een bepaald agentrecord samenvoegt. Wordt gebruikt voor weergave of export.</p>
+      <p>Een versie van de naam die alle delen van de naam in een bepaald actorrecord samenvoegt. Wordt gebruikt voor weergave of export.</p>
       <p>De sorteernaam kan worden bewerkt door het selectievakje voor Automatisch genereren uit te schakelen en vervolgens de gewenste sorteernaam in te voeren.</p>
     authorized: Geautoriseerd
     is_display_name: Getoonde naam
@@ -772,7 +772,7 @@ nl:
     _plural: Naamvormen
   name_person:
     authority_id: Authority ID
-    authority_id_tooltip: "<p>De unieke identificatie voor het naamformulier voor een agent binnen de bron waarvan deze is verkregen (d.w.z. een MADS-record-ID of EAC-record-ID). De identificatie kan worden weergegeven als een URI.</p>\n<p>Zie DACS 13.2</p>\n<p>Voorbeelden:</p>\n <ul>\n<li>nr92045078 <em>voor een LCNAF name heading</em></li>\n<li>500115393 <em>voor een ULAN name heading</em></li>\n<li>http://viaf.org/viaf/134138653 <em>voor een VIAF name heading</em></li>\n </ul>"
+    authority_id_tooltip: "<p>De unieke identificatie voor het naamformulier voor een actor binnen de bron waarvan deze is verkregen (d.w.z. een MADS-record-ID of EAC-record-ID). De identificatie kan worden weergegeven als een URI.</p>\n<p>Zie DACS 13.2</p>\n<p>Voorbeelden:</p>\n <ul>\n<li>nr92045078 <em>voor een LCNAF name heading</em></li>\n<li>500115393 <em>voor een ULAN name heading</em></li>\n<li>http://viaf.org/viaf/134138653 <em>voor een VIAF name heading</em></li>\n </ul>"
     source: Bron
     source_tooltip: "<p> VOORWAARDELIJK VERPLICHT VELD, als naam Regels niet gebruikt is. Een indicator van de geaurthoriseerde bron waaruit de naam is gehaald.</p>\n<p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>"
     rules: Rules
@@ -796,12 +796,12 @@ nl:
     dates: Datums
     dates_tooltip: "<p>Gebruik dit veld voor afstemming met MARC-autorisatierecords. Deze datums worden in plaats van de datums van bestaan toegevoegd aan de naaminvoer op het scherm.</p>\n<p>Bestaansdatums voor de genoemde entiteit.</p>\n<p>Voorbeelden:</p>\n<ul>\n<li>1886-1961 <em>(voor H.D., Hilda Doolittle, 1886-1961)</em></li>\n </ul>"
     use_dates: Datering gebruik
-    use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de agent.</p>
+    use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de actor.</p>
     parallel_names_tooltip: <p>Kan worden gebruikt voor een parallelle naamvorm in andere talen en/of schriften, of voor een getranslitereerde naamvorm.</p>
     qualifier: Qualifier
     qualifier_tooltip: "<p>Een term of zin om twee naamvormen te onderscheiden die identiek zijn, maar twee verschillende entiteiten identificeren. De term kan een datum, een plaats of een andere geschikte omschrijving zijn.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Bloemisten <em>(voor de familie Smith family (Bloemisten))</em>)</li>\n<li>Bronx, New York, N.Y. <em>(voor St. James Church (Bronx, New York, N.Y.))</em></li>\n </ul>"
     sort_name: Sorteernaam
-    sort_name_tooltip: "<p>Een versie van de naam die alle delen van de naam in een bepaald agentrecord samenvoegt. Wordt gebruikt voor weergave of export.</p>\n<p>De sorteernaam kan worden bewerkt door het selectievakje voor Automatisch genereren uit te schakelen en vervolgens de gewenste sorteernaam in te voeren.</p>"
+    sort_name_tooltip: "<p>Een versie van de naam die alle delen van de naam in een bepaald actorrecord samenvoegt. Wordt gebruikt voor weergave of export.</p>\n<p>De sorteernaam kan worden bewerkt door het selectievakje voor Automatisch genereren uit te schakelen en vervolgens de gewenste sorteernaam in te voeren.</p>"
     authorized: Geautoriseerd
     is_display_name: Getoonde naam
     language: Taal
@@ -814,7 +814,7 @@ nl:
     _plural: Naamvormen
   parallel_name_person:
     authority_id: Authority ID
-    authority_id_tooltip: "<p>De unieke identificatie voor het naamformulier voor een agent binnen de bron waarvan deze is verkregen (d.w.z. een MADS-record-ID of EAC-record-ID). De identificatie kan worden weergegeven als een URI.</p>\n<p>Zie DACS 13.2</p>\n<p>Voorbeelden:</p>\n <ul>\n<li>nr92045078 <em>voor een LCNAF name heading</em></li>\n<li>500115393 <em>voor een ULAN name heading</em></li>\n<li>http://viaf.org/viaf/134138653 <em>voor een VIAF name heading</em></li>\n </ul>"
+    authority_id_tooltip: "<p>De unieke identificatie voor het naamformulier voor een actor binnen de bron waarvan deze is verkregen (d.w.z. een MADS-record-ID of EAC-record-ID). De identificatie kan worden weergegeven als een URI.</p>\n<p>Zie DACS 13.2</p>\n<p>Voorbeelden:</p>\n <ul>\n<li>nr92045078 <em>voor een LCNAF name heading</em></li>\n<li>500115393 <em>voor een ULAN name heading</em></li>\n<li>http://viaf.org/viaf/134138653 <em>voor een VIAF name heading</em></li>\n </ul>"
     source: Bron
     source_tooltip: "<p> VOORWAARDELIJK VERPLICHT VELD, als naam Regels niet gebruikt is. Een indicator van de geaurthoriseerde bron waaruit de naam is gehaald.</p>\n<p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>"
     rules: Rules
@@ -838,12 +838,12 @@ nl:
     dates: Datums
     dates_tooltip: "<p>Gebruik dit veld voor afstemming met MARC-autorisatierecords. Deze datums worden in plaats van de datums van bestaan toegevoegd aan de naaminvoer op het scherm.</p>\n<p>Bestaansdatums voor de genoemde entiteit.</p>\n<p>Voorbeelden:</p>\n<ul>\n<li>1886-1961 <em>(voor H.D., Hilda Doolittle, 1886-1961)</em></li>\n </ul>"
     use_dates: Datering gebruik
-    use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de agent.</p>
+    use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de actor.</p>
     parallel_names_tooltip: <p>Kan worden gebruikt voor een parallelle naamvorm in andere talen en/of schriften, of voor een getranslitereerde naamvorm.</p>
     qualifier: Qualifier
     qualifier_tooltip: "<p>Een term of zin om twee naamvormen te onderscheiden die identiek zijn, maar twee verschillende entiteiten identificeren. De term kan een datum, een plaats of een andere geschikte omschrijving zijn.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Bloemisten <em>(voor de familie Smith family (Bloemisten))</em>)</li>\n<li>Bronx, New York, N.Y. <em>(voor St. James Church (Bronx, New York, N.Y.))</em></li>\n </ul>"
     sort_name: Sorteernaam
-    sort_name_tooltip: "<p>Een versie van de naam die alle delen van de naam in een bepaald agentrecord samenvoegt. Wordt gebruikt voor weergave of export.</p>\n<p>De sorteernaam kan worden bewerkt door het selectievakje voor Automatisch genereren uit te schakelen en vervolgens de gewenste sorteernaam in te voeren.</p>"
+    sort_name_tooltip: "<p>Een versie van de naam die alle delen van de naam in een bepaald actorrecord samenvoegt. Wordt gebruikt voor weergave of export.</p>\n<p>De sorteernaam kan worden bewerkt door het selectievakje voor Automatisch genereren uit te schakelen en vervolgens de gewenste sorteernaam in te voeren.</p>"
     authorized: Geautoriseerd
     is_display_name: Getoonde naam
     language: Taal
@@ -856,7 +856,7 @@ nl:
     _plural: Parallele namen
   name_family:
     authority_id: Authority ID
-    authority_id_tooltip: "<p>De unieke identificatie voor het naamformulier voor een agent binnen de bron waarvan deze is verkregen (d.w.z. een MADS-record-ID of EAC-record-ID). De identificatie kan worden weergegeven als een URI.</p>\n<p>Zie DACS 13.2</p>\n<p>Voorbeelden:</p>\n <ul>\n<li>nr92045078 <em>voor een LCNAF name heading</em></li>\n<li>500115393 <em>voor een ULAN name heading</em></li>\n<li>http://viaf.org/viaf/134138653 <em>voor een VIAF name heading</em></li>\n </ul>"
+    authority_id_tooltip: "<p>De unieke identificatie voor het naamformulier voor een actor binnen de bron waarvan deze is verkregen (d.w.z. een MADS-record-ID of EAC-record-ID). De identificatie kan worden weergegeven als een URI.</p>\n<p>Zie DACS 13.2</p>\n<p>Voorbeelden:</p>\n <ul>\n<li>nr92045078 <em>voor een LCNAF name heading</em></li>\n<li>500115393 <em>voor een ULAN name heading</em></li>\n<li>http://viaf.org/viaf/134138653 <em>voor een VIAF name heading</em></li>\n </ul>"
     source: Bron
     source_tooltip: "<p> VOORWAARDELIJK VERPLICHT VELD, als naam Regels niet gebruikt is. Een indicator van de geaurthoriseerde bron waaruit de naam is gehaald.</p>\n<p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>"
     rules: Rules
@@ -880,12 +880,12 @@ nl:
     dates: Datums
     dates_tooltip: "<p>Gebruik dit veld voor afstemming met MARC-autorisatierecords. Deze datums worden in plaats van de datums van bestaan toegevoegd aan de naaminvoer op het scherm.</p>\n<p>Bestaansdatums voor de genoemde entiteit.</p>\n<p>Voorbeelden:</p>\n<ul>\n<li>1886-1961 <em>(voor H.D., Hilda Doolittle, 1886-1961)</em></li>\n </ul>"
     use_dates: Datering gebruik
-    use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de agent.</p>
+    use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de actor.</p>
     parallel_names_tooltip: <p>Kan worden gebruikt voor een parallelle naamvorm in andere talen en/of schriften, of voor een getranslitereerde naamvorm.</p>
     qualifier: Qualifier
     qualifier_tooltip: "<p>Een term of zin om twee naamvormen te onderscheiden die identiek zijn, maar twee verschillende entiteiten identificeren. De term kan een datum, een plaats of een andere geschikte omschrijving zijn.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Bloemisten <em>(voor de familie Smith family (Bloemisten))</em>)</li>\n<li>Bronx, New York, N.Y. <em>(voor St. James Church (Bronx, New York, N.Y.))</em></li>\n </ul>"
     sort_name: Sorteernaam
-    sort_name_tooltip: "<p>Een versie van de naam die alle delen van de naam in een bepaald agentrecord samenvoegt. Wordt gebruikt voor weergave of export.</p>\n<p>De sorteernaam kan worden bewerkt door het selectievakje voor Automatisch genereren uit te schakelen en vervolgens de gewenste sorteernaam in te voeren.</p>"
+    sort_name_tooltip: "<p>Een versie van de naam die alle delen van de naam in een bepaald actorrecord samenvoegt. Wordt gebruikt voor weergave of export.</p>\n<p>De sorteernaam kan worden bewerkt door het selectievakje voor Automatisch genereren uit te schakelen en vervolgens de gewenste sorteernaam in te voeren.</p>"
     authorized: Geautoriseerd
     is_display_name: Getoonde naam
     language: Taal
@@ -907,7 +907,7 @@ nl:
       <p>Een locatie die als kwalificatie wordt gebruikt om vergelijkbare naamvermeldingen te onderscheiden. Voorbeelden: Trigg County, Ky. (Voor Cunningham (Family: 1795-: Trigg County, Ky.)), Canadian Embassy, Tokyo (voor Twinning Conference Canada-Japan (1991: Canadian Embassy, Tokyo))</p>
   parallel_name_family:
     authority_id: Authority ID
-    authority_id_tooltip: "<p>De unieke identificatie voor het naamformulier voor een agent binnen de bron waarvan deze is verkregen (d.w.z. een MADS-record-ID of EAC-record-ID). De identificatie kan worden weergegeven als een URI.</p>\n<p>Zie DACS 13.2</p>\n<p>Voorbeelden:</p>\n <ul>\n<li>nr92045078 <em>voor een LCNAF name heading</em></li>\n<li>500115393 <em>voor een ULAN name heading</em></li>\n<li>http://viaf.org/viaf/134138653 <em>voor een VIAF name heading</em></li>\n </ul>"
+    authority_id_tooltip: "<p>De unieke identificatie voor het naamformulier voor een actor binnen de bron waarvan deze is verkregen (d.w.z. een MADS-record-ID of EAC-record-ID). De identificatie kan worden weergegeven als een URI.</p>\n<p>Zie DACS 13.2</p>\n<p>Voorbeelden:</p>\n <ul>\n<li>nr92045078 <em>voor een LCNAF name heading</em></li>\n<li>500115393 <em>voor een ULAN name heading</em></li>\n<li>http://viaf.org/viaf/134138653 <em>voor een VIAF name heading</em></li>\n </ul>"
     source: Bron
     source_tooltip: "<p> VOORWAARDELIJK VERPLICHT VELD, als naam Regels niet gebruikt is. Een indicator van de geaurthoriseerde bron waaruit de naam is gehaald.</p>\n<p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>"
     rules: Rules
@@ -931,12 +931,12 @@ nl:
     dates: Datums
     dates_tooltip: "<p>Gebruik dit veld voor afstemming met MARC-autorisatierecords. Deze datums worden in plaats van de datums van bestaan toegevoegd aan de naaminvoer op het scherm.</p>\n<p>Bestaansdatums voor de genoemde entiteit.</p>\n<p>Voorbeelden:</p>\n<ul>\n<li>1886-1961 <em>(voor H.D., Hilda Doolittle, 1886-1961)</em></li>\n </ul>"
     use_dates: Datering gebruik
-    use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de agent.</p>
+    use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de actor.</p>
     parallel_names_tooltip: <p>Kan worden gebruikt voor een parallelle naamvorm in andere talen en/of schriften, of voor een getranslitereerde naamvorm.</p>
     qualifier: Qualifier
     qualifier_tooltip: "<p>Een term of zin om twee naamvormen te onderscheiden die identiek zijn, maar twee verschillende entiteiten identificeren. De term kan een datum, een plaats of een andere geschikte omschrijving zijn.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Bloemisten <em>(voor de familie Smith family (Bloemisten))</em>)</li>\n<li>Bronx, New York, N.Y. <em>(voor St. James Church (Bronx, New York, N.Y.))</em></li>\n </ul>"
     sort_name: Sorteernaam
-    sort_name_tooltip: "<p>Een versie van de naam die alle delen van de naam in een bepaald agentrecord samenvoegt. Wordt gebruikt voor weergave of export.</p>\n<p>De sorteernaam kan worden bewerkt door het selectievakje voor Automatisch genereren uit te schakelen en vervolgens de gewenste sorteernaam in te voeren.</p>"
+    sort_name_tooltip: "<p>Een versie van de naam die alle delen van de naam in een bepaald actorrecord samenvoegt. Wordt gebruikt voor weergave of export.</p>\n<p>De sorteernaam kan worden bewerkt door het selectievakje voor Automatisch genereren uit te schakelen en vervolgens de gewenste sorteernaam in te voeren.</p>"
     authorized: Geautoriseerd
     is_display_name: Getoonde naam
     language: Taal
@@ -955,7 +955,7 @@ nl:
     location_tooltip: '<p>Een locatie die als kwalificatie wordt gebruikt om vergelijkbare naamvermeldingen te onderscheiden. Voorbeelden: Trigg County, Ky. (Voor Cunningham (Family: 1795-: Trigg County, Ky.)), Canadian Embassy, Tokyo (voor Twinning Conference Canada-Japan (1991: Canadian Embassy, Tokyo))</p>'
   name_corporate_entity:
     authority_id: Authority ID
-    authority_id_tooltip: "<p>De unieke identificatie voor het naamformulier voor een agent binnen de bron waarvan deze is verkregen (d.w.z. een MADS-record-ID of EAC-record-ID). De identificatie kan worden weergegeven als een URI.</p>\n<p>Zie DACS 13.2</p>\n<p>Voorbeelden:</p>\n <ul>\n<li>nr92045078 <em>voor een LCNAF name heading</em></li>\n<li>500115393 <em>voor een ULAN name heading</em></li>\n<li>http://viaf.org/viaf/134138653 <em>voor een VIAF name heading</em></li>\n </ul>"
+    authority_id_tooltip: "<p>De unieke identificatie voor het naamformulier voor een actor binnen de bron waarvan deze is verkregen (d.w.z. een MADS-record-ID of EAC-record-ID). De identificatie kan worden weergegeven als een URI.</p>\n<p>Zie DACS 13.2</p>\n<p>Voorbeelden:</p>\n <ul>\n<li>nr92045078 <em>voor een LCNAF name heading</em></li>\n<li>500115393 <em>voor een ULAN name heading</em></li>\n<li>http://viaf.org/viaf/134138653 <em>voor een VIAF name heading</em></li>\n </ul>"
     source: Bron
     source_tooltip: "<p> VOORWAARDELIJK VERPLICHT VELD, als naam Regels niet gebruikt is. Een indicator van de geaurthoriseerde bron waaruit de naam is gehaald.</p>\n<p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>"
     rules: Rules
@@ -979,12 +979,12 @@ nl:
     dates: Datums
     dates_tooltip: "<p>Gebruik dit veld voor afstemming met MARC-autorisatierecords. Deze datums worden in plaats van de datums van bestaan toegevoegd aan de naaminvoer op het scherm.</p>\n<p>Bestaansdatums voor de genoemde entiteit.</p>\n<p>Voorbeelden:</p>\n<ul>\n<li>1886-1961 <em>(voor H.D., Hilda Doolittle, 1886-1961)</em></li>\n </ul>"
     use_dates: Datering gebruik
-    use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de agent.</p>
+    use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de actor.</p>
     parallel_names_tooltip: <p>Kan worden gebruikt voor een parallelle naamvorm in andere talen en/of schriften, of voor een getranslitereerde naamvorm.</p>
     qualifier: Qualifier
     qualifier_tooltip: "<p>Een term of zin om twee naamvormen te onderscheiden die identiek zijn, maar twee verschillende entiteiten identificeren. De term kan een datum, een plaats of een andere geschikte omschrijving zijn.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Bloemisten <em>(voor de familie Smith family (Bloemisten))</em>)</li>\n<li>Bronx, New York, N.Y. <em>(voor St. James Church (Bronx, New York, N.Y.))</em></li>\n </ul>"
     sort_name: Sorteernaam
-    sort_name_tooltip: "<p>Een versie van de naam die alle delen van de naam in een bepaald agentrecord samenvoegt. Wordt gebruikt voor weergave of export.</p>\n<p>De sorteernaam kan worden bewerkt door het selectievakje voor Automatisch genereren uit te schakelen en vervolgens de gewenste sorteernaam in te voeren.</p>"
+    sort_name_tooltip: "<p>Een versie van de naam die alle delen van de naam in een bepaald actorrecord samenvoegt. Wordt gebruikt voor weergave of export.</p>\n<p>De sorteernaam kan worden bewerkt door het selectievakje voor Automatisch genereren uit te schakelen en vervolgens de gewenste sorteernaam in te voeren.</p>"
     authorized: Geautoriseerd
     is_display_name: Getoonde naam
     language: Taal
@@ -996,7 +996,7 @@ nl:
     _singular: Naamvorm
     _plural: Naamvormen
     subordinate_name_1: Ondergeschikte entiteit 1
-    subordinate_name_1_tooltip: |2
+    subordinate_name_1_tooltip: |
       <p>Een hiërarchische eenheid van de bedrijfsentiteit genoemd in het veld Primaire naam.</p>
       <p>Voorbeelden:</p>
        <ul>
@@ -1016,7 +1016,7 @@ nl:
       <p>Een locatie die als kwalificatie wordt gebruikt om vergelijkbare naamvermeldingen te onderscheiden. Voorbeelden: Trigg County, Ky. (Voor Cunningham (Family: 1795-: Trigg County, Ky.)), Canadian Embassy, Tokyo (voor Twinning Conference Canada-Japan (1991: Canadian Embassy, Tokyo))</p>
   parallel_name_corporate_entity:
     authority_id: Authority ID
-    authority_id_tooltip: "<p>De unieke identificatie voor het naamformulier voor een agent binnen de bron waarvan deze is verkregen (d.w.z. een MADS-record-ID of EAC-record-ID). De identificatie kan worden weergegeven als een URI.</p>\n<p>Zie DACS 13.2</p>\n<p>Voorbeelden:</p>\n <ul>\n<li>nr92045078 <em>voor een LCNAF name heading</em></li>\n<li>500115393 <em>voor een ULAN name heading</em></li>\n<li>http://viaf.org/viaf/134138653 <em>voor een VIAF name heading</em></li>\n </ul>"
+    authority_id_tooltip: "<p>De unieke identificatie voor het naamformulier voor een actor binnen de bron waarvan deze is verkregen (d.w.z. een MADS-record-ID of EAC-record-ID). De identificatie kan worden weergegeven als een URI.</p>\n<p>Zie DACS 13.2</p>\n<p>Voorbeelden:</p>\n <ul>\n<li>nr92045078 <em>voor een LCNAF name heading</em></li>\n<li>500115393 <em>voor een ULAN name heading</em></li>\n<li>http://viaf.org/viaf/134138653 <em>voor een VIAF name heading</em></li>\n </ul>"
     source: Bron
     source_tooltip: "<p> VOORWAARDELIJK VERPLICHT VELD, als naam Regels niet gebruikt is. Een indicator van de geaurthoriseerde bron waaruit de naam is gehaald.</p>\n<p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>"
     rules: Rules
@@ -1040,12 +1040,12 @@ nl:
     dates: Datums
     dates_tooltip: "<p>Gebruik dit veld voor afstemming met MARC-autorisatierecords. Deze datums worden in plaats van de datums van bestaan toegevoegd aan de naaminvoer op het scherm.</p>\n<p>Bestaansdatums voor de genoemde entiteit.</p>\n<p>Voorbeelden:</p>\n<ul>\n<li>1886-1961 <em>(voor H.D., Hilda Doolittle, 1886-1961)</em></li>\n </ul>"
     use_dates: Datering gebruik
-    use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de agent.</p>
+    use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de actor.</p>
     parallel_names_tooltip: <p>Kan worden gebruikt voor een parallelle naamvorm in andere talen en/of schriften, of voor een getranslitereerde naamvorm.</p>
     qualifier: Qualifier
     qualifier_tooltip: "<p>Een term of zin om twee naamvormen te onderscheiden die identiek zijn, maar twee verschillende entiteiten identificeren. De term kan een datum, een plaats of een andere geschikte omschrijving zijn.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Bloemisten <em>(voor de familie Smith family (Bloemisten))</em>)</li>\n<li>Bronx, New York, N.Y. <em>(voor St. James Church (Bronx, New York, N.Y.))</em></li>\n </ul>"
     sort_name: Sorteernaam
-    sort_name_tooltip: "<p>Een versie van de naam die alle delen van de naam in een bepaald agentrecord samenvoegt. Wordt gebruikt voor weergave of export.</p>\n<p>De sorteernaam kan worden bewerkt door het selectievakje voor Automatisch genereren uit te schakelen en vervolgens de gewenste sorteernaam in te voeren.</p>"
+    sort_name_tooltip: "<p>Een versie van de naam die alle delen van de naam in een bepaald actorrecord samenvoegt. Wordt gebruikt voor weergave of export.</p>\n<p>De sorteernaam kan worden bewerkt door het selectievakje voor Automatisch genereren uit te schakelen en vervolgens de gewenste sorteernaam in te voeren.</p>"
     authorized: Geautoriseerd
     is_display_name: Getoonde naam
     language: Taal
@@ -1068,7 +1068,7 @@ nl:
     location_tooltip: '<p>Een locatie die als kwalificatie wordt gebruikt om vergelijkbare naamvermeldingen te onderscheiden. Voorbeelden: Trigg County, Ky. (Voor Cunningham (Family: 1795-: Trigg County, Ky.)), Canadian Embassy, Tokyo (voor Twinning Conference Canada-Japan (1991: Canadian Embassy, Tokyo))</p>'
   name_software:
     authority_id: Authority ID
-    authority_id_tooltip: "<p>De unieke identificatie voor het naamformulier voor een agent binnen de bron waarvan deze is verkregen (d.w.z. een MADS-record-ID of EAC-record-ID). De identificatie kan worden weergegeven als een URI.</p>\n<p>Zie DACS 13.2</p>\n<p>Voorbeelden:</p>\n <ul>\n<li>nr92045078 <em>voor een LCNAF name heading</em></li>\n<li>500115393 <em>voor een ULAN name heading</em></li>\n<li>http://viaf.org/viaf/134138653 <em>voor een VIAF name heading</em></li>\n </ul>"
+    authority_id_tooltip: "<p>De unieke identificatie voor het naamformulier voor een actor binnen de bron waarvan deze is verkregen (d.w.z. een MADS-record-ID of EAC-record-ID). De identificatie kan worden weergegeven als een URI.</p>\n<p>Zie DACS 13.2</p>\n<p>Voorbeelden:</p>\n <ul>\n<li>nr92045078 <em>voor een LCNAF name heading</em></li>\n<li>500115393 <em>voor een ULAN name heading</em></li>\n<li>http://viaf.org/viaf/134138653 <em>voor een VIAF name heading</em></li>\n </ul>"
     source: Bron
     source_tooltip: "<p> VOORWAARDELIJK VERPLICHT VELD, als naam Regels niet gebruikt is. Een indicator van de geaurthoriseerde bron waaruit de naam is gehaald.</p>\n<p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>"
     rules: Rules
@@ -1092,12 +1092,12 @@ nl:
     dates: Datums
     dates_tooltip: "<p>Gebruik dit veld voor afstemming met MARC-autorisatierecords. Deze datums worden in plaats van de datums van bestaan toegevoegd aan de naaminvoer op het scherm.</p>\n<p>Bestaansdatums voor de genoemde entiteit.</p>\n<p>Voorbeelden:</p>\n<ul>\n<li>1886-1961 <em>(voor H.D., Hilda Doolittle, 1886-1961)</em></li>\n </ul>"
     use_dates: Datering gebruik
-    use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de agent.</p>
+    use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de actor.</p>
     parallel_names_tooltip: <p>Kan worden gebruikt voor een parallelle naamvorm in andere talen en/of schriften, of voor een getranslitereerde naamvorm.</p>
     qualifier: Qualifier
     qualifier_tooltip: "<p>Een term of zin om twee naamvormen te onderscheiden die identiek zijn, maar twee verschillende entiteiten identificeren. De term kan een datum, een plaats of een andere geschikte omschrijving zijn.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Bloemisten <em>(voor de familie Smith family (Bloemisten))</em>)</li>\n<li>Bronx, New York, N.Y. <em>(voor St. James Church (Bronx, New York, N.Y.))</em></li>\n </ul>"
     sort_name: Sorteernaam
-    sort_name_tooltip: "<p>Een versie van de naam die alle delen van de naam in een bepaald agentrecord samenvoegt. Wordt gebruikt voor weergave of export.</p>\n<p>De sorteernaam kan worden bewerkt door het selectievakje voor Automatisch genereren uit te schakelen en vervolgens de gewenste sorteernaam in te voeren.</p>"
+    sort_name_tooltip: "<p>Een versie van de naam die alle delen van de naam in een bepaald actorrecord samenvoegt. Wordt gebruikt voor weergave of export.</p>\n<p>De sorteernaam kan worden bewerkt door het selectievakje voor Automatisch genereren uit te schakelen en vervolgens de gewenste sorteernaam in te voeren.</p>"
     authorized: Geautoriseerd
     is_display_name: Getoonde naam
     language: Taal
@@ -1109,7 +1109,7 @@ nl:
     _singular: Naamvorm
     _plural: Naamvormen
     software_name: Naam software
-    software_name_tooltip: |2
+    software_name_tooltip: |
       <p>De naam van een softwarepakket.</p>
        <p> Voorbeelden: </p>
        <ul>
@@ -1117,7 +1117,7 @@ nl:
       <li>Bagger <em>(voor Library of Congress Bagger 2.1.2)</em></li>
        </ul>
     version: Versie
-    version_tooltip: |2
+    version_tooltip: |
       <p>Het versienummer of een andere indicatie van een specifieke versie van een softwarepakket.</p>
       <p>Voorbeelden:</p>
        <ul>
@@ -1125,7 +1125,7 @@ nl:
       <li>2.1.2 <em>(voor Library of Congress Bagger 2.1.2)</em></li>
        </ul>
     manufacturer: Manufacturer
-    manufacturer_tooltip: |2
+    manufacturer_tooltip: |
       <p>De producent, maker of andere verantwoordelijke partij voor de distributie, ontwikkeling of onderhoud van een softwarepakket.</p>
       <p>Voorbeelden:</p>
        <ul>
@@ -1134,7 +1134,7 @@ nl:
        </ul>
   parallel_name_software:
     authority_id: Authority ID
-    authority_id_tooltip: "<p>De unieke identificatie voor het naamformulier voor een agent binnen de bron waarvan deze is verkregen (d.w.z. een MADS-record-ID of EAC-record-ID). De identificatie kan worden weergegeven als een URI.</p>\n<p>Zie DACS 13.2</p>\n<p>Voorbeelden:</p>\n <ul>\n<li>nr92045078 <em>voor een LCNAF name heading</em></li>\n<li>500115393 <em>voor een ULAN name heading</em></li>\n<li>http://viaf.org/viaf/134138653 <em>voor een VIAF name heading</em></li>\n </ul>"
+    authority_id_tooltip: "<p>De unieke identificatie voor het naamformulier voor een actor binnen de bron waarvan deze is verkregen (d.w.z. een MADS-record-ID of EAC-record-ID). De identificatie kan worden weergegeven als een URI.</p>\n<p>Zie DACS 13.2</p>\n<p>Voorbeelden:</p>\n <ul>\n<li>nr92045078 <em>voor een LCNAF name heading</em></li>\n<li>500115393 <em>voor een ULAN name heading</em></li>\n<li>http://viaf.org/viaf/134138653 <em>voor een VIAF name heading</em></li>\n </ul>"
     source: Bron
     source_tooltip: "<p> VOORWAARDELIJK VERPLICHT VELD, als naam Regels niet gebruikt is. Een indicator van de geaurthoriseerde bron waaruit de naam is gehaald.</p>\n<p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>"
     rules: Rules
@@ -1158,12 +1158,12 @@ nl:
     dates: Datums
     dates_tooltip: "<p>Gebruik dit veld voor afstemming met MARC-autorisatierecords. Deze datums worden in plaats van de datums van bestaan toegevoegd aan de naaminvoer op het scherm.</p>\n<p>Bestaansdatums voor de genoemde entiteit.</p>\n<p>Voorbeelden:</p>\n<ul>\n<li>1886-1961 <em>(voor H.D., Hilda Doolittle, 1886-1961)</em></li>\n </ul>"
     use_dates: Datering gebruik
-    use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de agent.</p>
+    use_dates_tooltip: <p>Datums waarop deze naam is gebruikt voor de actor.</p>
     parallel_names_tooltip: <p>Kan worden gebruikt voor een parallelle naamvorm in andere talen en/of schriften, of voor een getranslitereerde naamvorm.</p>
     qualifier: Qualifier
     qualifier_tooltip: "<p>Een term of zin om twee naamvormen te onderscheiden die identiek zijn, maar twee verschillende entiteiten identificeren. De term kan een datum, een plaats of een andere geschikte omschrijving zijn.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Bloemisten <em>(voor de familie Smith family (Bloemisten))</em>)</li>\n<li>Bronx, New York, N.Y. <em>(voor St. James Church (Bronx, New York, N.Y.))</em></li>\n </ul>"
     sort_name: Sorteernaam
-    sort_name_tooltip: "<p>Een versie van de naam die alle delen van de naam in een bepaald agentrecord samenvoegt. Wordt gebruikt voor weergave of export.</p>\n<p>De sorteernaam kan worden bewerkt door het selectievakje voor Automatisch genereren uit te schakelen en vervolgens de gewenste sorteernaam in te voeren.</p>"
+    sort_name_tooltip: "<p>Een versie van de naam die alle delen van de naam in een bepaald actorrecord samenvoegt. Wordt gebruikt voor weergave of export.</p>\n<p>De sorteernaam kan worden bewerkt door het selectievakje voor Automatisch genereren uit te schakelen en vervolgens de gewenste sorteernaam in te voeren.</p>"
     authorized: Geautoriseerd
     is_display_name: Getoonde naam
     language: Taal
@@ -1192,31 +1192,31 @@ nl:
     maintenance_status_tooltip: |
       <p>Geeft de huidige status van het record.</p>
     publication_status_tooltip: |
-      <p>Geeft aan of een agentrecord gepubliceerd wordt.</p>
+      <p>Geeft aan of een actorrecord gepubliceerd wordt.</p>
     romanization_tooltip: |
       <p>Geeft aan of het geautoriseerde naamvorm is geromaniseerd vanuit een niet-Latijns schrift, en het type romanisatieschema. Voorbeeld: standaard voor nationale bibliotheek of bibliografisch bureau (voor ALA-LC Romanization Table (bijv.Kasparov, G. K. (Garri Kimovich) voor Каспаров, Г. К. (Гарри Кимович)).</p>
     government_agency_type_tooltip: |
       <p>Geeft het type instantie of rechtsgebied aan dat wordt vertegenwoordigd door het geautoriseerde naamformulier.</p>
     reference_evaluation_tooltip: |
-      <p>Geeft de mate van consistentie aan tussen het geautoriseerde naamvorm en andere naamvormen in het agentrecord. Als er geen aanvullende vormen zijn, moet het veld worden geregistreerd als "Niet van toepassing".</p>
+      <p>Geeft de mate van consistentie aan tussen het geautoriseerde naamvorm en andere naamvormen in het actorrecord. Als er geen aanvullende vormen zijn, moet het veld worden geregistreerd als "Niet van toepassing".</p>
     name_type_tooltip: |
-      <p>Geeft het unieke karakter van het geautoriseerde naamvorm binnen de Agents-module aan. Unieke namen moeten worden geregistreerd als 'Gedifferentieerd', terwijl agentrecords die worden gebruikt om meerdere agenten met identieke namen te verzamelen, moeten worden gemarkeerd als 'Ongedifferentieerd'.</p>
+      <p>Geeft het unieke karakter van het geautoriseerde naamvorm binnen de actoren-module aan. Unieke namen moeten worden geregistreerd als 'Gedifferentieerd', terwijl actorrecords die worden gebruikt om meerdere actoren met identieke namen te verzamelen, moeten worden gemarkeerd als 'Ongedifferentieerd'.</p>
     level_of_detail_tooltip: |
       <p>Geeft de volledigheid aan van het Agentrecord volgens de lokale vereisten.</p>
     modified_record_tooltip: |
-      <p>Geeft aan of een agentrecord is gewijzigd en hoe deze is gewijzigd.</p>
+      <p>Geeft aan of een actorrecord is gewijzigd en hoe deze is gewijzigd.</p>
     cataloging_source_tooltip: |
-      <p>Geeft aan waar een agentrecord vandaan komt. Lokaal geproduceerde records die niet zijn ingediend bij een coöperatief catalogusprogramma, moeten worden geregistreerd als "Overige".</p>
+      <p>Geeft aan waar een actorrecord vandaan komt. Lokaal geproduceerde records die niet zijn ingediend bij een coöperatief catalogusprogramma, moeten worden geregistreerd als "Overige".</p>
     maintenance_agency_tooltip: |
-      <p>Codewaarde voor het bureau of de organisatie die verantwoordelijk is voor het maken of bijhouden van een agentrecord. De codewaarde moet uit een register worden gehaald en worden vastgelegd met behulp van ISO 15511-conventies. Voorbeeld: US-UPB (voor Brigham Young University, met gebruikmaking van de MARC-organisatiecode van de Library of Congress).</p>
+      <p>Codewaarde voor het bureau of de organisatie die verantwoordelijk is voor het maken of bijhouden van een actorrecord. De codewaarde moet uit een register worden gehaald en worden vastgelegd met behulp van ISO 15511-conventies. Voorbeeld: US-UPB (voor Brigham Young University, met gebruikmaking van de MARC-organisatiecode van de Library of Congress).</p>
     agency_name_tooltip: |
-      <p>De naam van het bureau of de organisatie die verantwoordelijk is voor het maken of bijhouden van een agentrecord. De geregistreerde naam moet overeenkomen met het naamformulier dat is gekoppeld aan de codewaarde in het register. Voorbeeld: Brigham Young University, Harold B. Lee Library (voor codewaarde UPB, gebruikmakend van Library of Congress MARC Organization Code).</p>
+      <p>De naam van het bureau of de organisatie die verantwoordelijk is voor het maken of bijhouden van een actorrecord. De geregistreerde naam moet overeenkomen met het naamformulier dat is gekoppeld aan de codewaarde in het register. Voorbeeld: Brigham Young University, Harold B. Lee Library (voor codewaarde UPB, gebruikmakend van Library of Congress MARC Organization Code).</p>
     maintenance_agency_note_tooltip: |
-      <p>De inhoud van de notitie, met details over het onderhoudsbedrijf dat verantwoordelijk is voor de agentbeschrijving.</p>
+      <p>De inhoud van de notitie, met details over het onderhoudsbedrijf dat verantwoordelijk is voor de actorbeschrijving.</p>
     language_tooltip: |
-      <p>De taal die wordt gebruikt bij het opstellen van de agentbeschrijving. Voorbeeld: Engels.</p>
+      <p>De taal die wordt gebruikt bij het opstellen van de actorbeschrijving. Voorbeeld: Engels.</p>
     script_tooltip: |
-      <p> Het tekstscript dat wordt gebruikt bij het opstellen van de agentbeschrijving. Voorbeeld: Latijn. </p>
+      <p> Het tekstscript dat wordt gebruikt bij het opstellen van de actorbeschrijving. Voorbeeld: Latijn. </p>
     language_note_tooltip: |
       <p> De inhoud van de notitie, met details over de taal en scripts die worden gebruikt bij het opstellen van de Agentbeschrijving. </p>
   agent_alternate_set:
@@ -1227,7 +1227,7 @@ nl:
     file_uri_tooltip: |
       <p> Een URI voor een gelijkwaardig record in een extern machtigingsbestand. Voorbeeld: http://id.loc.gov/authorities/names/n80060393 (voor Library of Congress Linked Data Serviceentry voor Robert W. Service). </p>
     file_version_xlink_actuate_attribute_tooltip: |
-      <p> Geeft aan of de bijbehorende URI moet worden opgelost wanneer het agentrecord wordt weergegeven. </p>
+      <p> Geeft aan of de bijbehorende URI moet worden opgelost wanneer het actorrecord wordt weergegeven. </p>
     file_version_xlink_show_attribute_tooltip: |
       <p> Geeft aan waar de externe bron die in de bijbehorende URI is gekoppeld, moet worden weergegeven. </p>
     xlink_title_attribute_tooltip: |
@@ -1246,9 +1246,9 @@ nl:
     descriptive_note_tooltip: |
       <p> De inhoud van de notitie, met details over de conventie, werd gebruikt bij het opstellen van de Agentbeschrijving. Voorbeeld: gebruikt voor het formuleren van de inhoud van biografische geschiedenissen. (voor het beschrijven van archieven: een inhoudsnorm). </p>
     file_uri_tooltip: |
-      <p> Een URI voor de online locatie van de conventie die wordt gebruikt bij het opstellen van de agentbeschrijving. Voorbeeld: http://www2.archivists.org/standards/DACS/ (voor het beschrijven van archieven: een inhoudsnorm). </p>
+      <p> Een URI voor de online locatie van de conventie die wordt gebruikt bij het opstellen van de actorbeschrijving. Voorbeeld: http://www2.archivists.org/standards/DACS/ (voor het beschrijven van archieven: een inhoudsnorm). </p>
     file_version_xlink_actuate_attribute_tooltip: |
-      <p> Geeft aan of de bijbehorende URI moet worden opgelost wanneer het agentrecord wordt weergegeven. </p>
+      <p> Geeft aan of de bijbehorende URI moet worden opgelost wanneer het actorrecord wordt weergegeven. </p>
     file_version_xlink_show_attribute_tooltip: |
       <p> Geeft aan waar de externe bron die in de bijbehorende URI is gekoppeld, moet worden weergegeven. </p>
     xlink_title_attribute_tooltip: |
@@ -1263,7 +1263,7 @@ nl:
     agency_code_type_tooltip: |
       <p> De bron van de onderhoudscode. Voorbeeld: OCLC. </p>
     maintenance_agency_tooltip: |
-      <p> Alternatieve codewaarden voor het bureau of de organisatie die verantwoordelijk is voor het maken of bijhouden van een agentrecord. De codewaarde moet uit een register worden gehaald en worden vastgelegd met behulp van ISO 15511-conventies. Voorbeeld: OCLC-UBY (voor de Verenigde Staten, Brigham Young University, met het OCLC-symbool). </p>
+      <p> Alternatieve codewaarden voor het bureau of de organisatie die verantwoordelijk is voor het maken of bijhouden van een actorrecord. De codewaarde moet uit een register worden gehaald en worden vastgelegd met behulp van ISO 15511-conventies. Voorbeeld: OCLC-UBY (voor de Verenigde Staten, Brigham Young University, met het OCLC-symbool). </p>
   agent_maintenance_histories:
     maintenance_event_type_tooltip: |
       <p> Geeft het type onderhoudsgebeurtenis aan. </p>
@@ -1281,9 +1281,9 @@ nl:
     descriptive_note_tooltip: |
       <p> De inhoud van de notitie, met details over de inhoud van de bronnen die zijn gebruikt ter voorbereiding van de Agentbeschrijving. </p>
     file_uri_tooltip: |
-      <p> Een URI voor de online locatie van de bron die is gebruikt bij het opstellen van de agentbeschrijving. Voorbeeld: http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=8373 (voor Find-A-Grave-invoer voor Robert W. Service). </p>
+      <p> Een URI voor de online locatie van de bron die is gebruikt bij het opstellen van de actorbeschrijving. Voorbeeld: http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=8373 (voor Find-A-Grave-invoer voor Robert W. Service). </p>
     file_version_xlink_actuate_attribute_tooltip: |
-      <p> Geeft aan of de bijbehorende URI moet worden opgelost wanneer het agentrecord wordt weergegeven. </p>
+      <p> Geeft aan of de bijbehorende URI moet worden opgelost wanneer het actorrecord wordt weergegeven. </p>
     file_version_xlink_show_attribute_tooltip: |
       <p> Geeft aan waar de externe bron die in de bijbehorende URI is gekoppeld, moet worden weergegeven. </p>
     xlink_title_attribute_tooltip: |
@@ -1301,27 +1301,27 @@ nl:
       <p> Geeft het type of de bron van de geregistreerde entiteits-ID aan. </p>
   used_language:
     language_tooltip: |
-      <p> De taal / talen die aan de agent zijn gekoppeld. Voorbeeld: Engels. </p>
+      <p> De taal / talen die aan de actor zijn gekoppeld. Voorbeeld: Engels. </p>
     script_tooltip: |
-      <p> Het tekstscript dat aan de agent is gekoppeld. Voorbeeld: Latijn. </p>
+      <p> Het tekstscript dat aan de actor is gekoppeld. Voorbeeld: Latijn. </p>
   agent_gender:
     gender_tooltip: |
       <p> Geslacht van het onderwerp. </p>
       <p> Waarden voor deze lijst kunnen worden toegevoegd of gewijzigd via het menu Systeem - Beheer gecontroleerde waardenlijsten. </p>
   agent_place:
     place_role_tooltip: |
-      <p> Geeft de relatie aan tussen de geografische locatie en de agent. </p>
+      <p> Geeft de relatie aan tussen de geografische locatie en de actor. </p>
   agent_resource:
     linked_agent_role_tooltip: |
       <p> VEREIST VELD: het type relatie van de entiteit dat wordt beschreven met de bron. </p>
     linked_resource_tooltip: |
-      <p> Een bron gerelateerd aan de agent / entiteit. </p>
+      <p> Een bron gerelateerd aan de actor / entiteit. </p>
     linked_resource_description_tooltip: |
       <p> Vrij tekstveld voor het opnemen van bibliografische informatie, gerelateerde verzamelingsinformatie, enz. </p>
     file_uri_tooltip: |
-      <p> Een URI voor de online locatie van de bron die is gebruikt bij het opstellen van de agentbeschrijving. Voorbeeld: http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=8373 (voor Find-A-Grave-invoer voor Robert W. Service). </p>
+      <p> Een URI voor de online locatie van de bron die is gebruikt bij het opstellen van de actorbeschrijving. Voorbeeld: http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=8373 (voor Find-A-Grave-invoer voor Robert W. Service). </p>
     file_version_xlink_actuate_attribute_tooltip: |
-      <p> Geeft aan of de bijbehorende URI moet worden opgelost wanneer het agentrecord wordt weergegeven. </p>
+      <p> Geeft aan of de bijbehorende URI moet worden opgelost wanneer het actorrecord wordt weergegeven. </p>
     file_version_xlink_show_attribute_tooltip: |
       <p> Geeft aan waar de externe bron die in de bijbehorende URI is gekoppeld, moet worden weergegeven. </p>
     xlink_title_attribute_tooltip: |
@@ -1334,7 +1334,7 @@ nl:
       <p> Laatste datum of datum en tijd waarop de gekoppelde bron die in de bijbehorende URI is gekoppeld, is geverifieerd. </p>
   subrecord_subject_agent_place:
     subjects_tooltip: |
-      <p> Een geografische locatie die aan de agent is gekoppeld. </p>
+      <p> Een geografische locatie die aan de actor is gekoppeld. </p>
   subrecord_subject_agent_occupation:
     subjects_tooltip: |
       <p> Het beroep van de actor. </p>
@@ -1343,13 +1343,13 @@ nl:
       <p> Een geografische locatie die verband houdt met de beroepen. </p>
   subrecord_subject_agent_function:
     subjects_tooltip: |
-      <p> Termen die worden gebruikt om de functies, processen, taken, activiteiten of transacties te identificeren die door de agent worden uitgevoerd. </p>
+      <p> Termen die worden gebruikt om de functies, processen, taken, activiteiten of transacties te identificeren die door de actor worden uitgevoerd. </p>
   subrecord_subject_agent_function_place:
     places_tooltip: |
       <p> Een geografische locatie die is gekoppeld aan de functies. </p>
   subrecord_subject_agent_topic:
     subjects_tooltip: |
-      <p> Een onderwerp dat verband houdt met de agent. </p>
+      <p> Een onderwerp dat verband houdt met de actor. </p>
   subrecord_subject_agent_topic_place:
     places_tooltip: |
       <p> Een geografische locatie die is gekoppeld aan de onderwerpen. </p>
@@ -1523,10 +1523,10 @@ nl:
       <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
   related_agent:
     relationship_type: Algemeen relatietype
-    relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de agents beschrijft.
+    relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de actoren beschrijft.
     relator: Directioneel relatietype
     specific_relator: Specifiek relatietype
-    specific_relator_tooltip: Een term die de algemene relatie tussen agents verder specificeert.
+    specific_relator_tooltip: Een term die de algemene relatie tussen actoren verder specificeert.
     relationship_uri: Relatie URI
     relationship_uri_tooltip: Een URI die verwijst naar een bron voor relatietypes, gebruikt voor EAC-CPF.
     relator_tooltip: Wanneer een algemeen relatietype deel uitmaakt van een paar met twee mogelijkheden voor richting (zoals ouder-kind), een gecontroleerde term die de richting van de relatie aangeeft.
@@ -1535,15 +1535,15 @@ nl:
     date: Datum
     dates: Datums
     ref: Gerelateerde actor
-    related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire agent.
+    related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire actor.
     _singular: Gerelateerde actor
     _plural: Gerelateerde actoren
   related_agents:
     relationship_type: Algemeen relatietype
-    relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de agents beschrijft.
+    relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de actoren beschrijft.
     relator: Directioneel relatietype
     specific_relator: Specifiek relatietype
-    specific_relator_tooltip: Een term die de algemene relatie tussen agents verder specificeert.
+    specific_relator_tooltip: Een term die de algemene relatie tussen actoren verder specificeert.
     relationship_uri: Relatie URI
     relationship_uri_tooltip: Een URI die verwijst naar een bron voor relatietypes, gebruikt voor EAC-CPF.
     relator_tooltip: Wanneer een algemeen relatietype deel uitmaakt van een paar met twee mogelijkheden voor richting (zoals ouder-kind), een gecontroleerde term die de richting van de relatie aangeeft.
@@ -1552,15 +1552,15 @@ nl:
     date: Datum
     dates: Datums
     ref: Gerelateerde actor
-    related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire agent.
+    related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire actor.
     _singular: Gerelateerde actor
     _plural: Gerelateerde actoren
   agent_relationship_parentchild:
     relationship_type: Algemeen relatietype
-    relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de agents beschrijft.
+    relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de actoren beschrijft.
     relator: Directioneel relatietype
     specific_relator: Specifiek relatietype
-    specific_relator_tooltip: Een term die de algemene relatie tussen agents verder specificeert.
+    specific_relator_tooltip: Een term die de algemene relatie tussen actoren verder specificeert.
     relationship_uri: Relatie URI
     relationship_uri_tooltip: Een URI die verwijst naar een bron voor relatietypes, gebruikt voor EAC-CPF.
     relator_tooltip: Wanneer een algemeen relatietype deel uitmaakt van een paar met twee mogelijkheden voor richting (zoals ouder-kind), een gecontroleerde term die de richting van de relatie aangeeft.
@@ -1569,15 +1569,15 @@ nl:
     date: Datum
     dates: Datums
     ref: Gerelateerde actor
-    related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire agent.
+    related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire actor.
     _singular: Ouder/Kind relatie
     _plural: Gerelateerde actoren
   agent_relationship_earlierlater:
     relationship_type: Algemeen relatietype
-    relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de agents beschrijft.
+    relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de actoren beschrijft.
     relator: Directioneel relatietype
     specific_relator: Specifiek relatietype
-    specific_relator_tooltip: Een term die de algemene relatie tussen agents verder specificeert.
+    specific_relator_tooltip: Een term die de algemene relatie tussen actoren verder specificeert.
     relationship_uri: Relatie URI
     relationship_uri_tooltip: Een URI die verwijst naar een bron voor relatietypes, gebruikt voor EAC-CPF.
     relator_tooltip: Wanneer een algemeen relatietype deel uitmaakt van een paar met twee mogelijkheden voor richting (zoals ouder-kind), een gecontroleerde term die de richting van de relatie aangeeft.
@@ -1586,15 +1586,15 @@ nl:
     date: Datum
     dates: Datums
     ref: Gerelateerde actor
-    related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire agent.
+    related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire actor.
     _singular: Vroeger/Later relatie
     _plural: Gerelateerde actoren
   agent_relationship_subordinatesuperior:
     relationship_type: Algemeen relatietype
-    relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de agents beschrijft.
+    relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de actoren beschrijft.
     relator: Directioneel relatietype
     specific_relator: Specifiek relatietype
-    specific_relator_tooltip: Een term die de algemene relatie tussen agents verder specificeert.
+    specific_relator_tooltip: Een term die de algemene relatie tussen actoren verder specificeert.
     relationship_uri: Relatie URI
     relationship_uri_tooltip: Een URI die verwijst naar een bron voor relatietypes, gebruikt voor EAC-CPF.
     relator_tooltip: Wanneer een algemeen relatietype deel uitmaakt van een paar met twee mogelijkheden voor richting (zoals ouder-kind), een gecontroleerde term die de richting van de relatie aangeeft.
@@ -1603,15 +1603,15 @@ nl:
     date: Datum
     dates: Datums
     ref: Gerelateerde actor
-    related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire agent.
+    related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire actor.
     _singular: Ondergeschikte/bovengeschikte relatie
     _plural: Gerelateerde actoren
   agent_relationship_associative:
     relationship_type: Algemeen relatietype
-    relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de agents beschrijft.
+    relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de actoren beschrijft.
     relator: Directioneel relatietype
     specific_relator: Specifiek relatietype
-    specific_relator_tooltip: Een term die de algemene relatie tussen agents verder specificeert.
+    specific_relator_tooltip: Een term die de algemene relatie tussen actoren verder specificeert.
     relationship_uri: Relatie URI
     relationship_uri_tooltip: Een URI die verwijst naar een bron voor relatietypes, gebruikt voor EAC-CPF.
     relator_tooltip: Wanneer een algemeen relatietype deel uitmaakt van een paar met twee mogelijkheden voor richting (zoals ouder-kind), een gecontroleerde term die de richting van de relatie aangeeft.
@@ -1620,15 +1620,15 @@ nl:
     date: Datum
     dates: Datums
     ref: Gerelateerde actor
-    related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire agent.
+    related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire actor.
     _singular: Associative relatie
     _plural: Gerelateerde actoren
   agent_relationship_identity:
     relationship_type: Algemeen relatietype
-    relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de agents beschrijft.
+    relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de actoren beschrijft.
     relator: Directioneel relatietype
     specific_relator: Specifiek relatietype
-    specific_relator_tooltip: Een term die de algemene relatie tussen agents verder specificeert.
+    specific_relator_tooltip: Een term die de algemene relatie tussen actoren verder specificeert.
     relationship_uri: Relatie URI
     relationship_uri_tooltip: Een URI die verwijst naar een bron voor relatietypes, gebruikt voor EAC-CPF.
     relator_tooltip: Wanneer een algemeen relatietype deel uitmaakt van een paar met twee mogelijkheden voor richting (zoals ouder-kind), een gecontroleerde term die de richting van de relatie aangeeft.
@@ -1637,15 +1637,15 @@ nl:
     date: Datum
     dates: Datums
     ref: Gerelateerde actor
-    related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire agent.
+    related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire actor.
     _singular: Identiteitsrelatie
     _plural: Gerelateerde actoren
   agent_relationship_hierarchical:
     relationship_type: Algemeen relatietype
-    relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de agents beschrijft.
+    relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de actoren beschrijft.
     relator: Directioneel relatietype
     specific_relator: Specifiek relatietype
-    specific_relator_tooltip: Een term die de algemene relatie tussen agents verder specificeert.
+    specific_relator_tooltip: Een term die de algemene relatie tussen actoren verder specificeert.
     relationship_uri: Relatie URI
     relationship_uri_tooltip: Een URI die verwijst naar een bron voor relatietypes, gebruikt voor EAC-CPF.
     relator_tooltip: Wanneer een algemeen relatietype deel uitmaakt van een paar met twee mogelijkheden voor richting (zoals ouder-kind), een gecontroleerde term die de richting van de relatie aangeeft.
@@ -1654,15 +1654,15 @@ nl:
     date: Datum
     dates: Datums
     ref: Gerelateerde actor
-    related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire agent.
+    related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire actor.
     _singular: Hiërarchische relatie
     _plural: Gerelateerde actoren
   agent_relationship_temporal:
     relationship_type: Algemeen relatietype
-    relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de agents beschrijft.
+    relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de actoren beschrijft.
     relator: Directioneel relatietype
     specific_relator: Specifiek relatietype
-    specific_relator_tooltip: Een term die de algemene relatie tussen agents verder specificeert.
+    specific_relator_tooltip: Een term die de algemene relatie tussen actoren verder specificeert.
     relationship_uri: Relatie URI
     relationship_uri_tooltip: Een URI die verwijst naar een bron voor relatietypes, gebruikt voor EAC-CPF.
     relator_tooltip: Wanneer een algemeen relatietype deel uitmaakt van een paar met twee mogelijkheden voor richting (zoals ouder-kind), een gecontroleerde term die de richting van de relatie aangeeft.
@@ -1671,15 +1671,15 @@ nl:
     date: Datum
     dates: Datums
     ref: Gerelateerde actor
-    related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire agent.
+    related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire actor.
     _singular: Temporele relatie
     _plural: Gerelateerde actoren
   agent_relationship_family:
     relationship_type: Algemeen relatietype
-    relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de agents beschrijft.
+    relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de actoren beschrijft.
     relator: Directioneel relatietype
     specific_relator: Specifiek relatietype
-    specific_relator_tooltip: Een term die de algemene relatie tussen agents verder specificeert.
+    specific_relator_tooltip: Een term die de algemene relatie tussen actoren verder specificeert.
     relationship_uri: Relatie URI
     relationship_uri_tooltip: Een URI die verwijst naar een bron voor relatietypes, gebruikt voor EAC-CPF.
     relator_tooltip: Wanneer een algemeen relatietype deel uitmaakt van een paar met twee mogelijkheden voor richting (zoals ouder-kind), een gecontroleerde term die de richting van de relatie aangeeft.
@@ -1688,7 +1688,7 @@ nl:
     date: Datum
     dates: Datums
     ref: Gerelateerde actor
-    related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire agent.
+    related_agent_tooltip: De persoon, familie of organisatie die verband houdt met de primaire actor.
     _singular: Familie relatie
     _plural: Gerelateerde actoren
   note:
@@ -2156,7 +2156,7 @@ nl:
     xlink_show_attribute_tooltip: |
       <p>Een XLink-attribuut dat wordt gebruikt voor export om aan te geven hoe het doel van een link moet worden weergegeven. Het wordt gebruikt in combinatie met de XLink Actuate attribuut.</p>
     file_format_name: Naam bestandsformaat
-    file_format_name_tooltip: |2
+    file_format_name_tooltip: |
       <p>De naam van het bestandsformaat.</p>
       <p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>
        <p> Voorbeelden: </p>
@@ -2168,7 +2168,7 @@ nl:
       <li>Portable Document Format (pdf)</li>
        </ul>
     file_format_version: Versie bestandsfromaat
-    file_format_version_tooltip: |2
+    file_format_version_tooltip: |
       <p>De versie van het bestandsformaat.</p>
        <p> Voorbeelden: </p>
        <ul>
@@ -2181,7 +2181,7 @@ nl:
     checksum_tooltip: |
       <p>Een digitale handtekening voor het controleren van de integriteit en authenticiteit van een digitaal bestand.</p>
     checksum_method: Checksum methode
-    checksum_method_tooltip: |2
+    checksum_method_tooltip: |
       <p>Het algoritme dat wordt gebruikt voor het genereren van checksums.</p>
       <p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>
        <p> Voorbeelden: </p>
@@ -2209,7 +2209,7 @@ nl:
       <p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>
       <p>Zie DACS 2.5</p>
     container_summary: Overzicht verpakking
-    container_summary_tooltip: |2
+    container_summary_tooltip: |
       <p>Een lijst met containers en containertypen waarin de materialen zijn ondergebracht die worden beschreven in het componentrecord.</p>
        <p> Voorbeelden: </p>
        <ul>
@@ -2222,7 +2222,7 @@ nl:
       <p>Andere fysieke details van de beschreven materialen, bijv. analoog, zwart-wit, negatieven.</p>
       <p>Zie DACS 2.5</p>
     dimensions: Afmetingen
-    dimensions_tooltip: |2
+    dimensions_tooltip: |
       <p>Afmetingen van de beschreven materialen.</p>
       <p>Zie DACS 2.5</p>
        <p> Voorbeelden: </p>
@@ -2257,7 +2257,7 @@ nl:
     title_tooltip: |
       <p>De titel van een extern document waarnaar in het record wordt verwezen. Het document kan elke vorm of inhoud hebben. Een via het web toegankelijk bestand, een via het netwerk toegankelijk bestand, een bestand op dezelfde computer als de applicatie, enz.</p>
     location: Locatie
-    location_tooltip: |2
+    location_tooltip: |
       <p>De locatie van het bestand, bij voorkeur een resolvable URI.</p>
        <p> Voorbeelden: </p>
        <ul>
@@ -2298,7 +2298,7 @@ nl:
       <p>De basis voor het maken van de rechtenverklaring. Vier bases zijn toegestaan: Copyright, Licentie, Statuut en Overig.</p>
     rights_type_message: Selecteer een Rechtentype
     status: Status
-    status_tooltip: |2
+    status_tooltip: |
       <p>Een gecodeerde aanduiding voor de copyrightstatus van het object op het moment dat de rechtenverklaring wordt vastgelegd.</p>
        <ul>
         <li>Copyright</li>
@@ -2309,7 +2309,7 @@ nl:
     license_terms_tooltip: |
       <p>Een verklaring (feitelijk tekstfragment of samenvatting) van de machtigingen die in de licentie zijn verleend.</p>
     statute_citation: Statuut citatie
-    statute_citation_tooltip: |2
+    statute_citation_tooltip: |
       <p>Een citaat, URI of andere verwijzing naar het statuut met betrekking tot deze Rechtenverklaring.</p>
        <p> Voorbeelden: </p>
        <ul>
@@ -2321,7 +2321,7 @@ nl:
       <p> Statuut: het land of een ander politiek orgaan dat het statuut uitvaardigt. </p>
       <p> Voldoet aan ISO 3166. </p>
     type_note: Type noot
-    type_note_tooltip: |2
+    type_note_tooltip: |
       <p>Alle aanvullende informatie over het auteursrecht, de licentie, het statuut of het institutionele beleid en / of over de toepassing ervan op het beschreven materiaal.</p>
        <p> Voorbeelden: </p>
        <ul>
@@ -2460,7 +2460,7 @@ nl:
       <p>VERPLICHT VELD: Geeft het type aan voor genormaliseerde datuminformatie, een enkele datum of een datumbereik (inclusief of bulk).</p>
     date_type_message: Selecteer een type om een genormaliseerde datum of datumbereik in te voeren
     expression: Bewoording
-    expression_tooltip: |2
+    expression_tooltip: |
       <p>VOORWAARDELIJK VERPLICHT VELD: een uitdrukking in natuurlijke taal die de datum of het datumbereik van de materialen specificeert. Vereist als er geen genormaliseerde datum is vastgelegd.</p>
       <p>Zie DACS 2.4</p>
        <p> Voorbeelden: </p>
@@ -2760,20 +2760,20 @@ nl:
 
       <p>Zie DACS 5.2.5</p>
     content_description: Inhoudelijke beschrijving
-    content_description_tooltip: |2
+    content_description_tooltip: |
       <p>Een beschrijving van de documenttypes en inhoud van de aanwinst.</p>
 
       <p>Zie DACS 3.1.4-3.1.7</p>
        <p> Voorbeelden: </p>
       <p>Tien dozen met materiaal met veldaantekeningen, dagboeken en ontwerpen van kaarten die de 10 jaar verblijf van dhr. Smith op de Otay Mesa Ranch documenteren.</p>
     condition_description: Conditie beschrijving
-    condition_description_tooltip: |2
+    condition_description_tooltip: |
       <p>Een beschrijving van de fysieke toestand van de inhoud van de Aanwinst, inclusief eventuele speciale afhandelingsvereisten.</p>
 
        <p> Voorbeelden: </p>
       <p>De kaarten in doos 4 zijn broos en verschillende zijn bedekt met schimmel. Tijdens de verwerking moeten inademingsbeschermers worden gedragen.</p>
     disposition: Bestemming
-    disposition_tooltip: |2
+    disposition_tooltip: |
       <p>Een Noot om te beschrijven hoe een bepaalde Aanwinst aan verschillende bronnen kan zijn toegewezen.</p>
        <p> Voorbeelden: </p>
       <p>Foto's werden gescheiden en toegewezen aan Foto's 025.</p>
@@ -2782,7 +2782,7 @@ nl:
     general_note_tooltip: |
       <p>Een generiek Nootveld voor alle informatie die niet in één van de meer specifiek gedefinieerde velden past.</p>
     inventory: Ordening
-    inventory_tooltip: |2
+    inventory_tooltip: |
       <p>Een lijst van de containers en hun inhoud waaruit een toetreding bestaat. De dozenlijst kan in het veld worden samengesteld, gekopieerd en in het veld worden geplakt, of er kan naar worden verwezen als een extern document. De verwijzing naar het externe document kan hier worden opgenomen of in een subrecord Externe documenten.</p>
       <p>Voorbeeld:</p>
        <ul>
@@ -2796,7 +2796,7 @@ nl:
       <p>Een notitie met herkomstinformatie over een toetreding, zoals bewaringsgeschiedenis, gedetailleerde verwervingsgegevens, enz.</p>
       <p>Zie DACS 5.1-5.2</p>
     retention_rule: Bewaarregels
-    retention_rule_tooltip: |2
+    retention_rule_tooltip: |
       <p>Een notitie met de bewaarbevoegdheid of regel voor de Aanwinst.</p>
        <p> Voorbeelden: </p>
        <ul>
@@ -2821,7 +2821,7 @@ nl:
       <p>Een selectievakje om aan te geven of de toegang tot de materialen beperkt is.</p>
       <p>Zie DACS 4.1.5-4.1.6; 4.2.5-4.2.7, 4.3.5-4.3.6</p>
     access_restrictions_note: Omschrijving toegankelijkheidsbeperkingen
-    access_restrictions_note_tooltip: |2
+    access_restrictions_note_tooltip: |
       <p>Een verklaring waarin wordt aangegeven tot welk materiaal in de Aanwinst de toegang beperkt is, wat de bevoegdheid van de beperking is en hoe lang de beperking van kracht zal zijn. Aanvullende informatie kan ook worden vastgelegd in een subrecord Rechten.</p>
        <p> Voorbeelden: </p>
        <ul>
@@ -2831,12 +2831,12 @@ nl:
     use_restrictions_tooltip: |
       <p>Een selectievakje om aan te geven dat er gebruiksbeperkingen zijn voor materialen bij de Aanwinst.</p>
     use_restrictions_note: Omschrijving gebruiksbeperkingen
-    use_restrictions_note_tooltip: |2
+    use_restrictions_note_tooltip: |
       <p>Een verklaring die aangeeft voor welke materialen gebruiksbeperkingen gelden, hoe de materialen kunnen worden gebruikt, wat de autoriteit van de beperking is en hoe lang de beperking van kracht zal zijn. Aanvullende informatie kan ook worden vastgelegd in een onderregistratie Rechten.</p>
        <p> Voorbeelden: </p>
       <p>Manuscripten in doos 33 zijn kwetsbaar; in plaats daarvan moeten fotokopieën worden gebruikt.</p>
     acquisition_type: Verwervingsprocedure
-    acquisition_type_tooltip: |2
+    acquisition_type_tooltip: |
       <p>Een aanduiding van de verwervingsprocedure. Repositories kunnen de lijst met gegevenswaarden aanpassen.</p>
       <p> Voorbeelden: </p>
        <ul>
@@ -2894,7 +2894,7 @@ nl:
     autogen_repo_slug: Omdat er niet handmatig een slug is ingevoerd, is de slug van de repository automatisch gegenereerd met de korte naam van de repository
     type: Agent type
     type_tooltip: |
-      <p>Het type entiteit dat wordt vertegenwoordigd door het agentrecord.</p>
+      <p>Het type entiteit dat wordt vertegenwoordigd door het actorrecord.</p>
       <p>Zie DACS 10.2 and PREMIS Agent entity</p>
     agent_type:
       agent_family: Familie
@@ -2903,17 +2903,17 @@ nl:
       agent_software: Software
     is_user: Gebruikersnaam
     is_user_tooltip: |
-      <p>Indien ingevuld, is dit agent record gekoppeld aan een gebruiker van de applicatie met de opgegeven gebruikersnaam.</p>
+      <p>Indien ingevuld, is dit actor record gekoppeld aan een gebruiker van de applicatie met de opgegeven gebruikersnaam.</p>
     name: Agent naam
     names: Naamvormen
     names_tooltip: |
-      <p>VERPLICHT SUBRECORD: Registreert verschillende vormen van de naam van een agent. Elk agentrecord moet ten minste één subrecord Naamvorm hebben.</p>
+      <p>VERPLICHT SUBRECORD: Registreert verschillende vormen van de naam van een actor. Elk actorrecord moet ten minste één subrecord Naamvorm hebben.</p>
     agent_contacts: Contactgegevens
     contacts_tooltip: |
-      <p>Registreert contactgegevens over een bepaalde agent.</p>
+      <p>Registreert contactgegevens over een bepaalde actor.</p>
     notes: Noten
     notes_tooltip: |
-      <p>Registreert aanvullende beschrijvende informatie over een agent, zoals een biografische aantekening of een administratieve geschiedenis.</p>
+      <p>Registreert aanvullende beschrijvende informatie over een actor, zoals een biografische aantekening of een administratieve geschiedenis.</p>
     agent_contact_notes_tooltip: |
       <p>Noten m.b.t. interacties met de Agent.</p>
     related_agents_tooltip: |
@@ -2924,8 +2924,8 @@ nl:
     dates_of_existence_tooltip: |
       <p>Het aangeven van de bestaansperiode van de organisatie, persoon of familie. </p>
     publish: Publiceren
-    _singular: Agent
-    _plural: Agents
+    _singular: Actor
+    _plural: Actoren
     new_title:
       agent_family: Nieuwe familie
       agent_person: Nieuwe persoon
@@ -2938,9 +2938,9 @@ nl:
     agent_conventions_declarations_tooltip: |
       <p>A content standard used in the formulation of the Agent record content. Example: Describing Archives: A Content Standard. This sub-record can be used instead of Rules entries on individual name forms.</p>
     agent_other_agency_codes_tooltip: |
-      <p>Informatie over alternatieve codes voor de instantie of organisatie die verantwoordelijk is voor het aanmaken of bijhouden van een agentrecord.</p>
+      <p>Informatie over alternatieve codes voor de instantie of organisatie die verantwoordelijk is voor het aanmaken of bijhouden van een actorrecord.</p>
     agent_maintenance_histories_tooltip: |
-      <p>Gebeurtenissen die verband houden met het maken of onderhouden van de agentrecord.</p>
+      <p>Gebeurtenissen die verband houden met het maken of onderhouden van de actorrecord.</p>
     agent_record_identifiers_tooltip: |
       <p>Identificatiecodes m.b.t. het Agent record.</p>
     agent_sources_tooltip: |
@@ -2948,17 +2948,17 @@ nl:
     agent_identifiers_tooltip: |
       <p>ID's die aan een entiteit zijn gekoppeld, zoals juridische ID's die zijn toegewezen door een gezaghebbende instantie. Voorbeelden zijn onder meer een ORCID-ID voor een persoon of een MARC Repository Code voor een bedrijfsentiteit.</p>
     agent_genders_tooltip: Geslacht.
-    agent_places_tooltip: Plaats informatie die aan de agent is gekoppeld.
-    agent_occupations_tooltip: Beroepsinformatie die aan de agent is gekoppeld.
-    agent_functions_tooltip: Termen die worden gebruikt om de functies, processen, taken, activiteiten of transacties te identificeren die door de agent worden uitgevoerd.
-    agent_topics_tooltip: Een onderwerp dat verband houdt met de agent.
+    agent_places_tooltip: Plaats informatie die aan de actor is gekoppeld.
+    agent_occupations_tooltip: Beroepsinformatie die aan de actor is gekoppeld.
+    agent_functions_tooltip: Termen die worden gebruikt om de functies, processen, taken, activiteiten of transacties te identificeren die door de actor worden uitgevoerd.
+    agent_topics_tooltip: Een onderwerp dat verband houdt met de actor.
     agent_contacts_tooltip: |
-      <p>Contactgegevens voor de agent of een vertegenwoordiger die namens hem/haar werkt.</p>
-    used_languages_tooltip: "De taal / talen die aan de agent zijn gekoppeld. Voorbeeld: Engels."
-    agent_resources_tooltip: Bronnen en andere records die aan de agent zijn gekoppeld.
-    related_agent_tooltip: Wordt gebruikt om andere agenten met een relatie met de agent te verbinden en om de aard van de relatie aan te geven.
+      <p>Contactgegevens voor de actor of een vertegenwoordiger die namens hem/haar werkt.</p>
+    used_languages_tooltip: "De taal / talen die aan de actor zijn gekoppeld. Voorbeeld: Engels."
+    agent_resources_tooltip: Bronnen en andere records die aan de actor zijn gekoppeld.
+    related_agent_tooltip: Wordt gebruikt om andere actoren met een relatie met de actor te verbinden en om de aard van de relatie aan te geven.
     publish_tooltip: |
-      <p>Geeft aan of de agent al dan niet is opgenomen in exports en gepubliceerd naar de openbare interface (indien gebruikt)</p>
+      <p>Geeft aan of de actor al dan niet is opgenomen in exports en gepubliceerd naar de openbare interface (indien gebruikt)</p>
   agent_person:
     slug: Slug
     slug_tooltip: '<p>Bij gebruik van human-readable URLs: het laatste deel van de publieke URL voor dit record in de ArchivesSpace publieke interface. De slug kan handmatig worden toegevoegd of bijgewerkt, of automatisch worden gegenereerd op basis van de configuratie-instellingen voor human-readable URL''s in het config.rb bestand op de server.</p>'
@@ -2969,21 +2969,21 @@ nl:
     autogen_disabled: Op basis van de huidige configuratie-instellingen kan van de ingevoerde gegevens niet automatisch een slug worden gegenereerd.
     autogen_repo_slug: Omdat er niet handmatig een slug is ingevoerd, is de slug van de repository automatisch gegenereerd met de korte naam van de repository
     type: Agent type
-    type_tooltip: "<p>Het type entiteit dat wordt vertegenwoordigd door het agentrecord.</p>\n<p>Zie DACS 10.2 and PREMIS Agent entity</p>"
+    type_tooltip: "<p>Het type entiteit dat wordt vertegenwoordigd door het actorrecord.</p>\n<p>Zie DACS 10.2 and PREMIS Agent entity</p>"
     agent_type:
       agent_family: Familie
       agent_person: Persoon
       agent_corporate_entity: Organisatie
       agent_software: Software
     is_user: Gebruikersnaam
-    is_user_tooltip: <p>Indien ingevuld, is dit agent record gekoppeld aan een gebruiker van de applicatie met de opgegeven gebruikersnaam.</p>
+    is_user_tooltip: <p>Indien ingevuld, is dit actor record gekoppeld aan een gebruiker van de applicatie met de opgegeven gebruikersnaam.</p>
     name: Agent naam
     names: Naamvormen
-    names_tooltip: '<p>VERPLICHT SUBRECORD: Registreert verschillende vormen van de naam van een agent. Elk agentrecord moet ten minste één subrecord Naamvorm hebben.</p>'
+    names_tooltip: '<p>VERPLICHT SUBRECORD: Registreert verschillende vormen van de naam van een actor. Elk actorrecord moet ten minste één subrecord Naamvorm hebben.</p>'
     agent_contacts: Contactgegevens
-    contacts_tooltip: <p>Registreert contactgegevens over een bepaalde agent.</p>
+    contacts_tooltip: <p>Registreert contactgegevens over een bepaalde actor.</p>
     notes: Noten
-    notes_tooltip: <p>Registreert aanvullende beschrijvende informatie over een agent, zoals een biografische aantekening of een administratieve geschiedenis.</p>
+    notes_tooltip: <p>Registreert aanvullende beschrijvende informatie over een actor, zoals een biografische aantekening of een administratieve geschiedenis.</p>
     agent_contact_notes_tooltip: <p>Noten m.b.t. interacties met de Agent.</p>
     related_agents_tooltip: <p>Staat koppelingen toe van dit Agent-record naar een ander in associatieve, hiërarchische of bovenliggende / onderliggende relaties.</p>
     external_documents_tooltip: <p>Staat links toe naar externe documentatie, bv. biografische bestanden, naslagwerken, enz. over deze Agent.</p>
@@ -3000,21 +3000,21 @@ nl:
     agent_record_controls_tooltip: <p>Information about the record describing the Agent.</p>
     agent_alternate_sets_tooltip: <p>Wordt gebruikt om naar gekoppelde autorisatierecords te verwijzen wanneer twee of meer records voor dezelfde entiteit zijn afgeleid van twee of meer autorisatiesystemen.</p>
     agent_conventions_declarations_tooltip: '<p>A content standard used in the formulation of the Agent record content. Example: Describing Archives: A Content Standard. This sub-record can be used instead of Rules entries on individual name forms.</p>'
-    agent_other_agency_codes_tooltip: <p>Informatie over alternatieve codes voor de instantie of organisatie die verantwoordelijk is voor het aanmaken of bijhouden van een agentrecord.</p>
-    agent_maintenance_histories_tooltip: <p>Gebeurtenissen die verband houden met het maken of onderhouden van de agentrecord.</p>
+    agent_other_agency_codes_tooltip: <p>Informatie over alternatieve codes voor de instantie of organisatie die verantwoordelijk is voor het aanmaken of bijhouden van een actorrecord.</p>
+    agent_maintenance_histories_tooltip: <p>Gebeurtenissen die verband houden met het maken of onderhouden van de actorrecord.</p>
     agent_record_identifiers_tooltip: <p>Identificatiecodes m.b.t. het Agent record.</p>
     agent_sources_tooltip: <p>Een bron die wordt gebruikt bij het formuleren van de inhoud van het Agent-record.</p>
     agent_identifiers_tooltip: <p>ID's die aan een entiteit zijn gekoppeld, zoals juridische ID's die zijn toegewezen door een gezaghebbende instantie. Voorbeelden zijn onder meer een ORCID-ID voor een persoon of een MARC Repository Code voor een bedrijfsentiteit.</p>
     agent_genders_tooltip: Geslacht.
-    agent_places_tooltip: Plaats informatie die aan de agent is gekoppeld.
-    agent_occupations_tooltip: Beroepsinformatie die aan de agent is gekoppeld.
-    agent_functions_tooltip: Termen die worden gebruikt om de functies, processen, taken, activiteiten of transacties te identificeren die door de agent worden uitgevoerd.
-    agent_topics_tooltip: Een onderwerp dat verband houdt met de agent.
-    agent_contacts_tooltip: <p>Contactgegevens voor de agent of een vertegenwoordiger die namens hem/haar werkt.</p>
-    used_languages_tooltip: 'De taal / talen die aan de agent zijn gekoppeld. Voorbeeld: Engels.'
-    agent_resources_tooltip: Bronnen en andere records die aan de agent zijn gekoppeld.
-    related_agent_tooltip: Wordt gebruikt om andere agenten met een relatie met de agent te verbinden en om de aard van de relatie aan te geven.
-    publish_tooltip: <p>Geeft aan of de agent al dan niet is opgenomen in exports en gepubliceerd naar de openbare interface (indien gebruikt)</p>
+    agent_places_tooltip: Plaats informatie die aan de actor is gekoppeld.
+    agent_occupations_tooltip: Beroepsinformatie die aan de actor is gekoppeld.
+    agent_functions_tooltip: Termen die worden gebruikt om de functies, processen, taken, activiteiten of transacties te identificeren die door de actor worden uitgevoerd.
+    agent_topics_tooltip: Een onderwerp dat verband houdt met de actor.
+    agent_contacts_tooltip: <p>Contactgegevens voor de actor of een vertegenwoordiger die namens hem/haar werkt.</p>
+    used_languages_tooltip: 'De taal / talen die aan de actor zijn gekoppeld. Voorbeeld: Engels.'
+    agent_resources_tooltip: Bronnen en andere records die aan de actor zijn gekoppeld.
+    related_agent_tooltip: Wordt gebruikt om andere actoren met een relatie met de actor te verbinden en om de aard van de relatie aan te geven.
+    publish_tooltip: <p>Geeft aan of de actor al dan niet is opgenomen in exports en gepubliceerd naar de openbare interface (indien gebruikt)</p>
   agent_family:
     slug: Slug
     slug_tooltip: '<p>Bij gebruik van menselijk leesbare URL''s: het laatste deel van de publieke URL voor dit record in de ArchivesSpace publieke interface. De slug kan handmatig worden toegevoegd of bijgewerkt, of automatisch worden gegenereerd op basis van de configuratie-instellingen voor menselijk leesbare URL''s in het config.rb bestand op de server.</p>'
@@ -3025,21 +3025,21 @@ nl:
     autogen_disabled: Op basis van de huidige configuratie-instellingen kan van de ingevoerde gegevens niet automatisch een slug worden gegenereerd.
     autogen_repo_slug: Omdat er niet handmatig een slug is ingevoerd, is de slug van de repository automatisch gegenereerd met de korte naam van de repository
     type: Agent type
-    type_tooltip: "<p>Het type entiteit dat wordt vertegenwoordigd door het agentrecord.</p>\n<p>Zie DACS 10.2 and PREMIS Agent entity</p>"
+    type_tooltip: "<p>Het type entiteit dat wordt vertegenwoordigd door het actorrecord.</p>\n<p>Zie DACS 10.2 and PREMIS Agent entity</p>"
     agent_type:
       agent_family: Familie
       agent_person: Persoon
       agent_corporate_entity: Organisatie
       agent_software: Software
     is_user: Gebruikersnaam
-    is_user_tooltip: <p>Indien ingevuld, is dit agent record gekoppeld aan een gebruiker van de applicatie met de opgegeven gebruikersnaam.</p>
+    is_user_tooltip: <p>Indien ingevuld, is dit actor record gekoppeld aan een gebruiker van de applicatie met de opgegeven gebruikersnaam.</p>
     name: Agent naam
     names: Naamvormen
-    names_tooltip: '<p>VERPLICHT SUBRECORD: Registreert verschillende vormen van de naam van een agent. Elk agentrecord moet ten minste één subrecord Naamvorm hebben.</p>'
+    names_tooltip: '<p>VERPLICHT SUBRECORD: Registreert verschillende vormen van de naam van een actor. Elk actorrecord moet ten minste één subrecord Naamvorm hebben.</p>'
     agent_contacts: Contactgegevens
-    contacts_tooltip: <p>Registreert contactgegevens over een bepaalde agent.</p>
+    contacts_tooltip: <p>Registreert contactgegevens over een bepaalde actor.</p>
     notes: Noten
-    notes_tooltip: <p>Registreert aanvullende beschrijvende informatie over een agent, zoals een biografische aantekening of een administratieve geschiedenis.</p>
+    notes_tooltip: <p>Registreert aanvullende beschrijvende informatie over een actor, zoals een biografische aantekening of een administratieve geschiedenis.</p>
     agent_contact_notes_tooltip: <p>Noten m.b.t. interacties met de Agent.</p>
     related_agents_tooltip: <p>Staat koppelingen toe van dit Agent-record naar een ander in associatieve, hiërarchische of bovenliggende / onderliggende relaties.</p>
     external_documents_tooltip: <p>Staat links toe naar externe documentatie, bv. biografische bestanden, naslagwerken, enz. over deze Agent.</p>
@@ -3056,21 +3056,21 @@ nl:
     agent_record_controls_tooltip: <p>Information about the record describing the Agent.</p>
     agent_alternate_sets_tooltip: <p>Wordt gebruikt om naar gekoppelde autorisatierecords te verwijzen wanneer twee of meer records voor dezelfde entiteit zijn afgeleid van twee of meer autorisatiesystemen.</p>
     agent_conventions_declarations_tooltip: '<p>A content standard used in the formulation of the Agent record content. Example: Describing Archives: A Content Standard. This sub-record can be used instead of Rules entries on individual name forms.</p>'
-    agent_other_agency_codes_tooltip: <p>Informatie over alternatieve codes voor de instantie of organisatie die verantwoordelijk is voor het aanmaken of bijhouden van een agentrecord.</p>
-    agent_maintenance_histories_tooltip: <p>Gebeurtenissen die verband houden met het maken of onderhouden van de agentrecord.</p>
+    agent_other_agency_codes_tooltip: <p>Informatie over alternatieve codes voor de instantie of organisatie die verantwoordelijk is voor het aanmaken of bijhouden van een actorrecord.</p>
+    agent_maintenance_histories_tooltip: <p>Gebeurtenissen die verband houden met het maken of onderhouden van de actorrecord.</p>
     agent_record_identifiers_tooltip: <p>Identificatiecodes m.b.t. het Agent record.</p>
     agent_sources_tooltip: <p>Een bron die wordt gebruikt bij het formuleren van de inhoud van het Agent-record.</p>
     agent_identifiers_tooltip: <p>ID's die aan een entiteit zijn gekoppeld, zoals juridische ID's die zijn toegewezen door een gezaghebbende instantie. Voorbeelden zijn onder meer een ORCID-ID voor een persoon of een MARC Repository Code voor een bedrijfsentiteit.</p>
     agent_genders_tooltip: Geslacht.
-    agent_places_tooltip: Plaats informatie die aan de agent is gekoppeld.
-    agent_occupations_tooltip: Beroepsinformatie die aan de agent is gekoppeld.
-    agent_functions_tooltip: Termen die worden gebruikt om de functies, processen, taken, activiteiten of transacties te identificeren die door de agent worden uitgevoerd.
-    agent_topics_tooltip: Een onderwerp dat verband houdt met de agent.
-    agent_contacts_tooltip: <p>Contactgegevens voor de agent of een vertegenwoordiger die namens hem/haar werkt.</p>
-    used_languages_tooltip: 'De taal / talen die aan de agent zijn gekoppeld. Voorbeeld: Engels.'
-    agent_resources_tooltip: Bronnen en andere records die aan de agent zijn gekoppeld.
-    related_agent_tooltip: Wordt gebruikt om andere agenten met een relatie met de agent te verbinden en om de aard van de relatie aan te geven.
-    publish_tooltip: <p>Geeft aan of de agent al dan niet is opgenomen in exports en gepubliceerd naar de openbare interface (indien gebruikt)</p>
+    agent_places_tooltip: Plaats informatie die aan de actor is gekoppeld.
+    agent_occupations_tooltip: Beroepsinformatie die aan de actor is gekoppeld.
+    agent_functions_tooltip: Termen die worden gebruikt om de functies, processen, taken, activiteiten of transacties te identificeren die door de actor worden uitgevoerd.
+    agent_topics_tooltip: Een onderwerp dat verband houdt met de actor.
+    agent_contacts_tooltip: <p>Contactgegevens voor de actor of een vertegenwoordiger die namens hem/haar werkt.</p>
+    used_languages_tooltip: 'De taal / talen die aan de actor zijn gekoppeld. Voorbeeld: Engels.'
+    agent_resources_tooltip: Bronnen en andere records die aan de actor zijn gekoppeld.
+    related_agent_tooltip: Wordt gebruikt om andere actoren met een relatie met de actor te verbinden en om de aard van de relatie aan te geven.
+    publish_tooltip: <p>Geeft aan of de actor al dan niet is opgenomen in exports en gepubliceerd naar de openbare interface (indien gebruikt)</p>
   agent_software:
     slug: Slug
     slug_tooltip: '<p>Bij gebruik van menselijk leesbare URL''s: het laatste deel van de publieke URL voor dit record in de ArchivesSpace publieke interface. De slug kan handmatig worden toegevoegd of bijgewerkt, of automatisch worden gegenereerd op basis van de configuratie-instellingen voor menselijk leesbare URL''s in het config.rb bestand op de server.</p>'
@@ -3081,21 +3081,21 @@ nl:
     autogen_disabled: Op basis van de huidige configuratie-instellingen kan van de ingevoerde gegevens niet automatisch een slug worden gegenereerd.
     autogen_repo_slug: Omdat er niet handmatig een slug is ingevoerd, is de slug van de repository automatisch gegenereerd met de korte naam van de repository
     type: Agent type
-    type_tooltip: "<p>Het type entiteit dat wordt vertegenwoordigd door het agentrecord.</p>\n<p>Zie DACS 10.2 and PREMIS Agent entity</p>"
+    type_tooltip: "<p>Het type entiteit dat wordt vertegenwoordigd door het actorrecord.</p>\n<p>Zie DACS 10.2 and PREMIS Agent entity</p>"
     agent_type:
       agent_family: Familie
       agent_person: Persoon
       agent_corporate_entity: Organisatie
       agent_software: Software
     is_user: Gebruikersnaam
-    is_user_tooltip: <p>Indien ingevuld, is dit agent record gekoppeld aan een gebruiker van de applicatie met de opgegeven gebruikersnaam.</p>
+    is_user_tooltip: <p>Indien ingevuld, is dit actor record gekoppeld aan een gebruiker van de applicatie met de opgegeven gebruikersnaam.</p>
     name: Agent naam
     names: Naamvormen
-    names_tooltip: '<p>VERPLICHT SUBRECORD: Registreert verschillende vormen van de naam van een agent. Elk agentrecord moet ten minste één subrecord Naamvorm hebben.</p>'
+    names_tooltip: '<p>VERPLICHT SUBRECORD: Registreert verschillende vormen van de naam van een actor. Elk actorrecord moet ten minste één subrecord Naamvorm hebben.</p>'
     agent_contacts: Contactgegevens
-    contacts_tooltip: <p>Registreert contactgegevens over een bepaalde agent.</p>
+    contacts_tooltip: <p>Registreert contactgegevens over een bepaalde actor.</p>
     notes: Noten
-    notes_tooltip: <p>Registreert aanvullende beschrijvende informatie over een agent, zoals een biografische aantekening of een administratieve geschiedenis.</p>
+    notes_tooltip: <p>Registreert aanvullende beschrijvende informatie over een actor, zoals een biografische aantekening of een administratieve geschiedenis.</p>
     agent_contact_notes_tooltip: <p>Noten m.b.t. interacties met de Agent.</p>
     related_agents_tooltip: <p>Staat koppelingen toe van dit Agent-record naar een ander in associatieve, hiërarchische of bovenliggende / onderliggende relaties.</p>
     external_documents_tooltip: <p>Staat links toe naar externe documentatie, bv. biografische bestanden, naslagwerken, enz. over deze Agent.</p>
@@ -3112,21 +3112,21 @@ nl:
     agent_record_controls_tooltip: <p>Information about the record describing the Agent.</p>
     agent_alternate_sets_tooltip: <p>Wordt gebruikt om naar gekoppelde autorisatierecords te verwijzen wanneer twee of meer records voor dezelfde entiteit zijn afgeleid van twee of meer autorisatiesystemen.</p>
     agent_conventions_declarations_tooltip: '<p>A content standard used in the formulation of the Agent record content. Example: Describing Archives: A Content Standard. This sub-record can be used instead of Rules entries on individual name forms.</p>'
-    agent_other_agency_codes_tooltip: <p>Informatie over alternatieve codes voor de instantie of organisatie die verantwoordelijk is voor het aanmaken of bijhouden van een agentrecord.</p>
-    agent_maintenance_histories_tooltip: <p>Gebeurtenissen die verband houden met het maken of onderhouden van de agentrecord.</p>
+    agent_other_agency_codes_tooltip: <p>Informatie over alternatieve codes voor de instantie of organisatie die verantwoordelijk is voor het aanmaken of bijhouden van een actorrecord.</p>
+    agent_maintenance_histories_tooltip: <p>Gebeurtenissen die verband houden met het maken of onderhouden van de actorrecord.</p>
     agent_record_identifiers_tooltip: <p>Identificatiecodes m.b.t. het Agent record.</p>
     agent_sources_tooltip: <p>Een bron die wordt gebruikt bij het formuleren van de inhoud van het Agent-record.</p>
     agent_identifiers_tooltip: <p>ID's die aan een entiteit zijn gekoppeld, zoals juridische ID's die zijn toegewezen door een gezaghebbende instantie. Voorbeelden zijn onder meer een ORCID-ID voor een persoon of een MARC Repository Code voor een bedrijfsentiteit.</p>
     agent_genders_tooltip: Geslacht.
-    agent_places_tooltip: Plaats informatie die aan de agent is gekoppeld.
-    agent_occupations_tooltip: Beroepsinformatie die aan de agent is gekoppeld.
-    agent_functions_tooltip: Termen die worden gebruikt om de functies, processen, taken, activiteiten of transacties te identificeren die door de agent worden uitgevoerd.
-    agent_topics_tooltip: Een onderwerp dat verband houdt met de agent.
-    agent_contacts_tooltip: <p>Contactgegevens voor de agent of een vertegenwoordiger die namens hem/haar werkt.</p>
-    used_languages_tooltip: 'De taal / talen die aan de agent zijn gekoppeld. Voorbeeld: Engels.'
-    agent_resources_tooltip: Bronnen en andere records die aan de agent zijn gekoppeld.
-    related_agent_tooltip: Wordt gebruikt om andere agenten met een relatie met de agent te verbinden en om de aard van de relatie aan te geven.
-    publish_tooltip: <p>Geeft aan of de agent al dan niet is opgenomen in exports en gepubliceerd naar de openbare interface (indien gebruikt)</p>
+    agent_places_tooltip: Plaats informatie die aan de actor is gekoppeld.
+    agent_occupations_tooltip: Beroepsinformatie die aan de actor is gekoppeld.
+    agent_functions_tooltip: Termen die worden gebruikt om de functies, processen, taken, activiteiten of transacties te identificeren die door de actor worden uitgevoerd.
+    agent_topics_tooltip: Een onderwerp dat verband houdt met de actor.
+    agent_contacts_tooltip: <p>Contactgegevens voor de actor of een vertegenwoordiger die namens hem/haar werkt.</p>
+    used_languages_tooltip: 'De taal / talen die aan de actor zijn gekoppeld. Voorbeeld: Engels.'
+    agent_resources_tooltip: Bronnen en andere records die aan de actor zijn gekoppeld.
+    related_agent_tooltip: Wordt gebruikt om andere actoren met een relatie met de actor te verbinden en om de aard van de relatie aan te geven.
+    publish_tooltip: <p>Geeft aan of de actor al dan niet is opgenomen in exports en gepubliceerd naar de openbare interface (indien gebruikt)</p>
   agent_corporate_entity:
     slug: Slug
     slug_tooltip: '<p>Bij gebruik van menselijk leesbare URL''s: het laatste deel van de publieke URL voor dit record in de ArchivesSpace publieke interface. De slug kan handmatig worden toegevoegd of bijgewerkt, of automatisch worden gegenereerd op basis van de configuratie-instellingen voor menselijk leesbare URL''s in het config.rb bestand op de server.</p>'
@@ -3137,21 +3137,21 @@ nl:
     autogen_disabled: Op basis van de huidige configuratie-instellingen kan van de ingevoerde gegevens niet automatisch een slug worden gegenereerd.
     autogen_repo_slug: Omdat er niet handmatig een slug is ingevoerd, is de slug van de repository automatisch gegenereerd met de korte naam van de repository
     type: Agent type
-    type_tooltip: "<p>Het type entiteit dat wordt vertegenwoordigd door het agentrecord.</p>\n<p>Zie DACS 10.2 and PREMIS Agent entity</p>"
+    type_tooltip: "<p>Het type entiteit dat wordt vertegenwoordigd door het actorrecord.</p>\n<p>Zie DACS 10.2 and PREMIS Agent entity</p>"
     agent_type:
       agent_family: Familie
       agent_person: Persoon
       agent_corporate_entity: Organisatie
       agent_software: Software
     is_user: Gebruikersnaam
-    is_user_tooltip: <p>Indien ingevuld, is dit agent record gekoppeld aan een gebruiker van de applicatie met de opgegeven gebruikersnaam.</p>
+    is_user_tooltip: <p>Indien ingevuld, is dit actor record gekoppeld aan een gebruiker van de applicatie met de opgegeven gebruikersnaam.</p>
     name: Agent naam
     names: Naamvormen
-    names_tooltip: '<p>VERPLICHT SUBRECORD: Registreert verschillende vormen van de naam van een agent. Elk agentrecord moet ten minste één subrecord Naamvorm hebben.</p>'
+    names_tooltip: '<p>VERPLICHT SUBRECORD: Registreert verschillende vormen van de naam van een actor. Elk actorrecord moet ten minste één subrecord Naamvorm hebben.</p>'
     agent_contacts: Contactgegevens
-    contacts_tooltip: <p>Registreert contactgegevens over een bepaalde agent.</p>
+    contacts_tooltip: <p>Registreert contactgegevens over een bepaalde actor.</p>
     notes: Noten
-    notes_tooltip: <p>Registreert aanvullende beschrijvende informatie over een agent, zoals een biografische aantekening of een administratieve geschiedenis.</p>
+    notes_tooltip: <p>Registreert aanvullende beschrijvende informatie over een actor, zoals een biografische aantekening of een administratieve geschiedenis.</p>
     agent_contact_notes_tooltip: <p>Noten m.b.t. interacties met de Agent.</p>
     related_agents_tooltip: <p>Staat koppelingen toe van dit Agent-record naar een ander in associatieve, hiërarchische of bovenliggende / onderliggende relaties.</p>
     external_documents_tooltip: <p>Staat links toe naar externe documentatie, bv. biografische bestanden, naslagwerken, enz. over deze Agent.</p>
@@ -3168,21 +3168,21 @@ nl:
     agent_record_controls_tooltip: <p>Information about the record describing the Agent.</p>
     agent_alternate_sets_tooltip: <p>Wordt gebruikt om naar gekoppelde autorisatierecords te verwijzen wanneer twee of meer records voor dezelfde entiteit zijn afgeleid van twee of meer autorisatiesystemen.</p>
     agent_conventions_declarations_tooltip: '<p>A content standard used in the formulation of the Agent record content. Example: Describing Archives: A Content Standard. This sub-record can be used instead of Rules entries on individual name forms.</p>'
-    agent_other_agency_codes_tooltip: <p>Informatie over alternatieve codes voor de instantie of organisatie die verantwoordelijk is voor het aanmaken of bijhouden van een agentrecord.</p>
-    agent_maintenance_histories_tooltip: <p>Gebeurtenissen die verband houden met het maken of onderhouden van de agentrecord.</p>
+    agent_other_agency_codes_tooltip: <p>Informatie over alternatieve codes voor de instantie of organisatie die verantwoordelijk is voor het aanmaken of bijhouden van een actorrecord.</p>
+    agent_maintenance_histories_tooltip: <p>Gebeurtenissen die verband houden met het maken of onderhouden van de actorrecord.</p>
     agent_record_identifiers_tooltip: <p>Identificatiecodes m.b.t. het Agent record.</p>
     agent_sources_tooltip: <p>Een bron die wordt gebruikt bij het formuleren van de inhoud van het Agent-record.</p>
     agent_identifiers_tooltip: <p>ID's die aan een entiteit zijn gekoppeld, zoals juridische ID's die zijn toegewezen door een gezaghebbende instantie. Voorbeelden zijn onder meer een ORCID-ID voor een persoon of een MARC Repository Code voor een bedrijfsentiteit.</p>
     agent_genders_tooltip: Geslacht.
-    agent_places_tooltip: Plaats informatie die aan de agent is gekoppeld.
-    agent_occupations_tooltip: Beroepsinformatie die aan de agent is gekoppeld.
-    agent_functions_tooltip: Termen die worden gebruikt om de functies, processen, taken, activiteiten of transacties te identificeren die door de agent worden uitgevoerd.
-    agent_topics_tooltip: Een onderwerp dat verband houdt met de agent.
-    agent_contacts_tooltip: <p>Contactgegevens voor de agent of een vertegenwoordiger die namens hem/haar werkt.</p>
-    used_languages_tooltip: 'De taal / talen die aan de agent zijn gekoppeld. Voorbeeld: Engels.'
-    agent_resources_tooltip: Bronnen en andere records die aan de agent zijn gekoppeld.
-    related_agent_tooltip: Wordt gebruikt om andere agenten met een relatie met de agent te verbinden en om de aard van de relatie aan te geven.
-    publish_tooltip: <p>Geeft aan of de agent al dan niet is opgenomen in exports en gepubliceerd naar de openbare interface (indien gebruikt)</p>
+    agent_places_tooltip: Plaats informatie die aan de actor is gekoppeld.
+    agent_occupations_tooltip: Beroepsinformatie die aan de actor is gekoppeld.
+    agent_functions_tooltip: Termen die worden gebruikt om de functies, processen, taken, activiteiten of transacties te identificeren die door de actor worden uitgevoerd.
+    agent_topics_tooltip: Een onderwerp dat verband houdt met de actor.
+    agent_contacts_tooltip: <p>Contactgegevens voor de actor of een vertegenwoordiger die namens hem/haar werkt.</p>
+    used_languages_tooltip: 'De taal / talen die aan de actor zijn gekoppeld. Voorbeeld: Engels.'
+    agent_resources_tooltip: Bronnen en andere records die aan de actor zijn gekoppeld.
+    related_agent_tooltip: Wordt gebruikt om andere actoren met een relatie met de actor te verbinden en om de aard van de relatie aan te geven.
+    publish_tooltip: <p>Geeft aan of de actor al dan niet is opgenomen in exports en gepubliceerd naar de openbare interface (indien gebruikt)</p>
   related_agents_agent_person:
     related_agents: Gerelateerde actoren
   related_agents_agent_family:
@@ -3194,7 +3194,7 @@ nl:
   archival_object:
     <<: null
     title: Titel
-    title_tooltip: |2
+    title_tooltip: |
       <p>VOORWAARDELIJK VERPLICHT VELD: De titel die is toegewezen aan de beschreven materialen. Een Archiefonderdeel moet een subrecord Titel of Datum hebben.</p>
       <p>Zie DACS 2.3</p>
        <p> Voorbeelden: </p>
@@ -3217,7 +3217,7 @@ nl:
     lang_materials: Talen
     ref_id_auto_generation_message: "-- auto-generated upon save --"
     component_id: Identificatiecode
-    component_id_tooltip: |2
+    component_id_tooltip: |
       <p>Drukt een unieke ID uit, binnen de context van de archief/collectiebeschrijving, voor het componentonderdeel.</p>
        <p> Voorbeelden: </p>
        <ul>
@@ -3234,7 +3234,7 @@ nl:
     other_level_tooltip: |
       <p>VERPLICHT VELD als "Ander niveau" de waarde is die is geselecteerd voor Niveau. Geeft het type niveau weer buiten de waarden die zijn opgegeven in het EAD-schema.</p>
     container_summary: Overzicht verpakking
-    container_summary_tooltip: |2
+    container_summary_tooltip: |
       <p>Voor het registreren van het aantal en type containers met een archief/collectiebeschrijving. Dit wordt beschouwd als een tekstuele samenvatting en is niet identiek aan de subrecords van de omvang.</p>
       <p>Zie DACS 2.5</p>
        <p> Voorbeelden: </p>
@@ -3263,7 +3263,7 @@ nl:
     group_code_tooltip: |
       <p>Een korte versie van de naam van de groep.</p>
     description: Beschrijving
-    description_tooltip: |2
+    description_tooltip: |
       <p>Een korte beschrijving van de groep</p>
       <p>Voorbeelden:</p>
        <ul>
@@ -3285,8 +3285,8 @@ nl:
       manage_repository: beheer dit repository (verander groepen en andere instellingen)
       update_location_record: locatierecords in dit repository maken/wijzigen/verwijderen
       update_subject_record: onderwerprecords maken/aanpassen
-      update_agent_record: agentrecords maken/aanpassen
-      view_agent_contact_record: contactgegevens voor agentrecords bekijken
+      update_agent_record: actorrecords maken/aanpassen
+      view_agent_contact_record: contactgegevens voor actorrecords bekijken
       show_full_agents: work with agents in full mode
       update_vocabulary_record: records maken/aanpassen
       update_accession_record: aanwinsten in dit repository maken/aanpassen
@@ -3300,13 +3300,13 @@ nl:
       delete_event_record: gebeurtenisrecords in dit repository verwijderen
       update_classification_record: classificaties en classificatietermen maken/aanpassen
       delete_classification_record: classificaties en classificatietermen verwijderen
-      merge_agents_and_subjects: agent/subject records samenvoegen
+      merge_agents_and_subjects: actor/subject records samenvoegen
       merge_archival_record: de belangrijkse recordtypes in dit repository samenvoegen
       manage_rde_templates: RDE templates beheren
       transfer_repository: de volledige inhoud van een repository overdragen
       transfer_archival_record: de belangrijkste recordtypes in dit repository overdragen
       manage_subject_record: onderwerpsrecords maken/aanpassen/verwijderen
-      manage_agent_record: agentrecords maken/aanpassen/verwijderen
+      manage_agent_record: actorrecords maken/aanpassen/verwijderen
       manage_vocabulary_record: vocabularyrecords maken/aanpassen/verwijderen
       import_records: import jobs starten
       cancel_importer_job: import jobs annuleren
@@ -3360,7 +3360,7 @@ nl:
     id_1: Identificatiecode 2
     id_2: Identificatiecode 3
     id_3: Identificatiecode 4
-    id_0_tooltip: |2
+    id_0_tooltip: |
       <p>VERPLICHT VELD. Het identificatienummer dat aan elk afzonderlijk Archief/Collectie-record binnen een Repository is toegewezen.</p>
       <p>Zie DACS 2.1.3</p>
       <p>Voorbeelden:</p>
@@ -3372,7 +3372,7 @@ nl:
     "[:id_0, :id_1, :id_2, :id_3]": Identificatiecode
     "[:repo_id, :identifier]": Identificatiecode
     identifier: Identificatiecode
-    title_tooltip: |2
+    title_tooltip: |
       <p>VERPLICHT VELD. De titel die aan het Archief/Collectie-record is toegekend.</p>
       <p>Zie DACS 2.3</p>
        <p> Voorbeelden: </p>
@@ -3411,7 +3411,7 @@ nl:
     finding_aid_tooltip: |
       <p>Wordt gebruikt om administratieve gegevens over de archiefbeschrijvingsinstantie vast te leggen, meestal voor wanneer de beschrijving wordt geëxporteerd naar Encoded Archival Description (EAD).</p>
     finding_aid_title: Toegang Titel
-    finding_aid_title_tooltip: |2
+    finding_aid_title_tooltip: |
       <p>De (bibliografische) titel van het zoekhulpmiddel behorende bij deze bron.</p>
        <p> Voorbeelden: </p>
        <ul>
@@ -3421,7 +3421,7 @@ nl:
        </ul>
     finding_aid_subtitle: Toegang ondertitel
     finding_aid_filing_title: Toegang sorteertitel
-    finding_aid_filing_title_tooltip: |2
+    finding_aid_filing_title_tooltip: |
       <p>Een gewijzigde versie van de formele titel van de toegang, ter ondersteuning van bladeren en sorteren.</p>
        <p> Voorbeelden: </p>
        <ul>
@@ -3434,7 +3434,7 @@ nl:
       <p>De datumexpressie die aangeeft wanneer de huidige toegang is gegenereerd op basis van de archief/collectiebeschrijving.</p>
     finding_aid_author: Toegang Auteur
     finding_aid_author_tooltip: |
-      <p>De namen (namen) van de agenten die verantwoordelijk zijn voor het creëren van de inhoud van het zoekhulpmiddel of de codering ervan.</p>
+      <p>De namen (namen) van de actoren die verantwoordelijk zijn voor het creëren van de inhoud van het zoekhulpmiddel of de codering ervan.</p>
     finding_aid_description_rules: Regelwerk van de Toegang
     finding_aid_description_rules_tooltip: |
       <p>Geeft de beschrijvingsregels aan die worden gebruikt om de beschrijving van de bron te begeleiden.</p>
@@ -3502,7 +3502,7 @@ nl:
     autogen_disabled: Op basis van de huidige configuratie-instellingen kan van de ingevoerde gegevens niet automatisch een slug worden gegenereerd.
     autogen_repo_slug: Omdat er niet handmatig een slug is ingevoerd, is de slug van de repository automatisch gegenereerd met de korte naam van de repository
     repo_code: Repository afkorting
-    repo_code_tooltip: |2
+    repo_code_tooltip: |
       <p>VERPLICHT VELD. Een afkorting of acroniem van de repositorynaam, die beter geschikt is voor de gebruikersinterface.</p>
        <p> Voorbeelden: </p>
        <ul>
@@ -3511,7 +3511,7 @@ nl:
       <li>Tamwag <em>(for Tamiment Library and Robert F. Wagner Labor Archives)</em></li>
        </ul>
     name: Repository Naam
-    name_tooltip: |2
+    name_tooltip: |
       <p>VERPLICHT VELD. De naam van het repository dat de administratieve verantwoordelijkheid heeft voor en de bewaring van de materialen beschreven in de Aanwinst-, Archief/Collectie- en Digitale objectmodules van de applicatie.</p>
       <p>Zie DACS 2.2</p>
        <p> Voorbeelden: </p>
@@ -3523,7 +3523,7 @@ nl:
     ark_shoulder: ARK Shoulder (lokale namespace)
     ark_shoulder_tooltip: Een repository-specifieke string die wordt opgenomen in gegenereerde ARK's
     org_code: Organisatie Code
-    org_code_tooltip: |2
+    org_code_tooltip: |
       <p>een code i.o.m. ISO/DIS 15511 Information and Documentation International Standard Identifier for Libraries and Related Organizations (ISIL).</p>
        <p> Voorbeelden: </p>
        <ul>
@@ -3531,7 +3531,7 @@ nl:
       <li>IU-Ar <em>(for University of Illinois Archives)</em></li>
        </ul>
     parent_institution_name: Naam van de koepelorganisatie
-    parent_institution_name_tooltip: |2
+    parent_institution_name_tooltip: |
       <p>De naam van de moederinstelling waarvan het repository deel uitmaakt.</p>
        <p> Voorbeelden: </p>
        <ul>
@@ -3594,7 +3594,7 @@ nl:
       <p>De unieke identificatie voor het record binnen de bron waarvan het is verkregen (d.w.z. een LCSH-nummer). De identificatie kan worden weergegeven als een URI.</p>
     source: Bron
     subject_source: Bron onderwerp
-    source_tooltip: |2
+    source_tooltip: |
       <p>De vocabulary waaruit een vastgestelde term is overgenomen.</p>
       <p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>
        <p> Voorbeelden: </p>
@@ -3603,7 +3603,7 @@ nl:
       <li>Library of Congress Subject Headings (lcsh)</li>
        </ul>
     scope_note: Scope note
-    scope_note_tooltip: |2
+    scope_note_tooltip: |
       <p>Een opmerking die uitlegt en verduidelijkt wat wordt bedoeld en wat niet wordt bedoeld in de definitie van de term en in het gebruik ervan als subject heading.</p>
        <p> Voorbeelden: </p>
        <ul>
@@ -3663,7 +3663,7 @@ nl:
     _plural: Gebruikers
   collection_management:
     cataloged_note: Noot m.b.t. Beschrijving
-    cataloged_note_tooltip: |2
+    cataloged_note_tooltip: |
       <p>Een opmerking over het catalogiseren van de archiefeenheid (toetreding, bron, digitaal object), inclusief het verstrekken van catalogusrecord-ID's.</p>
        <p> Voorbeelden: </p>
        <ul>
@@ -3683,7 +3683,7 @@ nl:
     processing_hours_total_tooltip: |
       <p>Het numerieke resultaat van het vermenigvuldigen van "Inschatting verwerkingstijd per uur/eenheid" met "Verwerking totale omvang". De waarde kan worden overschreven om de werkelijke verwerkingstijd weer te geven en niet een waarde die is gebaseerd op de geschatte verwerkingsuren / eenheidswaarde.</p>
     processing_plan: Verwerkingsplan
-    processing_plan_tooltip: |2
+    processing_plan_tooltip: |
       <p>Voor het vastleggen van een plan voor verwerking van de archiefeenheid. Het plan kan een schets van de opstelling van de archiefeenheid bevatten, evenals instructies voor het behandelen van bepaalde objecten in de archiefeenheid. Het plan kan ook verschillende toewijzingen voor verschillende repositorymedewerkers specificeren.</p>
        <p> Voorbeelden: </p>
        <ul>
@@ -3692,7 +3692,7 @@ nl:
       <li>De projectmanager zal het gecodeerde zoekhulpmiddel beoordelen, uitvoeren en laden.</li>
        </ul>
     processing_priority: Prioriteit verwerking
-    processing_priority_tooltip: |2
+    processing_priority_tooltip: |
       <p>Geeft de prioriteit aan die is toegewezen aan de verwerking van een archiefeenheid.</p>
       <p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>
        <p> Voorbeelden: </p>
@@ -3703,7 +3703,7 @@ nl:
        </ul>
     processing_started_date: Startdatum verwerking
     processing_status: Verwerking Status
-    processing_status_tooltip: |2
+    processing_status_tooltip: |
       <p>Voor het aangeven van de huidige verwerkingsstatus voor een archiefeenheid (toetreding, bron of digitaal object).</p>
       <p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>
        <p> Voorbeelden: </p>
@@ -4055,7 +4055,7 @@ nl:
     act_type_tooltip: |
       <p>De regel die deze rechtenverklaring toestaat.</p>
     restriction: Beperking
-    restriction_tooltip: |2
+    restriction_tooltip: |
       <p>Een voorwaarde of beperking van de regel.</p>
        <p> Voorbeelden: </p>
        <ul>
@@ -4418,7 +4418,7 @@ nl:
     file_uri_tooltip: |
       <p>Een URI voor de online locatie van de licentie of andere gepubliceerde informatie over de voorwaarden waaronder de metadata ter beschikking wordt gesteld voor gebruik en hergebruik. Voorbeeld: https://creativecommons.org/licenses/by/4.0/.</p>
     file_version_xlink_actuate_attribute_tooltip: |
-      <p> Geeft aan of de bijbehorende URI moet worden opgelost wanneer het agentrecord wordt weergegeven. </p>
+      <p> Geeft aan of de bijbehorende URI moet worden opgelost wanneer het actorrecord wordt weergegeven. </p>
     file_version_xlink_show_attribute_tooltip: |
       <p> Geeft aan waar de externe bron die in de bijbehorende URI is gekoppeld, moet worden weergegeven. </p>
     xlink_title_attribute_tooltip: |
