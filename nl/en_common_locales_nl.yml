@@ -466,7 +466,7 @@ nl:
     collection_management_tooltip: <p>Aanvullende, interne informatie over hoe de beschreven materialen werden verwerkt of zullen worden verwerkt.</p>
     classification_tooltip: <p>Koppelt de beschreven materialen aan een classificatie of een classificatieterm die binnen de applicatie beheerd wordt.</p>
     user_defined_tooltip: <p>Door de gebruiker gedefinieerde velden voor het vastleggen van aanvullende informatie die niet is vastgelegd in andere secties van de applicatie.</p>
-    event_type: Voeg gebeurtenistype toe
+    event_type: Type
     event_type_tooltip: |
       <p>Een categorisering van de aard van de gebeurtenis. </p>
       <p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>
@@ -547,7 +547,7 @@ nl:
     collection_management_tooltip: <p>Aanvullende, interne informatie over hoe de beschreven materialen werden verwerkt of zullen worden verwerkt.</p>
     classification_tooltip: <p>Koppelt de beschreven materialen aan een classificatie of een classificatieterm die binnen de applicatie beheerd wordt.</p>
     user_defined_tooltip: <p>Door de gebruiker gedefinieerde velden voor het vastleggen van aanvullende informatie die niet is vastgelegd in andere secties van de applicatie.</p>
-    event_type: Voeg gebeurtenistype toe
+    event_type: Type
     event_type_tooltip: "<p>Een categorisering van de aard van de gebeurtenis. </p>\n<p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>\n<p>Zie PREMIS eventType</p>"
     outcome: Resultaat
     outcome_tooltip: "<p>Een categorisering van het algehele resultaat van het evenement in termen van succes, gedeeltelijk succes of mislukking. De aanbevolen oefening is om een ​​gecontroleerd vocabulaire te gebruiken waarop een systeem automatisch kan reageren. Meer details over de uitkomst kunnen worden vastgelegd in een uitkomstnota. De aanbevolen praktijk is om gebeurtenissen zo gedetailleerd te definiëren dat elke gebeurtenis een enkele uitkomst heeft.</p>\n<p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>"
@@ -1511,14 +1511,14 @@ nl:
       <p>De inhoud van het nootveld.</p>
     items: Items
     items_singular: Item
-    item_singular: Object
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: |
       <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: |
       <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: |
       <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
   related_agent:
@@ -1727,12 +1727,12 @@ nl:
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
     items_singular: Item
-    item_singular: Object
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     option: Tekst
   note_index:
@@ -1743,18 +1743,18 @@ nl:
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
     items_singular: Item
-    item_singular: Object
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     option: Index
   note_index_item:
     value: Waarde
     value_tooltip: De inhoud van elk item in de bibliografie. Er is minimaal één vereist voor elke indexnotitie.
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: Het type van de Index entry.
     reference: Referentie
     reference_tooltip: Het doel van de Index entry
@@ -1767,13 +1767,13 @@ nl:
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
-    items_singular: Object
-    item_singular: Object
+    items_singular: Item
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
   note_multipart:
     label: Label
@@ -1782,13 +1782,13 @@ nl:
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
-    items_singular: Object
-    item_singular: Object
+    items_singular: Item
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     subnotes: Subnoten
     sub_notes: Subnoten
@@ -1800,13 +1800,13 @@ nl:
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
-    items_singular: Object
-    item_singular: Object
+    items_singular: Item
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
   note_langmaterial:
     label: Label
@@ -1815,13 +1815,13 @@ nl:
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
-    items_singular: Object
-    item_singular: Object
+    items_singular: Item
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
   note_rights_statement:
     label: Label
@@ -1830,13 +1830,13 @@ nl:
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
-    items_singular: Object
-    item_singular: Object
+    items_singular: Item
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
   note_rights_statement_act:
     label: Label
@@ -1845,13 +1845,13 @@ nl:
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
-    items_singular: Object
-    item_singular: Object
+    items_singular: Item
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
   note_agent_rights_statement:
     label: Label
@@ -1860,13 +1860,13 @@ nl:
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
-    items_singular: Object
-    item_singular: Object
+    items_singular: Item
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
   note_bibliography:
     label: Label
@@ -1875,13 +1875,13 @@ nl:
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
-    items_singular: Object
-    item_singular: Object
+    items_singular: Item
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     option: Bibliografie
   note_chronology:
@@ -1891,13 +1891,13 @@ nl:
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Gebeurtenissen
-    items_singular: Object
-    item_singular: Object
+    items_singular: Item
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     option: Chronologie
   chronology_item:
@@ -1916,13 +1916,13 @@ nl:
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
-    items_singular: Object
-    item_singular: Object
+    items_singular: Item
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     option: Gedefinieerde lijst
   definedlist_item:
@@ -1939,13 +1939,13 @@ nl:
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
-    items_singular: Object
-    item_singular: Object
+    items_singular: Item
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     option: Geordende lijst
     enumeration: Opsomming
@@ -1958,13 +1958,13 @@ nl:
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
-    items_singular: Object
-    item_singular: Object
+    items_singular: Item
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     subnotes: Subnoten
   note_general_context:
@@ -1974,13 +1974,13 @@ nl:
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
-    items_singular: Object
-    item_singular: Object
+    items_singular: Item
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     subnotes: Subnoten
   note_mandate:
@@ -1990,13 +1990,13 @@ nl:
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
-    items_singular: Object
-    item_singular: Object
+    items_singular: Item
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     subnotes: Subnoten
   note_contact_note:
@@ -2006,13 +2006,13 @@ nl:
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
-    items_singular: Object
-    item_singular: Object
+    items_singular: Item
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     subnotes: Subnoten
     date_of_contact: Datum van het contact
@@ -2028,13 +2028,13 @@ nl:
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
-    items_singular: Object
-    item_singular: Object
+    items_singular: Item
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     subnotes: Subnoten
   note_structure_or_genealogy:
@@ -2044,13 +2044,13 @@ nl:
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
-    items_singular: Object
-    item_singular: Object
+    items_singular: Item
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     subnotes: Subnoten
   note_abstract:
@@ -2060,13 +2060,13 @@ nl:
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
-    items_singular: Object
-    item_singular: Object
+    items_singular: Item
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     option: Abstract
   note_citation:
@@ -2076,13 +2076,13 @@ nl:
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
-    items_singular: Object
-    item_singular: Object
+    items_singular: Item
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     option: Citaat
     xlink: XLink
@@ -2093,7 +2093,7 @@ nl:
     role: Rol
     show: Toon
     title: Titel
-    type: Voeg gebeurtenistype toe
+    type: Type
   note_outline:
     label: Label
     label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
@@ -2101,19 +2101,19 @@ nl:
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
-    items_singular: Object
-    item_singular: Object
+    items_singular: Item
+    item_singular: Item
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
-    type: Voeg gebeurtenistype toe
+    type: Type
     type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     option: Overzicht
     levels: Niveaus
   instance:
     is_representative: Is Representatief?
-    instance_type: Voeg gebeurtenistype toe
+    instance_type: Type
     instance_type_tooltip: |
       <p>Een aanduiding van de manifestatie voor de beschreven materialen. De instantie-aanduiding is optioneel, maar vereist om een containerrecord voor het beschreven materiaal te openen en in te vullen.</p>
       <p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>
@@ -2122,7 +2122,7 @@ nl:
     _singular: Instantie
   instance_container:
     is_representative: Is Representatief?
-    instance_type: Voeg gebeurtenistype toe
+    instance_type: Type
     instance_type_tooltip: "<p>Een aanduiding van de manifestatie voor de beschreven materialen. De instantie-aanduiding is optioneel, maar vereist om een containerrecord voor het beschreven materiaal te openen en in te vullen.</p>\n<p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>"
     digital_object: Digitaal object
     _plural: Instanties
@@ -2130,7 +2130,7 @@ nl:
     barcode: Barcode
   instance_digital_object:
     is_representative: Is Representatief?
-    instance_type: Voeg gebeurtenistype toe
+    instance_type: Type
     instance_type_tooltip: "<p>Een aanduiding van de manifestatie voor de beschreven materialen. De instantie-aanduiding is optioneel, maar vereist om een containerrecord voor het beschreven materiaal te openen en in te vullen.</p>\n<p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>"
     digital_object: Digitaal object
     _plural: Instanties
@@ -2203,7 +2203,7 @@ nl:
     number_tooltip: |
       <p>VERPLICHT VELD: Een numerieke waarde voor het aangeven van het aantal eenheden in de omvangverklaring, bijvoorbeeld 5, 11.5, 245. Wordt gebruikt in combinatie met het type omvang om een gestructureerde omvangverklaring te geven.</p>
       <p>Zie DACS 2.5</p>
-    extent_type: Voeg gebeurtenistype toe
+    extent_type: Type
     extent_type_tooltip: |
       <p>VERPLICHT VELD: Een term die het type eenheid aangeeft dat wordt gebruikt om de omvang van de beschreven materialen te meten.</p>
       <p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>
@@ -2455,7 +2455,7 @@ nl:
     label_tooltip: |
       <p>VERPLICHT VELD: Beschrijft wat voor soort activiteit de datum betekent.</p>
       <p>Zie DACS 2.4 and 2.4.3</p>
-    date_type: Voeg gebeurtenistype toe
+    date_type: Type
     date_type_tooltip: |
       <p>VERPLICHT VELD: Geeft het type aan voor genormaliseerde datuminformatie, een enkele datum of een datumbereik (inclusief of bulk).</p>
     date_type_message: Selecteer een type om een genormaliseerde datum of datumbereik in te voeren
@@ -2505,7 +2505,7 @@ nl:
   date_type_single:
     label: Label
     label_tooltip: "<p>VERPLICHT VELD: Beschrijft wat voor soort activiteit de datum betekent.</p>\n<p>Zie DACS 2.4 and 2.4.3</p>"
-    date_type: Voeg gebeurtenistype toe
+    date_type: Type
     date_type_tooltip: '<p>VERPLICHT VELD: Geeft het type aan voor genormaliseerde datuminformatie, een enkele datum of een datumbereik (inclusief of bulk).</p>'
     date_type_message: Selecteer een type om een genormaliseerde datum of datumbereik in te voeren
     expression: Bewoording
@@ -2527,7 +2527,7 @@ nl:
   date_type_bulk:
     label: Label
     label_tooltip: "<p>VERPLICHT VELD: Beschrijft wat voor soort activiteit de datum betekent.</p>\n<p>Zie DACS 2.4 and 2.4.3</p>"
-    date_type: Voeg gebeurtenistype toe
+    date_type: Type
     date_type_tooltip: '<p>VERPLICHT VELD: Geeft het type aan voor genormaliseerde datuminformatie, een enkele datum of een datumbereik (inclusief of bulk).</p>'
     date_type_message: Selecteer een type om een genormaliseerde datum of datumbereik in te voeren
     expression: Bewoording
@@ -2550,7 +2550,7 @@ nl:
   date_type_inclusive:
     label: Label
     label_tooltip: "<p>VERPLICHT VELD: Beschrijft wat voor soort activiteit de datum betekent.</p>\n<p>Zie DACS 2.4 and 2.4.3</p>"
-    date_type: Voeg gebeurtenistype toe
+    date_type: Type
     date_type_tooltip: '<p>VERPLICHT VELD: Geeft het type aan voor genormaliseerde datuminformatie, een enkele datum of een datumbereik (inclusief of bulk).</p>'
     date_type_message: Selecteer een type om een genormaliseerde datum of datumbereik in te voeren
     expression: Bewoording
@@ -2572,7 +2572,7 @@ nl:
   date_type_range:
     label: Label
     label_tooltip: "<p>VERPLICHT VELD: Beschrijft wat voor soort activiteit de datum betekent.</p>\n<p>Zie DACS 2.4 and 2.4.3</p>"
-    date_type: Voeg gebeurtenistype toe
+    date_type: Type
     date_type_tooltip: '<p>VERPLICHT VELD: Geeft het type aan voor genormaliseerde datuminformatie, een enkele datum of een datumbereik (inclusief of bulk).</p>'
     date_type_message: Selecteer een type om een genormaliseerde datum of datumbereik in te voeren
     expression: Bewoording
@@ -2594,7 +2594,7 @@ nl:
   date_label:
     label: Label
     label_tooltip: "<p>VERPLICHT VELD: Beschrijft wat voor soort activiteit de datum betekent.</p>\n<p>Zie DACS 2.4 and 2.4.3</p>"
-    date_type: Voeg gebeurtenistype toe
+    date_type: Type
     date_type_tooltip: '<p>VERPLICHT VELD: Geeft het type aan voor genormaliseerde datuminformatie, een enkele datum of een datumbereik (inclusief of bulk).</p>'
     date_type_message: Selecteer een type om een genormaliseerde datum of datumbereik in te voeren
     expression: Bewoording
@@ -2616,7 +2616,7 @@ nl:
   existence_date:
     label: Label
     label_tooltip: "<p>VERPLICHT VELD: Beschrijft wat voor soort activiteit de datum betekent.</p>\n<p>Zie DACS 2.4 and 2.4.3</p>"
-    date_type: Voeg gebeurtenistype toe
+    date_type: Type
     date_type_tooltip: '<p>VERPLICHT VELD: Geeft het type aan voor genormaliseerde datuminformatie, een enkele datum of een datumbereik (inclusief of bulk).</p>'
     date_type_message: Selecteer een type om een genormaliseerde datum of datumbereik in te voeren
     expression: Bewoording
@@ -2638,7 +2638,7 @@ nl:
   usage_date:
     label: Label
     label_tooltip: "<p>VERPLICHT VELD: Beschrijft wat voor soort activiteit de datum betekent.</p>\n<p>Zie DACS 2.4 and 2.4.3</p>"
-    date_type: Voeg gebeurtenistype toe
+    date_type: Type
     date_type_tooltip: '<p>VERPLICHT VELD: Geeft het type aan voor genormaliseerde datuminformatie, een enkele datum of een datumbereik (inclusief of bulk).</p>'
     date_type_message: Selecteer een type om een genormaliseerde datum of datumbereik in te voeren
     expression: Bewoording
@@ -2660,7 +2660,7 @@ nl:
   event_date:
     label: Label
     label_tooltip: "<p>VERPLICHT VELD: Beschrijft wat voor soort activiteit de datum betekent.</p>\n<p>Zie DACS 2.4 and 2.4.3</p>"
-    date_type: Voeg gebeurtenistype toe
+    date_type: Type
     date_type_tooltip: '<p>VERPLICHT VELD: Geeft het type aan voor genormaliseerde datuminformatie, een enkele datum of een datumbereik (inclusief of bulk).</p>'
     date_type_message: Selecteer een type om een genormaliseerde datum of datumbereik in te voeren
     expression: Bewoording
@@ -2682,7 +2682,7 @@ nl:
   archival_record_date:
     label: Label
     label_tooltip: "<p>VERPLICHT VELD: Beschrijft wat voor soort activiteit de datum betekent.</p>\n<p>Zie DACS 2.4 and 2.4.3</p>"
-    date_type: Voeg gebeurtenistype toe
+    date_type: Type
     date_type_tooltip: '<p>VERPLICHT VELD: Geeft het type aan voor genormaliseerde datuminformatie, een enkele datum of een datumbereik (inclusief of bulk).</p>'
     date_type_message: Selecteer een type om een genormaliseerde datum of datumbereik in te voeren
     expression: Bewoording
@@ -3575,7 +3575,7 @@ nl:
     term: Term
     term_tooltip: |
       <p>VERPLICHT VELD. Een descriptor voor een deel van een onderwerpkop. Aan een onderwerpkop moet ten minste 1 term zijn gekoppeld.</p>
-    term_type: Voeg gebeurtenistype toe
+    term_type: Type
     term_type_tooltip: |
       <p>VERPLICHT VELD. Een indicator om het type of de categorie van een  subject term uit te drukken.</p>
     _singular: Term
