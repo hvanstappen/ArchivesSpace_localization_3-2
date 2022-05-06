@@ -4281,7 +4281,7 @@ nl:
     ao: Archiefonderdeel
     tc: Topcontainer
     subj: Onderwerp
-    agent: Agent
+    agent: Actor
     dig: Digitaal object
     cont_inst: Container Instantie
     unfound_id: "%{type} ID %{id} NIET GEVONDEN. Dit is een PLACEHOLDER"
