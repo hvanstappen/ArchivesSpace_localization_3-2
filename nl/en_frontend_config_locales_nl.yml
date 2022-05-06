@@ -2,7 +2,7 @@ nl:
   actions:
     add: Voeg toe
     add_event: Voeg gebeurtenis toe
-    add_event_event_type: Type
+    add_event_event_type: Voeg gebeurtenistype toe
     automate: Genereer automatisch
     batch: Batch
     browse: Blader
