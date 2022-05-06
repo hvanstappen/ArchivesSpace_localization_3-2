@@ -326,7 +326,7 @@ nl:
       desc: Aflopend
     event:
       score: Relevantie
-      agents: Agent
+      agents: Actor
       event_type: Type
       outcome: Resultaat
       linked_records: Record koppelingen
@@ -2506,7 +2506,7 @@ nl:
         add: Voeg gebeurtenis toe
     maintenance_event_type: Record Controle Onderhoudsgebeurtenis Type
     maintenance_agent_type: Record Controle Onderhoud actor Type
-    agent: Agent
+    agent: Actor
     descriptive_note: Beschrijvende noot
     event_date: Datum gebeurtenis
   agent_maintenance_histories:
@@ -2517,7 +2517,7 @@ nl:
         add: Voeg gebeurtenis toe
     maintenance_event_type: Record Controle Onderhoudsgebeurtenis Type
     maintenance_agent_type: Record Controle Onderhoud actor Type
-    agent: Agent
+    agent: Actor
     descriptive_note: Beschrijvende noot
     event_date: Datum gebeurtenis
   agent_maintenance_history_required:
@@ -2528,7 +2528,7 @@ nl:
         add: Voeg gebeurtenis toe
     maintenance_event_type: Record Controle Onderhoudsgebeurtenis Type
     maintenance_agent_type: Record Controle Onderhoud actor Type
-    agent: Agent
+    agent: Actor
     descriptive_note: Beschrijvende noot
     event_date: Datum gebeurtenis
   agent_maintenance_history_merge_target:
@@ -2539,7 +2539,7 @@ nl:
         add: Voeg gebeurtenis toe
     maintenance_event_type: Record Controle Onderhoudsgebeurtenis Type
     maintenance_agent_type: Record Controle Onderhoud actor Type
-    agent: Agent
+    agent: Actor
     descriptive_note: Beschrijvende noot
     event_date: Datum gebeurtenis
   agent_maintenance_history_merge_victim:
@@ -2550,7 +2550,7 @@ nl:
         add: Voeg gebeurtenis toe
     maintenance_event_type: Record Controle Onderhoudsgebeurtenis Type
     maintenance_agent_type: Record Controle Onderhoud actor Type
-    agent: Agent
+    agent: Actor
     descriptive_note: Beschrijvende noot
     event_date: Datum gebeurtenis
   agent_record_identifier:
