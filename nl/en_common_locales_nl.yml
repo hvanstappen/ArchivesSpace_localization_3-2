@@ -360,10 +360,10 @@ nl:
   linked_agent:
     role: Rol
     role_tooltip: |
-      <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de Agent heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
+      <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de actor heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
     relator: Relator
     relator_tooltip: |
-      <p>Een indicatie van de rol die de Agent heeft met betrekking tot zijn functie, zoals aangegeven in de koppeling (bijvoorbeeld maker, bron of onderwerp) aan een bepaald beschrijvingsrecord. Een Agent kan bijvoorbeeld als maker aan een record worden gekoppeld, maar met de meer specifieke rol van "illustrator".</p>
+      <p>Een indicatie van de rol die de actor heeft met betrekking tot zijn functie, zoals aangegeven in de koppeling (bijvoorbeeld maker, bron of onderwerp) aan een bepaald beschrijvingsrecord. Een actor kan bijvoorbeeld als maker aan een record worden gekoppeld, maar met de meer specifieke rol van "illustrator".</p>
       <p>Zie MARC Code List for Relators (https://www.loc.gov/marc/relators/).</p>
     ref: Actor
     #ref_tooltip is not displaying
@@ -373,81 +373,81 @@ nl:
     terms: Termen
     title: Titel
     title_tooltip: |
-      <p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een Agent die als maker of onderwerp is gekoppeld:</p>
+      <p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een actor die als maker of onderwerp is gekoppeld:</p>
       <p>Bijvoorbeeld:</p>
       <ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>
     _singular: Gerelateerde actor
     _plural: Gerelateerde actoren
   accession_linked_agent:
     role: Rol
-    role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de Agent heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
+    role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de actor heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
     relator: Relator
-    relator_tooltip: "<p>Een indicatie van de rol die de Agent heeft met betrekking tot zijn functie, zoals aangegeven in de koppeling (bijvoorbeeld maker, bron of onderwerp) aan een bepaald beschrijvingsrecord. Een Agent kan bijvoorbeeld als maker aan een record worden gekoppeld, maar met de meer specifieke rol van \"illustrator\".</p>\n<p>Zie MARC Code List for Relators (https://www.loc.gov/marc/relators/).</p>"
+    relator_tooltip: "<p>Een indicatie van de rol die de actor heeft met betrekking tot zijn functie, zoals aangegeven in de koppeling (bijvoorbeeld maker, bron of onderwerp) aan een bepaald beschrijvingsrecord. Een actor kan bijvoorbeeld als maker aan een record worden gekoppeld, maar met de meer specifieke rol van \"illustrator\".</p>\n<p>Zie MARC Code List for Relators (https://www.loc.gov/marc/relators/).</p>"
     ref: Actor
     ref_tooltip: "<p>De actor met betrekking tot het materiaal beschreven in het record.</p>\n<p>Actoren kunnen worden gezocht met behulp van autocomplete, met behulp van een bladerfunctie, of kunnen worden toegevoegd.</p>"
     terms: Termen
     title: Titel
-    title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een Agent die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
+    title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een actor die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
     _singular: Gerelateerde actor
     _plural: Gerelateerde actoren
   event_linked_agent:
     role: Rol
-    role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de Agent heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
+    role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de actor heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
     relator: Relator
-    relator_tooltip: "<p>Een indicatie van de rol die de Agent heeft met betrekking tot zijn functie, zoals aangegeven in de koppeling (bijvoorbeeld maker, bron of onderwerp) aan een bepaald beschrijvingsrecord. Een Agent kan bijvoorbeeld als maker aan een record worden gekoppeld, maar met de meer specifieke rol van \"illustrator\".</p>\n<p>Zie MARC Code List for Relators (https://www.loc.gov/marc/relators/).</p>"
+    relator_tooltip: "<p>Een indicatie van de rol die de actor heeft met betrekking tot zijn functie, zoals aangegeven in de koppeling (bijvoorbeeld maker, bron of onderwerp) aan een bepaald beschrijvingsrecord. Een actor kan bijvoorbeeld als maker aan een record worden gekoppeld, maar met de meer specifieke rol van \"illustrator\".</p>\n<p>Zie MARC Code List for Relators (https://www.loc.gov/marc/relators/).</p>"
     ref: Actor
     ref_tooltip: "<p>De actor met betrekking tot het materiaal beschreven in het record.</p>\n<p>Actoren kunnen worden gezocht met behulp van autocomplete, met behulp van een bladerfunctie, of kunnen worden toegevoegd.</p>"
     terms: Termen
     title: Titel
-    title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een Agent die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
+    title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een actor die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
     _singular: Gerelateerde actor
     _plural: Gerelateerde actoren
   resource_linked_agent:
     role: Rol
-    role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de Agent heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
+    role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de actor heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
     relator: Relator
-    relator_tooltip: "<p>Een indicatie van de rol die de Agent heeft met betrekking tot zijn functie, zoals aangegeven in de koppeling (bijvoorbeeld maker, bron of onderwerp) aan een bepaald beschrijvingsrecord. Een Agent kan bijvoorbeeld als maker aan een record worden gekoppeld, maar met de meer specifieke rol van \"illustrator\".</p>\n<p>Zie MARC Code List for Relators (https://www.loc.gov/marc/relators/).</p>"
+    relator_tooltip: "<p>Een indicatie van de rol die de actor heeft met betrekking tot zijn functie, zoals aangegeven in de koppeling (bijvoorbeeld maker, bron of onderwerp) aan een bepaald beschrijvingsrecord. Een actor kan bijvoorbeeld als maker aan een record worden gekoppeld, maar met de meer specifieke rol van \"illustrator\".</p>\n<p>Zie MARC Code List for Relators (https://www.loc.gov/marc/relators/).</p>"
     ref: Actor
     ref_tooltip: "<p>De actor met betrekking tot het materiaal beschreven in het record.</p>\n<p>Actoren kunnen worden gezocht met behulp van autocomplete, met behulp van een bladerfunctie, of kunnen worden toegevoegd.</p>"
     terms: Termen
     title: Titel
-    title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een Agent die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
+    title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een actor die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
     _singular: Gerelateerde actor
     _plural: Gerelateerde actoren
   archival_object_linked_agent:
     role: Rol
-    role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de Agent heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
+    role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de actor heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
     relator: Relator
-    relator_tooltip: "<p>Een indicatie van de rol die de Agent heeft met betrekking tot zijn functie, zoals aangegeven in de koppeling (bijvoorbeeld maker, bron of onderwerp) aan een bepaald beschrijvingsrecord. Een Agent kan bijvoorbeeld als maker aan een record worden gekoppeld, maar met de meer specifieke rol van \"illustrator\".</p>\n<p>Zie MARC Code List for Relators (https://www.loc.gov/marc/relators/).</p>"
+    relator_tooltip: "<p>Een indicatie van de rol die de actor heeft met betrekking tot zijn functie, zoals aangegeven in de koppeling (bijvoorbeeld maker, bron of onderwerp) aan een bepaald beschrijvingsrecord. Een actor kan bijvoorbeeld als maker aan een record worden gekoppeld, maar met de meer specifieke rol van \"illustrator\".</p>\n<p>Zie MARC Code List for Relators (https://www.loc.gov/marc/relators/).</p>"
     ref: Actor
     ref_tooltip: "<p>De actor met betrekking tot het materiaal beschreven in het record.</p>\n<p>Actoren kunnen worden gezocht met behulp van autocomplete, met behulp van een bladerfunctie, of kunnen worden toegevoegd.</p>"
     terms: Termen
     title: Titel
-    title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een Agent die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
+    title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een actor die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
     _singular: Gerelateerde actor
     _plural: Gerelateerde actoren
   digital_object_linked_agent:
     role: Rol
-    role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de Agent heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
+    role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de actor heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
     relator: Relator
-    relator_tooltip: "<p>Een indicatie van de rol die de Agent heeft met betrekking tot zijn functie, zoals aangegeven in de koppeling (bijvoorbeeld maker, bron of onderwerp) aan een bepaald beschrijvingsrecord. Een Agent kan bijvoorbeeld als maker aan een record worden gekoppeld, maar met de meer specifieke rol van \"illustrator\".</p>\n<p>Zie MARC Code List for Relators (https://www.loc.gov/marc/relators/).</p>"
+    relator_tooltip: "<p>Een indicatie van de rol die de actor heeft met betrekking tot zijn functie, zoals aangegeven in de koppeling (bijvoorbeeld maker, bron of onderwerp) aan een bepaald beschrijvingsrecord. Een actor kan bijvoorbeeld als maker aan een record worden gekoppeld, maar met de meer specifieke rol van \"illustrator\".</p>\n<p>Zie MARC Code List for Relators (https://www.loc.gov/marc/relators/).</p>"
     ref: Actor
     ref_tooltip: "<p>De actor met betrekking tot het materiaal beschreven in het record.</p>\n<p>Actoren kunnen worden gezocht met behulp van autocomplete, met behulp van een bladerfunctie, of kunnen worden toegevoegd.</p>"
     terms: Termen
     title: Titel
-    title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een Agent die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
+    title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een actor die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
     _singular: Gerelateerde actor
     _plural: Gerelateerde actoren
   digital_object_component_linked_agent:
     role: Rol
-    role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de Agent heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
+    role_tooltip: <p>VERPLICHT VELD. Een indicatie van de functie (maker, bron of onderwerp) die de actor heeft met betrekking tot zijn link naar een bepaald beschrijvingsrecord.</p>
     relator: Relator
-    relator_tooltip: "<p>Een indicatie van de rol die de Agent heeft met betrekking tot zijn functie, zoals aangegeven in de koppeling (bijvoorbeeld maker, bron of onderwerp) aan een bepaald beschrijvingsrecord. Een Agent kan bijvoorbeeld als maker aan een record worden gekoppeld, maar met de meer specifieke rol van \"illustrator\".</p>\n<p>Zie MARC Code List for Relators (https://www.loc.gov/marc/relators/).</p>"
+    relator_tooltip: "<p>Een indicatie van de rol die de actor heeft met betrekking tot zijn functie, zoals aangegeven in de koppeling (bijvoorbeeld maker, bron of onderwerp) aan een bepaald beschrijvingsrecord. Een actor kan bijvoorbeeld als maker aan een record worden gekoppeld, maar met de meer specifieke rol van \"illustrator\".</p>\n<p>Zie MARC Code List for Relators (https://www.loc.gov/marc/relators/).</p>"
     ref: Actor
     ref_tooltip: "<p>De actor met betrekking tot het materiaal beschreven in het record.</p>\n<p>Actoren kunnen worden gezocht met behulp van autocomplete, met behulp van een bladerfunctie, of kunnen worden toegevoegd.</p>"
     terms: Termen
     title: Titel
-    title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een Agent die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
+    title_tooltip: "<p>Optioneel veld: noteer hier de geautoriseerde titel van een werk om een naam- of titel-ingang te maken voor een actor die als maker of onderwerp is gekoppeld:</p>\n<p>Bijvoorbeeld:</p>\n<ul><li>Shakespeare, William, 1564-1616. King Lear</li><li> Pound, Ezra, 1885-1972. Cantos</li><li> Lincoln, Abraham, 1809-1865. Emancipation Proclamation</li></ul>"
     _singular: Gerelateerde actor
     _plural: Gerelateerde actoren
   event:
@@ -1186,7 +1186,7 @@ nl:
     source_tooltip: |
       <p>Geeft het oorspronkelijke machtigingsbestand aan van een bijbehorende identificator. Voorbeeld: NAF (voor nr2003017069). Waarden in deze gecontroleerde lijst kunnen worden gewijzigd.</p>
     record_identifier_tooltip: |
-      <p>De identificatie voor het Agent-record, meestal bestaande uit een unieke alfanumerieke reeks. De Identificatiecode kan afkomstig zijn uit een extern autoriteitsbestand, of lokaal worden gegenereerd.</p>
+      <p>De identificatie voor het actor-record, meestal bestaande uit een unieke alfanumerieke reeks. De Identificatiecode kan afkomstig zijn uit een extern autoriteitsbestand, of lokaal worden gegenereerd.</p>
     is_primary: Primair
   agent_record_control:
     maintenance_status_tooltip: |
@@ -1202,7 +1202,7 @@ nl:
     name_type_tooltip: |
       <p>Geeft het unieke karakter van het geautoriseerde naamvorm binnen de actoren-module aan. Unieke namen moeten worden geregistreerd als 'Gedifferentieerd', terwijl actorrecords die worden gebruikt om meerdere actoren met identieke namen te verzamelen, moeten worden gemarkeerd als 'Ongedifferentieerd'.</p>
     level_of_detail_tooltip: |
-      <p>Geeft de volledigheid aan van het Agentrecord volgens de lokale vereisten.</p>
+      <p>Geeft de volledigheid aan van het actorrecord volgens de lokale vereisten.</p>
     modified_record_tooltip: |
       <p>Geeft aan of een actorrecord is gewijzigd en hoe deze is gewijzigd.</p>
     cataloging_source_tooltip: |
@@ -1218,7 +1218,7 @@ nl:
     script_tooltip: |
       <p> Het tekstscript dat wordt gebruikt bij het opstellen van de actorbeschrijving. Voorbeeld: Latijn. </p>
     language_note_tooltip: |
-      <p> De inhoud van de notitie, met details over de taal en scripts die worden gebruikt bij het opstellen van de Agentbeschrijving. </p>
+      <p> De inhoud van de notitie, met details over de taal en scripts die worden gebruikt bij het opstellen van de actorbeschrijving. </p>
   agent_alternate_set:
     set_component_tooltip: |
       <p> Een bijschrift om identificatie en toegang tot een gelijkwaardig gekoppeld geautoriseerd record te bieden. </p>
@@ -1240,11 +1240,11 @@ nl:
       <p> Laatste datum of datum en tijd waarop de gekoppelde bron die in de bijbehorende URI is gekoppeld, is geverifieerd. </p>
   agent_conventions_declaration:
     name_rule_tooltip: |
-      <p> Een inhoudsnorm die wordt gebruikt bij het formuleren van de inhoud van het Agent-record. Voorbeeld: archieven beschrijven: een inhoudsnorm. </p>
+      <p> Een inhoudsnorm die wordt gebruikt bij het formuleren van de inhoud van het actor-record. Voorbeeld: archieven beschrijven: een inhoudsnorm. </p>
     citation_tooltip: |
-      <p> Bibliografische vermelding voor een conventie die wordt gebruikt bij het formuleren van de inhoud van de Agent-record. Voorbeeld: Society of American Archivists. Archieven beschrijven: een inhoudsnorm (Chicago: Society of American Archivists, 2013). </p>
+      <p> Bibliografische vermelding voor een conventie die wordt gebruikt bij het formuleren van de inhoud van de actor-record. Voorbeeld: Society of American Archivists. Archieven beschrijven: een inhoudsnorm (Chicago: Society of American Archivists, 2013). </p>
     descriptive_note_tooltip: |
-      <p> De inhoud van de notitie, met details over de conventie, werd gebruikt bij het opstellen van de Agentbeschrijving. Voorbeeld: gebruikt voor het formuleren van de inhoud van biografische geschiedenissen. (voor het beschrijven van archieven: een inhoudsnorm). </p>
+      <p> De inhoud van de notitie, met details over de conventie, werd gebruikt bij het opstellen van de actorbeschrijving. Voorbeeld: gebruikt voor het formuleren van de inhoud van biografische geschiedenissen. (voor het beschrijven van archieven: een inhoudsnorm). </p>
     file_uri_tooltip: |
       <p> Een URI voor de online locatie van de conventie die wordt gebruikt bij het opstellen van de actorbeschrijving. Voorbeeld: http://www2.archivists.org/standards/DACS/ (voor het beschrijven van archieven: een inhoudsnorm). </p>
     file_version_xlink_actuate_attribute_tooltip: |
@@ -1277,9 +1277,9 @@ nl:
       <p> De inhoud van de notitie, met details over het uitgevoerde onderhoud. </p>
   agent_sources:
     source_entry_tooltip: |
-      <p> Bibliografische bronvermelding voor een bron die wordt gebruikt bij het formuleren van de inhoud van het Agent-record. Voorbeeld: Lockhart, G. W. In het spoor van Robert Service (Edinburgh: Luath Press, 1991). </p>
+      <p> Bibliografische bronvermelding voor een bron die wordt gebruikt bij het formuleren van de inhoud van het actor-record. Voorbeeld: Lockhart, G. W. In het spoor van Robert Service (Edinburgh: Luath Press, 1991). </p>
     descriptive_note_tooltip: |
-      <p> De inhoud van de notitie, met details over de inhoud van de bronnen die zijn gebruikt ter voorbereiding van de Agentbeschrijving. </p>
+      <p> De inhoud van de notitie, met details over de inhoud van de bronnen die zijn gebruikt ter voorbereiding van de actorbeschrijving. </p>
     file_uri_tooltip: |
       <p> Een URI voor de online locatie van de bron die is gebruikt bij het opstellen van de actorbeschrijving. Voorbeeld: http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid=8373 (voor Find-A-Grave-invoer voor Robert W. Service). </p>
     file_version_xlink_actuate_attribute_tooltip: |
@@ -1510,7 +1510,7 @@ nl:
     content_tooltip: |
       <p>De inhoud van het nootveld.</p>
     items: Items
-    items_singular: Object
+    items_singular: Item
     item_singular: Object
     publish: Publiceren?
     publish_tooltip: |
@@ -1726,7 +1726,7 @@ nl:
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
-    items_singular: Object
+    items_singular: Item
     item_singular: Object
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
@@ -1742,7 +1742,7 @@ nl:
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
     items: Items
-    items_singular: Object
+    items_singular: Item
     item_singular: Object
     publish: Publiceren?
     publish_tooltip: <p>Bepaalt of deze informatie op de publieke interface wordt gepubliceerd.</p>
@@ -2892,7 +2892,7 @@ nl:
     is_slug_auto_tooltip: <p>Als dit veld is aangevinkt, wordt de slug voor dit record automatisch gegenereerd wanneer het record wordt opgeslagen, gebaseerd op de configuratie-instellingen voor menselijk leesbare URL's in het config.rb bestand op de server.</p>
     autogen_disabled: Op basis van de huidige configuratie-instellingen kan van de ingevoerde gegevens niet automatisch een slug worden gegenereerd.
     autogen_repo_slug: Omdat er niet handmatig een slug is ingevoerd, is de slug van de repository automatisch gegenereerd met de korte naam van de repository
-    type: Agent type
+    type: Actor type
     type_tooltip: |
       <p>Het type entiteit dat wordt vertegenwoordigd door het actorrecord.</p>
       <p>Zie DACS 10.2 and PREMIS Agent entity</p>
@@ -2904,7 +2904,7 @@ nl:
     is_user: Gebruikersnaam
     is_user_tooltip: |
       <p>Indien ingevuld, is dit actor record gekoppeld aan een gebruiker van de applicatie met de opgegeven gebruikersnaam.</p>
-    name: Agent naam
+    name: Actor naam
     names: Naamvormen
     names_tooltip: |
       <p>VERPLICHT SUBRECORD: Registreert verschillende vormen van de naam van een actor. Elk actorrecord moet ten minste één subrecord Naamvorm hebben.</p>
@@ -2915,11 +2915,11 @@ nl:
     notes_tooltip: |
       <p>Registreert aanvullende beschrijvende informatie over een actor, zoals een biografische aantekening of een administratieve geschiedenis.</p>
     agent_contact_notes_tooltip: |
-      <p>Noten m.b.t. interacties met de Agent.</p>
+      <p>Noten m.b.t. interacties met de actor.</p>
     related_agents_tooltip: |
-      <p>Staat koppelingen toe van dit Agent-record naar een ander in associatieve, hiërarchische of bovenliggende / onderliggende relaties.</p>
+      <p>Staat koppelingen toe van dit actor-record naar een ander in associatieve, hiërarchische of bovenliggende / onderliggende relaties.</p>
     external_documents_tooltip: |
-      <p>Staat links toe naar externe documentatie, bv. biografische bestanden, naslagwerken, enz. over deze Agent.</p>
+      <p>Staat links toe naar externe documentatie, bv. biografische bestanden, naslagwerken, enz. over deze actor.</p>
     dates_of_existence: Datums van bestaan
     dates_of_existence_tooltip: |
       <p>Het aangeven van de bestaansperiode van de organisatie, persoon of familie. </p>
@@ -2942,9 +2942,9 @@ nl:
     agent_maintenance_histories_tooltip: |
       <p>Gebeurtenissen die verband houden met het maken of onderhouden van de actorrecord.</p>
     agent_record_identifiers_tooltip: |
-      <p>Identificatiecodes m.b.t. het Agent record.</p>
+      <p>Identificatiecodes m.b.t. het actor record.</p>
     agent_sources_tooltip: |
-      <p>Een bron die wordt gebruikt bij het formuleren van de inhoud van het Agent-record.</p>
+      <p>Een bron die wordt gebruikt bij het formuleren van de inhoud van het actor-record.</p>
     agent_identifiers_tooltip: |
       <p>ID's die aan een entiteit zijn gekoppeld, zoals juridische ID's die zijn toegewezen door een gezaghebbende instantie. Voorbeelden zijn onder meer een ORCID-ID voor een persoon of een MARC Repository Code voor een bedrijfsentiteit.</p>
     agent_genders_tooltip: Geslacht.
@@ -2968,7 +2968,7 @@ nl:
     is_slug_auto_tooltip: <p>Als dit veld is aangevinkt, wordt de slug voor dit record automatisch gegenereerd wanneer het record wordt opgeslagen, gebaseerd op de configuratie-instellingen voor menselijk leesbare URL's in het config.rb bestand op de server.</p>
     autogen_disabled: Op basis van de huidige configuratie-instellingen kan van de ingevoerde gegevens niet automatisch een slug worden gegenereerd.
     autogen_repo_slug: Omdat er niet handmatig een slug is ingevoerd, is de slug van de repository automatisch gegenereerd met de korte naam van de repository
-    type: Agent type
+    type: Actor type
     type_tooltip: "<p>Het type entiteit dat wordt vertegenwoordigd door het actorrecord.</p>\n<p>Zie DACS 10.2 and PREMIS Agent entity</p>"
     agent_type:
       agent_family: Familie
@@ -2977,16 +2977,16 @@ nl:
       agent_software: Software
     is_user: Gebruikersnaam
     is_user_tooltip: <p>Indien ingevuld, is dit actor record gekoppeld aan een gebruiker van de applicatie met de opgegeven gebruikersnaam.</p>
-    name: Agent naam
+    name: Actor naam
     names: Naamvormen
     names_tooltip: '<p>VERPLICHT SUBRECORD: Registreert verschillende vormen van de naam van een actor. Elk actorrecord moet ten minste één subrecord Naamvorm hebben.</p>'
     agent_contacts: Contactgegevens
     contacts_tooltip: <p>Registreert contactgegevens over een bepaalde actor.</p>
     notes: Noten
     notes_tooltip: <p>Registreert aanvullende beschrijvende informatie over een actor, zoals een biografische aantekening of een administratieve geschiedenis.</p>
-    agent_contact_notes_tooltip: <p>Noten m.b.t. interacties met de Agent.</p>
-    related_agents_tooltip: <p>Staat koppelingen toe van dit Agent-record naar een ander in associatieve, hiërarchische of bovenliggende / onderliggende relaties.</p>
-    external_documents_tooltip: <p>Staat links toe naar externe documentatie, bv. biografische bestanden, naslagwerken, enz. over deze Agent.</p>
+    agent_contact_notes_tooltip: <p>Noten m.b.t. interacties met de actor.</p>
+    related_agents_tooltip: <p>Staat koppelingen toe van dit actor-record naar een ander in associatieve, hiërarchische of bovenliggende / onderliggende relaties.</p>
+    external_documents_tooltip: <p>Staat links toe naar externe documentatie, bv. biografische bestanden, naslagwerken, enz. over deze actor.</p>
     dates_of_existence: Datums van bestaan
     dates_of_existence_tooltip: <p>Het aangeven van de bestaansperiode van de organisatie, persoon of familie. </p>
     publish: Publiceren
@@ -3002,8 +3002,8 @@ nl:
     agent_conventions_declarations_tooltip: '<p>A content standard used in the formulation of the Agent record content. Example: Describing Archives: A Content Standard. This sub-record can be used instead of Rules entries on individual name forms.</p>'
     agent_other_agency_codes_tooltip: <p>Informatie over alternatieve codes voor de instantie of organisatie die verantwoordelijk is voor het aanmaken of bijhouden van een actorrecord.</p>
     agent_maintenance_histories_tooltip: <p>Gebeurtenissen die verband houden met het maken of onderhouden van de actorrecord.</p>
-    agent_record_identifiers_tooltip: <p>Identificatiecodes m.b.t. het Agent record.</p>
-    agent_sources_tooltip: <p>Een bron die wordt gebruikt bij het formuleren van de inhoud van het Agent-record.</p>
+    agent_record_identifiers_tooltip: <p>Identificatiecodes m.b.t. het actor record.</p>
+    agent_sources_tooltip: <p>Een bron die wordt gebruikt bij het formuleren van de inhoud van het actor-record.</p>
     agent_identifiers_tooltip: <p>ID's die aan een entiteit zijn gekoppeld, zoals juridische ID's die zijn toegewezen door een gezaghebbende instantie. Voorbeelden zijn onder meer een ORCID-ID voor een persoon of een MARC Repository Code voor een bedrijfsentiteit.</p>
     agent_genders_tooltip: Geslacht.
     agent_places_tooltip: Plaats informatie die aan de actor is gekoppeld.
@@ -3024,7 +3024,7 @@ nl:
     is_slug_auto_tooltip: <p>Als dit veld is aangevinkt, wordt de slug voor dit record automatisch gegenereerd wanneer het record wordt opgeslagen, gebaseerd op de configuratie-instellingen voor menselijk leesbare URL's in het config.rb bestand op de server.</p>
     autogen_disabled: Op basis van de huidige configuratie-instellingen kan van de ingevoerde gegevens niet automatisch een slug worden gegenereerd.
     autogen_repo_slug: Omdat er niet handmatig een slug is ingevoerd, is de slug van de repository automatisch gegenereerd met de korte naam van de repository
-    type: Agent type
+    type: Actor type
     type_tooltip: "<p>Het type entiteit dat wordt vertegenwoordigd door het actorrecord.</p>\n<p>Zie DACS 10.2 and PREMIS Agent entity</p>"
     agent_type:
       agent_family: Familie
@@ -3033,16 +3033,16 @@ nl:
       agent_software: Software
     is_user: Gebruikersnaam
     is_user_tooltip: <p>Indien ingevuld, is dit actor record gekoppeld aan een gebruiker van de applicatie met de opgegeven gebruikersnaam.</p>
-    name: Agent naam
+    name: Actor naam
     names: Naamvormen
     names_tooltip: '<p>VERPLICHT SUBRECORD: Registreert verschillende vormen van de naam van een actor. Elk actorrecord moet ten minste één subrecord Naamvorm hebben.</p>'
     agent_contacts: Contactgegevens
     contacts_tooltip: <p>Registreert contactgegevens over een bepaalde actor.</p>
     notes: Noten
     notes_tooltip: <p>Registreert aanvullende beschrijvende informatie over een actor, zoals een biografische aantekening of een administratieve geschiedenis.</p>
-    agent_contact_notes_tooltip: <p>Noten m.b.t. interacties met de Agent.</p>
-    related_agents_tooltip: <p>Staat koppelingen toe van dit Agent-record naar een ander in associatieve, hiërarchische of bovenliggende / onderliggende relaties.</p>
-    external_documents_tooltip: <p>Staat links toe naar externe documentatie, bv. biografische bestanden, naslagwerken, enz. over deze Agent.</p>
+    agent_contact_notes_tooltip: <p>Noten m.b.t. interacties met de actor.</p>
+    related_agents_tooltip: <p>Staat koppelingen toe van dit actor-record naar een ander in associatieve, hiërarchische of bovenliggende / onderliggende relaties.</p>
+    external_documents_tooltip: <p>Staat links toe naar externe documentatie, bv. biografische bestanden, naslagwerken, enz. over deze actor.</p>
     dates_of_existence: Datums van bestaan
     dates_of_existence_tooltip: <p>Het aangeven van de bestaansperiode van de organisatie, persoon of familie. </p>
     publish: Publiceren
@@ -3058,8 +3058,8 @@ nl:
     agent_conventions_declarations_tooltip: '<p>A content standard used in the formulation of the Agent record content. Example: Describing Archives: A Content Standard. This sub-record can be used instead of Rules entries on individual name forms.</p>'
     agent_other_agency_codes_tooltip: <p>Informatie over alternatieve codes voor de instantie of organisatie die verantwoordelijk is voor het aanmaken of bijhouden van een actorrecord.</p>
     agent_maintenance_histories_tooltip: <p>Gebeurtenissen die verband houden met het maken of onderhouden van de actorrecord.</p>
-    agent_record_identifiers_tooltip: <p>Identificatiecodes m.b.t. het Agent record.</p>
-    agent_sources_tooltip: <p>Een bron die wordt gebruikt bij het formuleren van de inhoud van het Agent-record.</p>
+    agent_record_identifiers_tooltip: <p>Identificatiecodes m.b.t. het actor record.</p>
+    agent_sources_tooltip: <p>Een bron die wordt gebruikt bij het formuleren van de inhoud van het actor-record.</p>
     agent_identifiers_tooltip: <p>ID's die aan een entiteit zijn gekoppeld, zoals juridische ID's die zijn toegewezen door een gezaghebbende instantie. Voorbeelden zijn onder meer een ORCID-ID voor een persoon of een MARC Repository Code voor een bedrijfsentiteit.</p>
     agent_genders_tooltip: Geslacht.
     agent_places_tooltip: Plaats informatie die aan de actor is gekoppeld.
@@ -3080,7 +3080,7 @@ nl:
     is_slug_auto_tooltip: <p>Als dit veld is aangevinkt, wordt de slug voor dit record automatisch gegenereerd wanneer het record wordt opgeslagen, gebaseerd op de configuratie-instellingen voor menselijk leesbare URL's in het config.rb bestand op de server.</p>
     autogen_disabled: Op basis van de huidige configuratie-instellingen kan van de ingevoerde gegevens niet automatisch een slug worden gegenereerd.
     autogen_repo_slug: Omdat er niet handmatig een slug is ingevoerd, is de slug van de repository automatisch gegenereerd met de korte naam van de repository
-    type: Agent type
+    type: Actor type
     type_tooltip: "<p>Het type entiteit dat wordt vertegenwoordigd door het actorrecord.</p>\n<p>Zie DACS 10.2 and PREMIS Agent entity</p>"
     agent_type:
       agent_family: Familie
@@ -3089,16 +3089,16 @@ nl:
       agent_software: Software
     is_user: Gebruikersnaam
     is_user_tooltip: <p>Indien ingevuld, is dit actor record gekoppeld aan een gebruiker van de applicatie met de opgegeven gebruikersnaam.</p>
-    name: Agent naam
+    name: Actor naam
     names: Naamvormen
     names_tooltip: '<p>VERPLICHT SUBRECORD: Registreert verschillende vormen van de naam van een actor. Elk actorrecord moet ten minste één subrecord Naamvorm hebben.</p>'
     agent_contacts: Contactgegevens
     contacts_tooltip: <p>Registreert contactgegevens over een bepaalde actor.</p>
     notes: Noten
     notes_tooltip: <p>Registreert aanvullende beschrijvende informatie over een actor, zoals een biografische aantekening of een administratieve geschiedenis.</p>
-    agent_contact_notes_tooltip: <p>Noten m.b.t. interacties met de Agent.</p>
-    related_agents_tooltip: <p>Staat koppelingen toe van dit Agent-record naar een ander in associatieve, hiërarchische of bovenliggende / onderliggende relaties.</p>
-    external_documents_tooltip: <p>Staat links toe naar externe documentatie, bv. biografische bestanden, naslagwerken, enz. over deze Agent.</p>
+    agent_contact_notes_tooltip: <p>Noten m.b.t. interacties met de actor.</p>
+    related_agents_tooltip: <p>Staat koppelingen toe van dit actor-record naar een ander in associatieve, hiërarchische of bovenliggende / onderliggende relaties.</p>
+    external_documents_tooltip: <p>Staat links toe naar externe documentatie, bv. biografische bestanden, naslagwerken, enz. over deze actor.</p>
     dates_of_existence: Datums van bestaan
     dates_of_existence_tooltip: <p>Het aangeven van de bestaansperiode van de organisatie, persoon of familie. </p>
     publish: Publiceren
@@ -3114,8 +3114,8 @@ nl:
     agent_conventions_declarations_tooltip: '<p>A content standard used in the formulation of the Agent record content. Example: Describing Archives: A Content Standard. This sub-record can be used instead of Rules entries on individual name forms.</p>'
     agent_other_agency_codes_tooltip: <p>Informatie over alternatieve codes voor de instantie of organisatie die verantwoordelijk is voor het aanmaken of bijhouden van een actorrecord.</p>
     agent_maintenance_histories_tooltip: <p>Gebeurtenissen die verband houden met het maken of onderhouden van de actorrecord.</p>
-    agent_record_identifiers_tooltip: <p>Identificatiecodes m.b.t. het Agent record.</p>
-    agent_sources_tooltip: <p>Een bron die wordt gebruikt bij het formuleren van de inhoud van het Agent-record.</p>
+    agent_record_identifiers_tooltip: <p>Identificatiecodes m.b.t. het actor record.</p>
+    agent_sources_tooltip: <p>Een bron die wordt gebruikt bij het formuleren van de inhoud van het actor-record.</p>
     agent_identifiers_tooltip: <p>ID's die aan een entiteit zijn gekoppeld, zoals juridische ID's die zijn toegewezen door een gezaghebbende instantie. Voorbeelden zijn onder meer een ORCID-ID voor een persoon of een MARC Repository Code voor een bedrijfsentiteit.</p>
     agent_genders_tooltip: Geslacht.
     agent_places_tooltip: Plaats informatie die aan de actor is gekoppeld.
@@ -3136,7 +3136,7 @@ nl:
     is_slug_auto_tooltip: <p>Als dit veld is aangevinkt, wordt de slug voor dit record automatisch gegenereerd wanneer het record wordt opgeslagen, gebaseerd op de configuratie-instellingen voor menselijk leesbare URL's in het config.rb bestand op de server.</p>
     autogen_disabled: Op basis van de huidige configuratie-instellingen kan van de ingevoerde gegevens niet automatisch een slug worden gegenereerd.
     autogen_repo_slug: Omdat er niet handmatig een slug is ingevoerd, is de slug van de repository automatisch gegenereerd met de korte naam van de repository
-    type: Agent type
+    type: Actor type
     type_tooltip: "<p>Het type entiteit dat wordt vertegenwoordigd door het actorrecord.</p>\n<p>Zie DACS 10.2 and PREMIS Agent entity</p>"
     agent_type:
       agent_family: Familie
@@ -3145,16 +3145,16 @@ nl:
       agent_software: Software
     is_user: Gebruikersnaam
     is_user_tooltip: <p>Indien ingevuld, is dit actor record gekoppeld aan een gebruiker van de applicatie met de opgegeven gebruikersnaam.</p>
-    name: Agent naam
+    name: Actor naam
     names: Naamvormen
     names_tooltip: '<p>VERPLICHT SUBRECORD: Registreert verschillende vormen van de naam van een actor. Elk actorrecord moet ten minste één subrecord Naamvorm hebben.</p>'
     agent_contacts: Contactgegevens
     contacts_tooltip: <p>Registreert contactgegevens over een bepaalde actor.</p>
     notes: Noten
     notes_tooltip: <p>Registreert aanvullende beschrijvende informatie over een actor, zoals een biografische aantekening of een administratieve geschiedenis.</p>
-    agent_contact_notes_tooltip: <p>Noten m.b.t. interacties met de Agent.</p>
-    related_agents_tooltip: <p>Staat koppelingen toe van dit Agent-record naar een ander in associatieve, hiërarchische of bovenliggende / onderliggende relaties.</p>
-    external_documents_tooltip: <p>Staat links toe naar externe documentatie, bv. biografische bestanden, naslagwerken, enz. over deze Agent.</p>
+    agent_contact_notes_tooltip: <p>Noten m.b.t. interacties met de actor.</p>
+    related_agents_tooltip: <p>Staat koppelingen toe van dit actor-record naar een ander in associatieve, hiërarchische of bovenliggende / onderliggende relaties.</p>
+    external_documents_tooltip: <p>Staat links toe naar externe documentatie, bv. biografische bestanden, naslagwerken, enz. over deze actor.</p>
     dates_of_existence: Datums van bestaan
     dates_of_existence_tooltip: <p>Het aangeven van de bestaansperiode van de organisatie, persoon of familie. </p>
     publish: Publiceren
@@ -3170,8 +3170,8 @@ nl:
     agent_conventions_declarations_tooltip: '<p>A content standard used in the formulation of the Agent record content. Example: Describing Archives: A Content Standard. This sub-record can be used instead of Rules entries on individual name forms.</p>'
     agent_other_agency_codes_tooltip: <p>Informatie over alternatieve codes voor de instantie of organisatie die verantwoordelijk is voor het aanmaken of bijhouden van een actorrecord.</p>
     agent_maintenance_histories_tooltip: <p>Gebeurtenissen die verband houden met het maken of onderhouden van de actorrecord.</p>
-    agent_record_identifiers_tooltip: <p>Identificatiecodes m.b.t. het Agent record.</p>
-    agent_sources_tooltip: <p>Een bron die wordt gebruikt bij het formuleren van de inhoud van het Agent-record.</p>
+    agent_record_identifiers_tooltip: <p>Identificatiecodes m.b.t. het actor record.</p>
+    agent_sources_tooltip: <p>Een bron die wordt gebruikt bij het formuleren van de inhoud van het actor-record.</p>
     agent_identifiers_tooltip: <p>ID's die aan een entiteit zijn gekoppeld, zoals juridische ID's die zijn toegewezen door een gezaghebbende instantie. Voorbeelden zijn onder meer een ORCID-ID voor een persoon of een MARC Repository Code voor een bedrijfsentiteit.</p>
     agent_genders_tooltip: Geslacht.
     agent_places_tooltip: Plaats informatie die aan de actor is gekoppeld.
@@ -3811,7 +3811,7 @@ nl:
     digital_object_browse_section: Digitaal Object blader door kolommen
     digital_object_component_browse_section: Digitaal Object Component blader door kolommen
     subject_browse_section: Onderwerp blader door kolommen
-    agent_browse_section: Agent blader door kolommen
+    agent_browse_section: Actor blader door kolommen
     location_browse_section: Locatie blader door kolommen
     event_browse_section: Gebeurtenis blader door kolommen
     collection_management_browse_section: Collectiebeheer blader door kolommen
@@ -3845,7 +3845,7 @@ nl:
       html: HTML
       rtf: RTF
   validation_errors:
-    agent_must_be_unique: Agentrecords kunnen niet identiek zijn
+    agent_must_be_unique: Actorrecords kunnen niet identiek zijn
     subject_must_be_unique: Onderwerpsrecords mogen niet identiek zijn
     subject_heading_identifier_must_be_unique_within_source: Subject heading Identificatiecode moet uniek zijn binnen de bron
     missing_required_property: Eigenschap is vereist maar ontbreekt
