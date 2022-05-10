@@ -327,7 +327,7 @@ nl:
     _plural: Functies
     _frontend:
       action:
-        add: Add Function
+        add: Voeg functie toe
   dates_of_existence:
     _frontend:
       action:
