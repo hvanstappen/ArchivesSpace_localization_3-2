@@ -783,7 +783,7 @@ nl:
         save: Bewaar Archiefonderdeel
         bulk_import: Laad met spreadsheet
       tree:
-        new_record_title: Nieuw Archiefonderdeel
+        new_record_title: Nieuw archiefonderdeel
   classification:
     _frontend:
       messages:
@@ -814,7 +814,7 @@ nl:
         add_sibling: Voeg Sibling toe
         save: Bewaar Classificatie Term
       tree:
-        new_record_title: Nieuwe Classificatie Term
+        new_record_title: Nieuwe classificatieterm
   collection_management:
     _frontend:
       title_prefix: Verwerken
@@ -917,7 +917,7 @@ nl:
         add_sibling: Voeg Sibling toe
         save: Bewaar Digitaal object onderdeel
       tree:
-        new_record_title: Nieuw Digitaal object onderdeel
+        new_record_title: Nieuw digitaal object-onderdeel
   enumeration:
     _frontend:
       messages:
@@ -2304,8 +2304,8 @@ nl:
       action:
         add: Voeg plaats toe
   agent_alternate_set:
-    _plural: Alternatieve Sets
-    _singular: Alternatieve Set
+    _plural: Gerelateerde alternatieve beschrijvingen
+    _singular: Gerelateerde alternatieve beschrijving
     _frontend:
       action:
         add: Voeg Alternatieve Set toe
@@ -2319,8 +2319,8 @@ nl:
     file_version_xlink_show_attribute: Xlink Toon Attribuut
     last_verified_date: Datum laatste verificatie
   agent_alternate_sets:
-    _plural: Alternatieve Sets
-    _singular: Alternatieve Set
+    _plural: Gerelateerde alternatieve beschrijvingen
+    _singular: Gerelateerde alternatieve beschrijving
     _frontend:
       action:
         add: Voeg Alternatieve Set toe
