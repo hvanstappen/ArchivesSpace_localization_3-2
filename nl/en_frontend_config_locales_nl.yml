@@ -2239,8 +2239,8 @@ nl:
         add: Voeg Topic toe
     section:
       dates: Datums
-    _plural: Topics
-    _singular: Topic
+    _plural: Onderwerpen
+    _singular: Onderwerp
     text_note: Noot
     dates: Datums
     subjects: Topics
