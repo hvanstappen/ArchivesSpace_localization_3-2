@@ -115,16 +115,16 @@ nl:
     toolbar_disabled_message: "<small><span class='muted'>Je hebt niet-opgeslagen wijzigingen - Bewaar of Maak ongedaan</span></small>"
     publish: Publiceer alles
     publish_confirm_title: Publiceren?
-    publish_confirm_message: "<p>Als je deze actie uitvoert, worden dit record, eventuele subrecords (externe documenten, notities, enz.) en alle componenten in de hiërarchie gepubliceerd.</p>"
+    publish_confirm_message: "<p>Als je deze actie uitvoert, worden dit record, eventuele subrecords (externe documenten, notities, enz.) en alle onderdelen in de hiërarchie gepubliceerd.</p>"
     unpublish: Publicatie ongedaan maken (alles)
     unpublish_confirm_title: Publicatie ongedaan maken?
-    unpublish_confirm_message: "<p>Als u deze actie uitvoert, wordt de publicatie van dit record, alle subrecords (externe documenten, notities, enz.) en alle componenten in de hiërarchie ongedaan gemaakt.</p>"
+    unpublish_confirm_message: "<p>Als u deze actie uitvoert, wordt de publicatie van dit record, alle subrecords (externe documenten, notities, enz.) en alle onderdelen in de hiërarchie ongedaan gemaakt.</p>"
     publish_archival_object: Publiceer alles
     publish_archival_object_confirm_title: Publiceren?
-    publish_archival_object_confirm_message: "<p>Als u deze actie uitvoert, worden dit record, eventuele subrecords (externe documenten, notities, enz.) en alle componenten onder dit record in de hiërarchie gepubliceerd.</p>"
+    publish_archival_object_confirm_message: "<p>Als u deze actie uitvoert, worden dit record, eventuele subrecords (externe documenten, notities, enz.) en alle onderdelen van dit record in de hiërarchie gepubliceerd.</p>"
     unpublish_archival_object: Publicatie ongedaan maken (alles)
     unpublish_archival_object_confirm_title: Publicatie ongedaan maken?
-    unpublish_archival_object_confirm_message: "<p>Als u deze actie uitvoert, wordt de publicatie van dit record, alle subrecords (externe documenten, notities, enz.) en alle componenten in de hiërarchie ongedaan gemaakt.</p>"
+    unpublish_archival_object_confirm_message: "<p>Als u deze actie uitvoert, wordt de publicatie van dit record, alle subrecords (externe documenten, notities, enz.) en alle onderdelen in de hiërarchie ongedaan gemaakt.</p>"
     view_search_results: Ga naar zoekresultaten
     view_published: Toon gepubliceerd
     print_to_pdf: Genereer PDF
@@ -531,7 +531,7 @@ nl:
     manage_groups: Beheer Groepen
     manage_users: Beheer Gebruikers
     manage_container_profiles: Beheer Containerprofielen
-    manage_location_profiles: Beheer Locatieprofielen
+    manage_location_profiles: Beheer locatieprofielen
     manage_top_containers: Beheer Topcontainers
     manage_enumerations: Beheer Waardenlijsten
     global_preferences: Globale voorkeuren
@@ -570,7 +570,7 @@ nl:
       error: "Kan actoren niet verwijderen:"
     locations:
       success: Locaties verwijderd
-      error: "Kan Locaties niet verwijderen:"
+      error: "Kan locaties niet verwijderen:"
     assessments:
       success: Waarderingsrecord verwijderd
       error: "Kan waarderingsrecords niet verwijderen:"
@@ -768,8 +768,8 @@ nl:
         transfer_success: '“Archiefonderdeel <strong>%{archival_object.display_string}</strong> overgebracht naar Archief/Collectie <strong>%{resource.title}</strong>”'
         transfer_error: "Kan Archiefonderdeel niet overbrengen wegens een fou of conflict: <pre>%{exception}</pre>"
         deleted: "Archiefonderdeel <strong>%{archival_object.display_string}</strong> verwijderd"
-        published: "Het Archiefonderdeel <strong>%{archival_object.title}</strong>, kinderen, subrecords en componenten werden gepubliceerd"
-        unpublished: "Publicatie van het Archiefonderdeel <strong>%{archival_object.title}</strong>, kinderen, subrecords encomponenten werd ongedaan gemaakt"
+        published: "Het archiefonderdeel <strong>%{archival_object.title}</strong>, kinderen, subrecords en onderdelen werden gepubliceerd"
+        unpublished: "Publicatie van het archiefonderdeel <strong>%{archival_object.title}</strong>, kinderen, subrecords en onderdelen werd ongedaan gemaakt"
         unsuppressed: Archiefonderdeel <strong>%{archival_object.title}</strong> zichtbaar gemaakt
         suppressed: Archiefonderdeel <strong>%{archival_object.title}</strong> verborgen
         suppressed_info: Archiefonderdeel is verborgen en kan niet waorden aangepast
@@ -827,7 +827,7 @@ nl:
   container_location:
     _frontend:
       action:
-        add: Voeg Locatie toe
+        add: Voeg locatie toe
   date:
     _frontend:
       expression_placeholder: Beschrijf de datum of het datumbereik
@@ -882,7 +882,7 @@ nl:
         created: "Digitaal Object <strong>%{digital_object.title}</strong> gemaakt"
         updated: "Digitaal Object <strong>%{digital_object.title}</strong> aangepast"
         deleted: "Digitaal Object <strong>%{digital_object.title}</strong> verwijderd"
-        published: "Het Digitaal Object <strong>%{digital_object.title}</strong>, subrecords en componenten werden gepubliceerd"
+        published: "Het digitaal object <strong>%{digital_object.title}</strong>, subrecords en onderdelen werden gepubliceerd"
         merge_description: Selecteer Digitale objecten om mee samen te voegen
         please_select_a_digital_object_to_merge: Selecteer een Digitaal object
         merged: Digitale object(en) samengevoegd
@@ -901,13 +901,13 @@ nl:
   digital_object_component:
     _frontend:
       messages:
-        created_with_parent: Digitaal Object Component <strong>%{digital_object_component.display_string}</strong> werd gemaakt als kind van <strong>%{parent.display_string}</strong> op Digitaal Object <strong>%{digital_object.title}</strong>
-        created: Digitaal Object Component <strong>%{digital_object_component.display_string}</strong> werd gemaakt op Digitaal Object <strong>%{digital_object.title}</strong>
-        updated_with_parent: Digitaal Object Component <strong>%{digital_object_component.display_string}</strong> aangepast
-        updated: Digitaal Object Component <strong>%{digital_object_component.display_string}</strong> aangepast
-        deleted: Digitaal Object Component <strong>%{digital_object_component.display_string}</strong> aangepast
-        unsuppressed: Digitaal Object Component <strong>%{digital_object_component.display_string}</strong> zichtbaar gemaakt
-        suppressed: Digitaal Object Component <strong>%{digital_object_component.display_string}</strong> verborgen
+        created_with_parent: Digitaal object-onderdeel <strong>%{digital_object_component.display_string}</strong> werd gemaakt als kind van <strong>%{parent.display_string}</strong> binnen digitaal object <strong>%{digital_object.title}</strong>
+        created: Digitaal object-onderdeel <strong>%{digital_object_component.display_string}</strong> werd gemaakt binnen digitaal object <strong>%{digital_object.title}</strong>
+        updated_with_parent: Digitaal object-onderdeel <strong>%{digital_object_component.display_string}</strong> aangepast
+        updated: Digitaal object-onderdeel <strong>%{digital_object_component.display_string}</strong> aangepast
+        deleted: Digitaal object-onderdeel <strong>%{digital_object_component.display_string}</strong> aangepast
+        unsuppressed: Digitaal object-onderdeel <strong>%{digital_object_component.display_string}</strong> zichtbaar gemaakt
+        suppressed: Digitaal object-onderdeel <strong>%{digital_object_component.display_string}</strong> verborgen
         suppressed_info: Digitaal object onderdeel is verborgen en kan niet worden aangepast
         has_unpublished_ancestor: Hou er rekening mee dat dit record een voorouder heeft die niet is gepubliceerd.
       section:
@@ -1009,30 +1009,30 @@ nl:
       action:
         add_child: Voeg Subonderdeel toe
         add_sibling: Voeg Sibling toe
-        create: Maak Locatie
-        batch: Maak Locaties in batch
-        batch_edit: Bewerk Locaties in batch
-        save: Bewaar Locatie
+        create: Maak locatie
+        batch: Maak locaties in batch
+        batch_edit: Bewerk locaties in batch
+        save: Bewaar locatie
         single: Enkelvoudige Locatie
-        delete_confirm_message: "<p>Houd er rekening mee dat je <strong> deze actie niet ongedaan kan maken. </strong>. </p> <p> Als deze Locatie momenteel is gekoppeld aan een of meer Instanties, kan deze niet worden verwijderd.</p>"
+        delete_confirm_message: "<p>Houd er rekening mee dat je <strong> deze actie niet ongedaan kan maken. </strong>. </p> <p> Als deze locatie momenteel is gekoppeld aan een of meer Instanties, kan deze niet worden verwijderd.</p>"
         show_space_calculator: Zoek met Ruimtecalculator
   location_batch:
     _frontend:
       section:
-        location: Basis Locatie
+        location: Basis locatie
         ranges: Coördinaten bereik
       messages:
-        created: "<strong>%{number_created} Locaties</strong> gemaakt"
-        updated: "<strong>%{number_created} Locaties</strong> aangepast"
+        created: "<strong>%{number_created} locaties</strong> gemaakt"
+        updated: "<strong>%{number_created} locaties</strong> aangepast"
         location_batch_info: "Definieer de basiswaarden die worden toegepast op alle locaties die zijn gegenereerd op basis van de onderstaande <strong> coördinatenbereiken </strong>."
         location_batch_update_info: "Geef de toe te passen Waarden."
         ranges_info: "Houd er rekening mee dat alle coördinatenvelden die in de bovenstaande <strong>Basislocatie</strong> zijn ingevoerd, worden vervangen door de waarden die zijn gegenereerd door de onderstaande bereiken. Er worden maximaal% {max_range} locaties gemaakt."
-        number_to_create: Number of Locaties
+        number_to_create: Number of locaties
         warning: Afhankelijk van de grootte van het bereik, kan dit proces enkele minuten duren.
       action:
-        create: Maak Locaties
-        update: Pas Locaties aan
-        preview: Voorvertoning Locaties
+        create: Maak locaties
+        update: Pas locaties aan
+        preview: Voorvertoning locaties
         preview_short: Voorvertoning
         creating: Batch in uitvoering...
   name:
@@ -1137,8 +1137,8 @@ nl:
         updated: "Archief/Collectie-record <strong>%{resource.title}</strong> aangepast"
         spawned: "Er is een nieuw Archief/Collectie-record gecreëerd uit Aanwinst <strong>% {accession.display_string} </strong>"
         deleted: "Archief/Collectie-record <strong>%{resource.title}</strong> verwijderd"
-        published: "Archief/Collectie-record <strong>%{resource.title}</strong>, subrecords en componenten werden gepubliceerd"
-        unpublished: "Publicatie van Archief/Collectie-record <strong>%{resource.title}</strong>, kinderen, subrecords en componenten werd ongedaan gemaakt"
+        published: "Archief/Collectie-record <strong>%{resource.title}</strong>, subrecords en onderdelen werden gepubliceerd"
+        unpublished: "Publicatie van archief/collectie-record <strong>%{resource.title}</strong>, kinderen, subrecords en onderdelen werd ongedaan gemaakt"
         merge_description: Selecteer de Archief/Collectie-records waarmee moet worden samengevoegd
         please_select_a_resource_to_merge: Selecteer een Archief/Collectie-record
         merged: Archief/Collectie-records samengevoegd
@@ -1359,7 +1359,7 @@ nl:
         find_and_replace_instructions: Kies een basisrecord om deze zoek- en vervangbewerking uit te voeren. Kies vervolgens een recordtype om te targeten en een eigenschap van dat type. De bewerking wordt uitgevoerd in elk doelrecord in de boomstructuur van het basisrecord, of in het basisrecord zelf als het doeltype 'Bron' is..
         report_instructions: Kies een rapport om uit te voeren met de knop <b> Selecteren </b>.
         slug_lost_warning: <b> WAARSCHUWING! </b> Alle automatisch gegenereerde slugs worden opnieuw gegenereerd! Deze taak is van toepassing op alle records in alle repositories.
-        slug_generation: Deze job genereert slugs voor alle <b> Bronnen </b>, <b> Archiefonderdelen </b>, <b> Digitale objecten </b>, <b> Digitaal object Componenten </b>, <b> Aanwinsten </b>, <b> Classificaties </b>, <b> actoren </b>, <b> Onderwerpen </b> en <b> Repositories </b> die nog geen handmatig toegevoegde slug hebben. <br /> <br /> <em> Slugs die handmatig zijn toegevoegd, worden niet gewijzigd, tenzij het vakje Automatisch slug genereren op de record is aangevinkt om aan te geven dat de slug moet worden vervangen. </em>
+        slug_generation: Deze job genereert slugs voor alle <b> bronnen </b>, <b> archiefonderdelen </b>, <b> digitale objecten </b>, <b> digitaal object-onderdelen </b>, <b> aanwinsten </b>, <b> classificaties </b>, <b> actoren </b>, <b> onderwerpen </b> en <b> repositories </b> die nog geen handmatig toegevoegde slug hebben. <br /> <br /> <em> Slugs die handmatig zijn toegevoegd, worden niet gewijzigd, tenzij het vakje "automatisch slug genereren" in het record is aangevinkt om aan te geven dat de slug moet worden vervangen. </em>
         slug_config_msg: <b>Gebaseerd op je configuratie instellingen in config.rb:</b>
         slug_config_id: Slugs worden waar nodig gegenereerd met behulp van de entiteits-Identificatiecode.
         slug_config_title: Slugs worden gegenereerd met behulp van de naam of titel van de entiteit.
@@ -1429,7 +1429,7 @@ nl:
     not_exported: Niet geëxporteerd
     restricted: Beperkt?
     parent: Ouder Container
-    has_location: Heeft Locatie
+    has_location: Heeft locatie
     managed_container_2_type: Kind Container type
     managed_container_2_type_tooltip: |
       <p> Het type container op het tweede niveau waarin het beschreven materiaal is ondergebracht. </p>
@@ -1481,7 +1481,7 @@ nl:
         collection_accession_singular: Aanwinst
         collection_accession_plural: Aanwinsten
         series: Reeksen
-        current_location: Huidige Locatie
+        current_location: Huidige locatie
         keyword_criteria: Trefwoord
         barcodes_criteria: Barcode(s)
         exported_to_ils_true: "Ja"
@@ -1494,9 +1494,9 @@ nl:
         update_ils_holding_ids_help: Voer een waarde in voor de holding-ID van de bibliotheek voor alle geselecteerde containers. Laat dit veld leeg om de huidige waarde te verwijderen zonder deze te vervangen door een andere waarde.
         update_container_profiles: Pas Containerprofielen aan
         update_container_profiles_help: Kies een containerprofiel voor alle geselecteerde containers. Laat dit veld leeg om de huidige waarde te verwijderen zonder deze te vervangen door een andere waarde.
-        update_locations_singular: "Pas Locaties aan: één Locatie"
+        update_locations_singular: "Pas locaties aan: één locatie"
         update_locations_singular_help: Kies een locatie voor alle geselecteerde containers. Laat dit veld leeg om de huidige waarde te verwijderen zonder deze te vervangen door een andere waarde.
-        update_locations_multiple: "Pas Locaties aan: meerdere Locaties"
+        update_locations_multiple: "Pas locaties aan: meerdere locaties"
         update_locations_multiple_help: Kies een locatie voor elke geselecteerde container. Laat dit veld leeg om de huidige waarde te verwijderen zonder deze te vervangen door een andere waarde.
         rapid_indicator_entry: Werk indicators bij
         rapid_indicator_entry_new_indicator: Nieuwe indicator
@@ -1519,8 +1519,8 @@ nl:
         select_merge_target: Selecteer doel om samen te voegen
         merge_n_records: "Voeg %{n} records samen"
         delete_n_records: "Verwijder %{n} records"
-        update_locations_current_location: Huidige Locatie
-        update_locations_new_location: Nieuwe Locatie
+        update_locations_current_location: Huidige locatie
+        update_locations_new_location: Nieuwe locatie
         has_location_true: "Ja"
         has_location_false: "Nee"
   container_profile:
@@ -1622,9 +1622,9 @@ nl:
     _plural: Locatieprofielen
     _frontend:
       action:
-        save: Bewaar Locatieprofiel
-        edit: Bewerk Locatieprofiel
-        create: Maak Locatieprofiel
+        save: Bewaar locatieprofiel
+        edit: Bewerk locatieprofiel
+        create: Maak locatieprofiel
       messages:
         created: Locatieprofiel gemaakt
         updated: Locatieprofiel aangepast
@@ -2308,75 +2308,75 @@ nl:
     _singular: Gerelateerde alternatieve beschrijving
     _frontend:
       action:
-        add: Voeg Alternatieve Set toe
-    set_component: Set Component
+        add: Voeg koppeling met alternatieve beschrijving toe
+    set_component: Label
     descriptive_note: Beschrijvende noot
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   agent_alternate_sets:
     _plural: Gerelateerde alternatieve beschrijvingen
     _singular: Gerelateerde alternatieve beschrijving
     _frontend:
       action:
-        add: Voeg Alternatieve Set toe
-    set_component: Set Component
+        add: Voeg koppeling met alternatieve beschrijving toe
+    set_component: Label
     descriptive_note: Beschrijvende noot
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   agent_alternate_set_required:
-    _plural: Alternatieve Sets
-    _singular: Alternatieve Set
+    _plural: Gerelateerde alternatieve beschrijvingen
+    _singular: Gerelateerde alternatieve beschrijving
     _frontend:
       action:
-        add: Voeg Alternatieve Set toe
-    set_component: Set Component
+        add: Voeg koppeling met alternatieve beschrijving toe
+    set_component: Label
     descriptive_note: Beschrijvende noot
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   agent_alternate_set_merge_target:
-    _plural: Alternatieve Sets
-    _singular: Alternatieve Set
+    _plural: Gerelateerde alternatieve beschrijvingen
+    _singular: Gerelateerde alternatieve beschrijving
     _frontend:
       action:
-        add: Voeg Alternatieve Set toe
-    set_component: Set Component
+        add: Voeg koppeling met alternatieve beschrijving toe
+    set_component: Label
     descriptive_note: Beschrijvende noot
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   agent_alternate_set_merge_victim:
-    _plural: Alternatieve Sets
-    _singular: Alternatieve Set
+    _plural: Gerelateerde alternatieve beschrijvingen
+    _singular: Gerelateerde alternatieve beschrijving
     _frontend:
       action:
-        add: Voeg Alternatieve Set toe
-    set_component: Set Component
+        add: Voeg koppeling met alternatieve beschrijving toe
+    set_component: Label
     descriptive_note: Beschrijvende noot
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   agent_conventions_declaration:
     _plural: Conventie verklaringen
@@ -2388,11 +2388,11 @@ nl:
     citation: Citaat
     descriptive_note: Beschrijvende noot
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   agent_conventions_declarations:
     _plural: Conventie verklaringen
@@ -2404,11 +2404,11 @@ nl:
     citation: Citaat
     descriptive_note: Beschrijvende noot
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   agent_conventions_declaration_required:
     _plural: Conventie verklaringen
@@ -2420,11 +2420,11 @@ nl:
     citation: Citaat
     descriptive_note: Beschrijvende noot
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   agent_conventions_declaration_merge_target:
     _plural: Conventie verklaringen
@@ -2436,11 +2436,11 @@ nl:
     citation: Citaat
     descriptive_note: Beschrijvende noot
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   agent_conventions_declaration_merge_victim:
     _plural: Conventie verklaringen
@@ -2452,11 +2452,11 @@ nl:
     citation: Citaat
     descriptive_note: Beschrijvende noot
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   agent_other_agency_code:
     _plural: Andere agentschapscodes
@@ -2617,11 +2617,11 @@ nl:
     source_entry: Bron Ingang
     descriptive_note: Beschrijvende noot
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   agent_sources:
     _plural: Bronnen
@@ -2632,11 +2632,11 @@ nl:
     source_entry: Bron Ingang
     descriptive_note: Beschrijvende noot
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   agent_source_required:
     _plural: Bronnen
@@ -2647,11 +2647,11 @@ nl:
     source_entry: Bron Ingang
     descriptive_note: Beschrijvende noot
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   agent_source_merge_target:
     _plural: Bronnen
@@ -2662,11 +2662,11 @@ nl:
     source_entry: Bron Ingang
     descriptive_note: Beschrijvende noot
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   agent_source_merge_victim:
     _plural: Bronnen
@@ -2677,11 +2677,11 @@ nl:
     source_entry: Bron Ingang
     descriptive_note: Beschrijvende noot
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   agent_parallel_name:
     _plural: Parallele namen
@@ -2704,11 +2704,11 @@ nl:
     linked_resource: Gerelateerd extern archief/collectie-record
     linked_resource_description: Beschrijving
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   agent_resources:
     _frontend:
@@ -2726,11 +2726,11 @@ nl:
     linked_resource: Gerelateerd extern archief/collectie-record
     linked_resource_description: Beschrijving
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   agent_resource_required:
     _frontend:
@@ -2748,11 +2748,11 @@ nl:
     linked_resource: Gerelateerd extern archief/collectie-record
     linked_resource_description: Beschrijving
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   agent_resource_merge_victim:
     _frontend:
@@ -2770,11 +2770,11 @@ nl:
     linked_resource: Gerelateerd extern archief/collectie-record
     linked_resource_description: Beschrijving
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   agent_resource_merge_target:
     _frontend:
@@ -2792,11 +2792,11 @@ nl:
     linked_resource: Gerelateerd extern archief/collectie-record
     linked_resource_description: Beschrijving
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   subsections:
     notes: Noten
@@ -2852,11 +2852,11 @@ nl:
     license: Licentie
     descriptive_note: Beschrijvende noot
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   metadata_rights_declarations:
     _plural: Rechtenverklaringen over de metadata
@@ -2867,11 +2867,11 @@ nl:
     license: Licentie
     descriptive_note: Beschrijvende noot
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   metadata_rights_declaration_required:
     _plural: Rechtenverklaringen over de metadata
@@ -2882,11 +2882,11 @@ nl:
     license: Licentie
     descriptive_note: Beschrijvende noot
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   metadata_rights_declaration_merge_target:
     _plural: Rechtenverklaringen over de metadata
@@ -2897,11 +2897,11 @@ nl:
     license: Licentie
     descriptive_note: Beschrijvende noot
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   metadata_rights_declaration_merge_victim:
     _plural: Rechtenverklaringen over de metadata
@@ -2912,11 +2912,11 @@ nl:
     license: Licentie
     descriptive_note: Beschrijvende noot
     file_uri: BestandsURI
-    xlink_title_attribute: Xlink Titel Attribuut
-    xlink_role_attribute: Xlink Rol Attribuut
-    xlink_arcrole_attribute: Xlink Arcrol Attribuut
-    file_version_xlink_actuate_attribute: Xlink Activeer Attribuut
-    file_version_xlink_show_attribute: Xlink Toon Attribuut
+    xlink_title_attribute: Xlink Titel attribuut
+    xlink_role_attribute: Xlink Rol attribuut
+    xlink_arcrole_attribute: Xlink Arcrol attribuut
+    file_version_xlink_actuate_attribute: Xlink Activeer attribuut
+    file_version_xlink_show_attribute: Xlink Toon attribuut
     last_verified_date: Datum laatste verificatie
   bulk_import_templates:
     overview: |
