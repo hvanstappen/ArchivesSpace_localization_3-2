@@ -1042,7 +1042,7 @@ nl:
         dates: Datums
         parallel_names: Parallele namen
         place_subject: Plaats
-        topic_subject: Onderwerp
+        topic_subject: 'Onderwerp: term'
         name_subject: Naam
         function_subject: Functie
         occupation_subject: Beroep
@@ -2236,66 +2236,66 @@ nl:
   agent_topic:
     _frontend:
       action:
-        add: Voeg Topic toe
+        add: Voeg onderwerp toe
     section:
       dates: Datums
     _plural: Onderwerpen
     _singular: Onderwerp
     text_note: Noot
     dates: Datums
-    subjects: Topics
+    subjects: Onderwerpen
     places: Plaatsen
     publish: Gepubliceerd
   agent_topic_required:
     _frontend:
       action:
-        add: Voeg Topic toe
+        add: Voeg onderwerp toe
     section:
       dates: Datums
-    _plural: Topics
-    _singular: Topic
+    _plural: Onderwerpen
+    _singular: Onderwerp
     text_note: Noot
     dates: Datums
-    subjects: Topics
+    subjects: Onderwerpen
     places: Plaatsen
     publish: Gepubliceerd
   agent_topics:
     _frontend:
       action:
-        add: Voeg Topic toe
+        add: Voeg onderwerp toe
     section:
       dates: Datums
-    _plural: Topics
-    _singular: Topic
+    _plural: Onderwerpen
+    _singular: Onderwerp
     text_note: Noot
     dates: Datums
-    subjects: Topics
+    subjects: Termen
     places: Plaatsen
     publish: Gepubliceerd
   agent_topic_merge_target:
     _frontend:
       action:
-        add: Voeg Topic toe
+        add: Voeg onderwerp toe
     section:
       dates: Datums
-    _plural: Topics
-    _singular: Topic
+    _plural: Onderwerpen
+    _singular: Onderwerp
     text_note: Noot
     dates: Datums
-    subjects: Topics
+    subjects: Termen
     places: Plaatsen
     publish: Gepubliceerd
   agent_topic_merge_victim:
     _frontend:
       action:
-        add: Voeg Topic toe
+        add: Voeg onderwerp toe
     section:
       dates: Datums
-    _plural: Topics
-    _singular: Topic
+    _plural: Onderwerpen
+    _singular: Onderwerp
     text_note: Noot
     dates: Datums
-    subjects: Topics
+    subjects: Termen
     places: Plaatsen
     publish: Gepubliceerd
   place:
