@@ -152,7 +152,7 @@ nl:
       <p>Koppelt een digitaal object of digitale objectcomponent aan een bijbehorend inhoudsbestand, adresseerbaar via URI.</p>
     _singular: Digitaal object
     _plural: Digitale objecten
-    new_title: Nieuw Digitaal object
+    new_title: Nieuw digitaal object
   digital_object_component:
     <<: null
     user_defined:
@@ -201,7 +201,7 @@ nl:
     file_versions_tooltip: <p>Koppelt een digitaal object of digitale objectcomponent aan een bijbehorend inhoudsbestand, adresseerbaar via URI.</p>
     _singular: Digitale Object Component
     _plural: Digitale Object Componenten
-    new_title: Nieuw Digitaal object
+    new_title: Nieuw digitaal object
     label: Label
     label_tooltip: |
       <p>Een term die wordt gebruikt om het onderdeel en zijn positie binnen het beschreven digitale object te beschrijven. Vaker gebruikt voor de samenstellende delen van het digitale object dan het digitale objectrecord op het hoogste niveau.</p>
@@ -271,7 +271,7 @@ nl:
     owner_repo_tooltip: Een repository dat deze locatie heeft gereserveerd
     _singular: Locatie
     _plural: Locaties
-    new_title: Nieuwe Locatie
+    new_title: Nieuwe locatie
   location_batch:
     title: Locatie
     temporary_question: Tijdelijk?
@@ -309,7 +309,7 @@ nl:
     owner_repo_tooltip: Een repository dat deze locatie heeft gereserveerd
     _singular: Batch Locaties
     _plural: Batch Locaties
-    new_title: Nieuwe Locatie
+    new_title: Nieuwe locatie
     label: Label
     prefix: Prefix
     suffix: Suffix
