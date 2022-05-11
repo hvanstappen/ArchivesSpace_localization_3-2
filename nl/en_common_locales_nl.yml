@@ -121,8 +121,8 @@ nl:
       _plural: Extra gegevens
     title: Titel
     title_tooltip: |
-      <p>Een titel voor het digitale object. De titel kan worden getranscribeerd van het object, of worden overgenomen van een archief/collectie-record, of geleverd door de repository.</p>
-       <p> De titel van het digitale object als geheel kan dezelfde zijn als die van het bron- of broncomponentrecord waaraan het digitale objectrecord is gekoppeld. Het kan echter anders zijn dan uitgedrukt in het gekoppelde bronrecord.</p>
+      <p>Een titel voor het digitale object. De titel kan worden getranscribeerd van het object, of worden overgenomen van een archief/collectie-record, of geleverd door het repository.</p>
+       <p> De titel van het digitale object als geheel kan dezelfde zijn als die van het bron- of bron-onderdeelrecord waaraan het digitale objectrecord is gekoppeld. Het kan echter anders zijn dan uitgedrukt in het gekoppelde bronrecord.</p>
        <p> Voorbeelden: </p>
        <ul>
        <li> Stanley Elkins, grootvader <em>(gekoppeld aan een broncomponentrecord met de titel "Familieportretten")</em> </li>
@@ -147,9 +147,9 @@ nl:
       <p>Een algemene term die het inhoudelijk basistype van het digitale object aangeeft. De standaardopties komen overeen met het MODS &lt;typeOfResource&gt; element.</p>
     restrictions: Beperkingen?
     restrictions_tooltip: |
-      <p>Een selectievakje om aan te geven dat er beperkingen gelden. De beperkingen kunnen worden toegelicht in een Note-subrecord of Rights-subrecord.</p>
+      <p>Een selectievakje om aan te geven dat er beperkingen gelden. De beperkingen kunnen worden toegelicht in een noot-subrecord of Rights-subrecord.</p>
     file_versions_tooltip: |
-      <p>Koppelt een digitaal object of digitale objectcomponent aan een bijbehorend inhoudsbestand, adresseerbaar via URI.</p>
+      <p>Koppelt een digitaal object of digitaal object-onderdeel aan een bijbehorend inhoudsbestand, adresseerbaar via URI.</p>
     _singular: Digitaal object
     _plural: Digitale objecten
     new_title: Nieuw digitaal object
@@ -187,20 +187,20 @@ nl:
       _singular: Extra gegevens
       _plural: Extra gegevens
     title: Titel
-    title_tooltip: "<p>Een titel voor het digitale object. De titel kan worden getranscribeerd van het object, of worden overgenomen van het archief/collectie-record, of geleverd door het repository.</p>\n <p> De titel van het digitale object als geheel kan dezelfde zijn als die van het bron- of broncomponentrecord waaraan het digitale objectrecord is gekoppeld. Het kan echter anders zijn dan uitgedrukt in het gekoppelde bronrecord.</p>\n <p> Voorbeelden: </p>\n <ul>\n <li> Stanley Elkins, grootvader <em>(gekoppeld aan een broncomponentrecord met de titel \"Familieportretten\")</em> </li>\n <li> Brief aan New Atlantic <em>(gekoppeld aan een broncomponentrecord met de titel \"Brief aan New Atlantic\")</em> </li>\n <li> Cedar Fire <em>(gekoppeld aan een broncomponentrecord met de titel \"Cedar Fire\")</em> </li>\n </ul>"
+    title_tooltip: "<p>Een titel voor het digitale object. De titel kan worden getranscribeerd van het object, of worden overgenomen van het archief/collectie-record, of geleverd door het repository.</p>\n <p> De titel van het digitale object als geheel kan dezelfde zijn als die van het bron- of bron-onderdeelrecord waaraan het digitale objectrecord is gekoppeld. Het kan echter anders zijn dan uitgedrukt in het gekoppelde bronrecord.</p>\n <p> Voorbeelden: </p>\n <ul>\n <li> Stanley Elkins, grootvader <em>(gekoppeld aan een broncomponentrecord met de titel \"Familieportretten\")</em> </li>\n <li> Brief aan New Atlantic <em>(gekoppeld aan een broncomponentrecord met de titel \"Brief aan New Atlantic\")</em> </li>\n <li> Cedar Fire <em>(gekoppeld aan een broncomponentrecord met de titel \"Cedar Fire\")</em> </li>\n </ul>"
     digital_object_id: Identificatiecode
     digital_object_id_tooltip: "<p>Een unieke identificatie voor het digitale object als geheel. Dit kan een ARK, HANDLE, een URI of een willekeurige tekenreeks zijn die het digitale object uniek identificeert. Het veld moet worden ingevuld om een geldig METS-record te kunnen exporteren.</p>\n<p>Voorbeelden:</p>\n <ul>\n<li>http://hdl.handle.net/1813/13524</li>\n </ul>"
     publish: Publiceren?
-    publish_tooltip: <p>Bepaalt of dit digitale object of component wordt gepubliceerd in de publieksinterface.</p>
+    publish_tooltip: <p>Bepaalt of dit digitale object of onderdeel wordt gepubliceerd in de publieksinterface.</p>
     level: VRA Core Level
     level_tooltip: <p>Hoofdzakelijk voor gebruik in VRA Core-compatibele records met meerdere niveaus om aan te geven dat de beschrijving over een collectie, een werk of een afbeelding gaat.</p>
     digital_object_type: Digitaal object type
     digital_object_type_tooltip: <p>Een algemene term die het inhoudelijk basistype van het digitale object aangeeft. De standaardopties komen overeen met het MODS &lt;typeOfResource&gt; element.</p>
     restrictions: Beperkingen?
-    restrictions_tooltip: <p>Een selectievakje om aan te geven dat er beperkingen gelden. De beperkingen kunnen worden toegelicht in een Note-subrecord of Rights-subrecord.</p>
-    file_versions_tooltip: <p>Koppelt een digitaal object of digitale objectcomponent aan een bijbehorend inhoudsbestand, adresseerbaar via URI.</p>
-    _singular: Digitale Object Component
-    _plural: Digitale Object Componenten
+    restrictions_tooltip: <p>Een selectievakje om aan te geven dat er beperkingen gelden. De beperkingen kunnen worden toegelicht in een noot-subrecord of Rights-subrecord.</p>
+    file_versions_tooltip: <p>Koppelt een digitaal object of digitaal object-onderdeel aan een bijbehorend inhoudsbestand, adresseerbaar via URI.</p>
+    _singular: Digitaal object-onderdeel
+    _plural: Digitale object-onderdelen
     new_title: Nieuw digitaal object
     label: Label
     label_tooltip: |
@@ -214,7 +214,7 @@ nl:
        </ul>
     component_id: Identificatiecode
     component_id_tooltip: |
-      <p>Een unieke Identificatiecode voor de Digitale object component.</p>
+      <p>Een unieke identificatiecode voor het digitale object-onderdeel.</p>
     dates: Datums
     has_unpublished_ancestor: Heeft niet-gepubliceerde Ancestor?
   location:
@@ -307,8 +307,8 @@ nl:
     holdings: Bezit
     owner_repo: Gereserveerd voor
     owner_repo_tooltip: Een repository dat deze locatie heeft gereserveerd
-    _singular: Batch Locaties
-    _plural: Batch Locaties
+    _singular: Batch locaties
+    _plural: Batch locaties
     new_title: Nieuwe locatie
     label: Label
     prefix: Prefix
@@ -475,7 +475,7 @@ nl:
     outcome_tooltip: |
       <p>Een categorisering van het algehele resultaat van het evenement in termen van succes, gedeeltelijk succes of mislukking. De aanbevolen oefening is om een ​​gecontroleerd vocabulaire te gebruiken waarop een systeem automatisch kan reageren. Meer details over de uitkomst kunnen worden vastgelegd in een uitkomstnota. De aanbevolen praktijk is om gebeurtenissen zo gedetailleerd te definiëren dat elke gebeurtenis een enkele uitkomst heeft.</p>
       <p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>
-    outcome_note: Resultaat Noot
+    outcome_note: Resultaat noot
     outcome_note_tooltip: |
       <p>Een gedetailleerde beschrijving van het resultaat van het evenement. Dit kan worden gebruikt om alle fout- en waarschuwingsberichten op te nemen die zijn gecreëerd door een programma dat bij de gebeurtenis is betrokken, of om een ​​verwijzing naar een error log vast te leggen.</p>
     date: Gebeurtenis Datum/Tijd
@@ -526,7 +526,7 @@ nl:
       publication: Publicatie
       replication: Replicatie
       resource_merge: Samenvoeging
-      resource_component_transfer: Overdracht component
+      resource_component_transfer: Overdracht onderdeel
       validation: Validatie
       virus_check: Viruscontrole
     _singular: Gebeurtenis
@@ -551,7 +551,7 @@ nl:
     event_type_tooltip: "<p>Een categorisering van de aard van de gebeurtenis. </p>\n<p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>\n<p>Zie PREMIS eventType</p>"
     outcome: Resultaat
     outcome_tooltip: "<p>Een categorisering van het algehele resultaat van het evenement in termen van succes, gedeeltelijk succes of mislukking. De aanbevolen oefening is om een ​​gecontroleerd vocabulaire te gebruiken waarop een systeem automatisch kan reageren. Meer details over de uitkomst kunnen worden vastgelegd in een uitkomstnota. De aanbevolen praktijk is om gebeurtenissen zo gedetailleerd te definiëren dat elke gebeurtenis een enkele uitkomst heeft.</p>\n<p>Waarden in deze lijst met gecontroleerde waarden kunnen worden gewijzigd.</p>"
-    outcome_note: Resultaat Noot
+    outcome_note: Resultaat noot
     outcome_note_tooltip: <p>Een gedetailleerde beschrijving van het resultaat van het evenement. Dit kan worden gebruikt om alle fout- en waarschuwingsberichten op te nemen die zijn gecreëerd door een programma dat bij de gebeurtenis is betrokken, of om een ​​verwijzing naar een error log vast te leggen.</p>
     date: Gebeurtenis Datum/Tijd
     date_type: Gebeurtenis type
@@ -596,7 +596,7 @@ nl:
       publication: Publicatie
       replication: Replicatie
       resource_merge: Samenvoeging
-      resource_component_transfer: Overdracht component
+      resource_component_transfer: Overdracht onderdeel
       validation: Validatie
       virus_check: Viruscontrole
     _singular: Gebeurtenis
@@ -1504,7 +1504,7 @@ nl:
   note_attributes:
     label: Label
     label_tooltip: |
-      <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+      <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: |
@@ -1520,7 +1520,7 @@ nl:
       <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
     type_tooltip: |
-      <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+      <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
   related_agent:
     relationship_type: Algemeen relatietype
     relationship_type_tooltip: Een term die de algemene aard van de relatie tussen de actoren beschrijft.
@@ -1701,9 +1701,9 @@ nl:
     note_chronology: Chronologie
     note_index: Index
     note_bibliography: Bibliografie
-    note_digital_object: Digitaal Object Noot
+    note_digital_object: Digitaal Object noot
     note_langmaterial: Taal van de materialen noot
-    note_bioghist: "Biografische/Historische Noot"
+    note_bioghist: "Biografische/Historische noot"
     note_citation: Citaat
     note_abstract: Abstract
     note_outline: Overzicht
@@ -1711,7 +1711,7 @@ nl:
     note_type: Noottype
     note_rights_statement: Rechtenstatus noot
     note_rights_statement_act: Rechtenstatus regelgeving noot
-    note_agent_rights_statement: Rights Statement Noot (niet gebruiken)
+    note_agent_rights_statement: Rights Statement noot (niet gebruiken)
     note_general_context: Algemene context
     note_mandate: Mandaat
     note_contact_note: Contact noot
@@ -1721,7 +1721,7 @@ nl:
     _plural: Noten
   note_text:
     label: Label
-    label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+    label_tooltip: <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
@@ -1733,11 +1733,11 @@ nl:
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
-    type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+    type_tooltip: <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     option: Tekst
   note_index:
     label: Label
-    label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+    label_tooltip: <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
@@ -1749,7 +1749,7 @@ nl:
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
-    type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+    type_tooltip: <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     option: Index
   note_index_item:
     value: Waarde
@@ -1762,7 +1762,7 @@ nl:
     reference_text_tooltip: Een beschrijving voor de referentie, indien gerechtvaardigd.
   note_singlepart:
     label: Label
-    label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+    label_tooltip: <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
@@ -1774,10 +1774,10 @@ nl:
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
-    type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+    type_tooltip: <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
   note_multipart:
     label: Label
-    label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+    label_tooltip: <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
@@ -1789,13 +1789,13 @@ nl:
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
-    type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+    type_tooltip: <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     subnotes: Subnoten
     sub_notes: Subnoten
     sub_notes_singular: Subnoot
   note_digital_object:
     label: Label
-    label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+    label_tooltip: <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
@@ -1807,10 +1807,10 @@ nl:
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
-    type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+    type_tooltip: <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
   note_langmaterial:
     label: Label
-    label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+    label_tooltip: <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
@@ -1822,10 +1822,10 @@ nl:
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
-    type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+    type_tooltip: <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
   note_rights_statement:
     label: Label
-    label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+    label_tooltip: <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
@@ -1837,10 +1837,10 @@ nl:
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
-    type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+    type_tooltip: <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
   note_rights_statement_act:
     label: Label
-    label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+    label_tooltip: <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
@@ -1852,10 +1852,10 @@ nl:
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
-    type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+    type_tooltip: <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
   note_agent_rights_statement:
     label: Label
-    label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+    label_tooltip: <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
@@ -1867,10 +1867,10 @@ nl:
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
-    type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+    type_tooltip: <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
   note_bibliography:
     label: Label
-    label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+    label_tooltip: <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
@@ -1882,11 +1882,11 @@ nl:
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
-    type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+    type_tooltip: <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     option: Bibliografie
   note_chronology:
     label: Label
-    label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+    label_tooltip: <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
@@ -1898,7 +1898,7 @@ nl:
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
-    type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+    type_tooltip: <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     option: Chronologie
   chronology_item:
     event_date: Datum gebeurtenis
@@ -1911,7 +1911,7 @@ nl:
     place: Gebeurtenis plaats
   note_definedlist:
     label: Label
-    label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+    label_tooltip: <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
@@ -1923,7 +1923,7 @@ nl:
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
-    type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+    type_tooltip: <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     option: Gedefinieerde lijst
   definedlist_item:
     label: Label
@@ -1934,7 +1934,7 @@ nl:
       Een gedefinieerd lijstitem in een gedefinieerde lijst.
   note_orderedlist:
     label: Label
-    label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+    label_tooltip: <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
@@ -1946,14 +1946,14 @@ nl:
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
-    type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+    type_tooltip: <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     option: Geordende lijst
     enumeration: Opsomming
     enumeration_tooltip: |
       <p>Een attribuut om het type nummering aan te geven dat op de nootitems moet worden toegepast</p>
   note_bioghist:
     label: Label
-    label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+    label_tooltip: <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
@@ -1965,11 +1965,11 @@ nl:
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
-    type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+    type_tooltip: <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     subnotes: Subnoten
   note_general_context:
     label: Label
-    label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+    label_tooltip: <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
@@ -1981,11 +1981,11 @@ nl:
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
-    type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+    type_tooltip: <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     subnotes: Subnoten
   note_mandate:
     label: Label
-    label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+    label_tooltip: <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
@@ -1997,11 +1997,11 @@ nl:
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
-    type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+    type_tooltip: <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     subnotes: Subnoten
   note_contact_note:
     label: Label
-    label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+    label_tooltip: <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
@@ -2013,7 +2013,7 @@ nl:
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
-    type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+    type_tooltip: <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     subnotes: Subnoten
     date_of_contact: Datum van het contact
     contact_notes: Contact opmerkingen
@@ -2023,7 +2023,7 @@ nl:
       <p>Wordt gebruikt om de specifieke datum of tijdsbestek van een interactie vast te leggen</p>
   note_legal_status:
     label: Label
-    label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+    label_tooltip: <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
@@ -2035,11 +2035,11 @@ nl:
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
-    type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+    type_tooltip: <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     subnotes: Subnoten
   note_structure_or_genealogy:
     label: Label
-    label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+    label_tooltip: <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
@@ -2051,11 +2051,11 @@ nl:
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
-    type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+    type_tooltip: <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     subnotes: Subnoten
   note_abstract:
     label: Label
-    label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+    label_tooltip: <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
@@ -2067,11 +2067,11 @@ nl:
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
-    type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+    type_tooltip: <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     option: Abstract
   note_citation:
     label: Label
-    label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+    label_tooltip: <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
@@ -2083,7 +2083,7 @@ nl:
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
-    type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+    type_tooltip: <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     option: Citaat
     xlink: XLink
   note_citation_xlink:
@@ -2096,7 +2096,7 @@ nl:
     type: Type
   note_outline:
     label: Label
-    label_tooltip: <p>Een label of titel voor de specifieke Noot. Als er geen label wordt gebruikt, wordt het notitietype waar nodig als label gebruikt.</p>
+    label_tooltip: <p>Een label of titel voor de specifieke noot. Als er geen label wordt gebruikt, wordt het noottype waar nodig als label gebruikt.</p>
     persistent_id: Persistente ID
     content: Inhoud
     content_tooltip: <p>De inhoud van het nootveld.</p>
@@ -2108,7 +2108,7 @@ nl:
     title: Titel
     title_tooltip: <p>Een element voor het opnemen van een specifiek label of titel voor de subnoot.</p>
     type: Type
-    type_tooltip: <p>Het type Noot voor de inhoud. Noottypes worden gebruikt om de export van Noot-inhoud naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
+    type_tooltip: <p>Het noottype voor de inhoud. Noottypes worden gebruikt om de export van de inhoud van nootvelden naar bepaalde elementen in specifieke gegevensformaten aan te sturen.</p>
     option: Overzicht
     levels: Niveaus
   instance:
@@ -2152,7 +2152,7 @@ nl:
     xlink_actuate_attribute: XLink Actuate Attribute
     xlink_actuate_attribute_tooltip: |
       <p>Een XLink-attribuut dat wordt gebruikt voor export om aan te geven hoe het digitale object moet worden weergegeven (bijvoorbeeld of de link automatisch plaatsvindt of moet worden aangevraagd door de gebruiker). Het wordt gebruikt in combinatie met het kenmerk XLink Toon.</p>
-    xlink_show_attribute: XLink Toon Attribuut
+    xlink_show_attribute: XLink Toon attribuut
     xlink_show_attribute_tooltip: |
       <p>Een XLink-attribuut dat wordt gebruikt voor export om aan te geven hoe het doel van een link moet worden weergegeven. Het wordt gebruikt in combinatie met de XLink Actuate attribuut.</p>
     file_format_name: Naam bestandsformaat
@@ -2210,12 +2210,12 @@ nl:
       <p>Zie DACS 2.5</p>
     container_summary: Overzicht verpakking
     container_summary_tooltip: |
-      <p>Een lijst met containers en containertypen waarin de materialen zijn ondergebracht die worden beschreven in het componentrecord.</p>
+      <p>Een lijst met containers en containertypes waarin de materialen zijn ondergebracht die worden beschreven in het record.</p>
        <p> Voorbeelden: </p>
        <ul>
       <li>10 archiefdozen.</li>
       <li>12 schoendozen.</li>
-
+      <li>4 archiefdozen, 32 kokers</li>
        </ul>
     physical_details: Fysieke kenmerken
     physical_details_tooltip: |
@@ -2320,7 +2320,7 @@ nl:
       <p> Copyright: het land waarvan de copyrightwetten van toepassing zijn. </p>
       <p> Statuut: het land of een ander politiek orgaan dat het statuut uitvaardigt. </p>
       <p> Voldoet aan ISO 3166. </p>
-    type_note: Type noot
+    type_note: Noottype
     type_note_tooltip: |
       <p>Alle aanvullende informatie over het auteursrecht, de licentie, het statuut of het institutionele beleid en / of over de toepassing ervan op het beschreven materiaal.</p>
        <p> Voorbeelden: </p>
@@ -2357,7 +2357,7 @@ nl:
     statute_citation_tooltip: "<p>Een citaat, URI of andere verwijzing naar het statuut met betrekking tot deze Rechtenverklaring.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Freedom of Information and Protection of Privacy Act [RSBC 1996] Chapter 165</li>\n </ul>"
     jurisdiction: Jurisdictie
     jurisdiction_tooltip: "<p> Copyright: het land waarvan de copyrightwetten van toepassing zijn. </p>\n<p> Statuut: het land of een ander politiek orgaan dat het statuut uitvaardigt. </p>\n<p> Voldoet aan ISO 3166. </p>"
-    type_note: Type noot
+    type_note: Noottype
     type_note_tooltip: "<p>Alle aanvullende informatie over het auteursrecht, de licentie, het statuut of het institutionele beleid en / of over de toepassing ervan op het beschreven materiaal.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Gebruiksbeperking (en): Dit werk is mogelijk beschermd door copyrightwetgeving. Voor gebruik van dit werk op een andere manier dan toegestaan door de toepasselijke copyrightwet is de schriftelijke toestemming van de copyrighthouder (s) vereist. De verantwoordelijkheid voor het verkrijgen van toestemming voor elk gebruik en distributie van dit werk berust uitsluitend bij de gebruiker en niet bij de UC San Diego-bibliotheken. Voor inlichtingen kunt u terecht bij de Mandeville Special Collections Library (http://libraries.ucsd.edu/locations/mscl/).</li>\n </ul>"
     determination_date: Datum vaststelling
     determination_date_tooltip: "<p> Copyright: de datum waarop de copyrightstatus die in de copyrightstatus is vastgelegd, is bepaald. </p>\n<p>Statute: The date that the determination was made that the statute authorized the permission(s) noted.</p>"
@@ -2384,7 +2384,7 @@ nl:
     statute_citation_tooltip: "<p>Een citaat, URI of andere verwijzing naar het statuut met betrekking tot deze Rechtenverklaring.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Freedom of Information and Protection of Privacy Act [RSBC 1996] Chapter 165</li>\n </ul>"
     jurisdiction: Jurisdictie
     jurisdiction_tooltip: "<p> Copyright: het land waarvan de copyrightwetten van toepassing zijn. </p>\n<p> Statuut: het land of een ander politiek orgaan dat het statuut uitvaardigt. </p>\n<p> Voldoet aan ISO 3166. </p>"
-    type_note: Type noot
+    type_note: Noottype
     type_note_tooltip: "<p>Alle aanvullende informatie over het auteursrecht, de licentie, het statuut of het institutionele beleid en / of over de toepassing ervan op het beschreven materiaal.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Gebruiksbeperking (en): Dit werk is mogelijk beschermd door copyrightwetgeving. Voor gebruik van dit werk op een andere manier dan toegestaan door de toepasselijke copyrightwet is de schriftelijke toestemming van de copyrighthouder (s) vereist. De verantwoordelijkheid voor het verkrijgen van toestemming voor elk gebruik en distributie van dit werk berust uitsluitend bij de gebruiker en niet bij de UC San Diego-bibliotheken. Voor inlichtingen kunt u terecht bij de Mandeville Special Collections Library (http://libraries.ucsd.edu/locations/mscl/).</li>\n </ul>"
     determination_date: Datum vaststelling
     determination_date_tooltip: "<p> Copyright: de datum waarop de copyrightstatus die in de copyrightstatus is vastgelegd, is bepaald. </p>\n<p>Statute: The date that the determination was made that the statute authorized the permission(s) noted.</p>"
@@ -2411,7 +2411,7 @@ nl:
     statute_citation_tooltip: "<p>Een citaat, URI of andere verwijzing naar het statuut met betrekking tot deze Rechtenverklaring.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Freedom of Information and Protection of Privacy Act [RSBC 1996] Chapter 165</li>\n </ul>"
     jurisdiction: Jurisdictie
     jurisdiction_tooltip: "<p> Copyright: het land waarvan de copyrightwetten van toepassing zijn. </p>\n<p> Statuut: het land of een ander politiek orgaan dat het statuut uitvaardigt. </p>\n<p> Voldoet aan ISO 3166. </p>"
-    type_note: Type noot
+    type_note: Noottype
     type_note_tooltip: "<p>Alle aanvullende informatie over het auteursrecht, de licentie, het statuut of het institutionele beleid en / of over de toepassing ervan op het beschreven materiaal.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Gebruiksbeperking (en): Dit werk is mogelijk beschermd door copyrightwetgeving. Voor gebruik van dit werk op een andere manier dan toegestaan door de toepasselijke copyrightwet is de schriftelijke toestemming van de copyrighthouder (s) vereist. De verantwoordelijkheid voor het verkrijgen van toestemming voor elk gebruik en distributie van dit werk berust uitsluitend bij de gebruiker en niet bij de UC San Diego-bibliotheken. Voor inlichtingen kunt u terecht bij de Mandeville Special Collections Library (http://libraries.ucsd.edu/locations/mscl/).</li>\n </ul>"
     determination_date: Datum vaststelling
     determination_date_tooltip: "<p> Copyright: de datum waarop de copyrightstatus die in de copyrightstatus is vastgelegd, is bepaald. </p>\n<p>Statute: The date that the determination was made that the statute authorized the permission(s) noted.</p>"
@@ -2438,7 +2438,7 @@ nl:
     statute_citation_tooltip: "<p>Een citaat, URI of andere verwijzing naar het statuut met betrekking tot deze Rechtenverklaring.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Freedom of Information and Protection of Privacy Act [RSBC 1996] Chapter 165</li>\n </ul>"
     jurisdiction: Jurisdictie
     jurisdiction_tooltip: "<p> Copyright: het land waarvan de copyrightwetten van toepassing zijn. </p>\n<p> Statuut: het land of een ander politiek orgaan dat het statuut uitvaardigt. </p>\n<p> Voldoet aan ISO 3166. </p>"
-    type_note: Type noot
+    type_note: Noottype
     type_note_tooltip: "<p>Alle aanvullende informatie over het auteursrecht, de licentie, het statuut of het institutionele beleid en / of over de toepassing ervan op het beschreven materiaal.</p>\n <p> Voorbeelden: </p>\n <ul>\n<li>Gebruiksbeperking (en): Dit werk is mogelijk beschermd door copyrightwetgeving. Voor gebruik van dit werk op een andere manier dan toegestaan door de toepasselijke copyrightwet is de schriftelijke toestemming van de copyrighthouder (s) vereist. De verantwoordelijkheid voor het verkrijgen van toestemming voor elk gebruik en distributie van dit werk berust uitsluitend bij de gebruiker en niet bij de UC San Diego-bibliotheken. Voor inlichtingen kunt u terecht bij de Mandeville Special Collections Library (http://libraries.ucsd.edu/locations/mscl/).</li>\n </ul>"
     determination_date: Datum vaststelling
     determination_date_tooltip: "<p> Copyright: de datum waarop de copyrightstatus die in de copyrightstatus is vastgelegd, is bepaald. </p>\n<p>Statute: The date that the determination was made that the statute authorized the permission(s) noted.</p>"
@@ -2750,13 +2750,11 @@ nl:
     id_2: Identificatiecode 3
     id_3: Identificatiecode 4
     id_0_tooltip: |
-      <p>VERPLICHT VELD:  De unieke identificatie voor een toetreding binnen een repository. </p>
+      <p>VERPLICHT VELD:  De unieke identificatie voor een aanwinst binnen een repository. </p>
 
-       <p> In ArchivesSpace zijn vier velden voorzien voor het ontleden van een toegangs-ID in zijn samenstellende delen. Elk segment is beperkt tot 50 tekens, of 200 tekens in totaal voor de identificatie. Ten minste het eerste deel moet worden gebruikt voor een geldig toetredingsrecord. </p>
+       <p>In ArchivesSpace zijn vier velden voorzien voor het ontleden van een aanwinst-ID in zijn samenstellende delen. Elk segment is beperkt tot 50 tekens, of 200 tekens in totaal voor de identificatie. Tenminste het eerste deel moet worden gebruikt voor een geldig aanwinstrecord. </p>
 
-
-
-       <p> Standaardwaarden kunnen worden gebruikt om de componenten te vullen die voor alle toegangsnummers hetzelfde zijn.</p>
+       <p>Standaardwaarden kunnen worden gebruikt om de componenten te vullen die voor alle toegangsnummers hetzelfde zijn.</p>
 
       <p>Zie DACS 5.2.5</p>
     content_description: Inhoudelijke beschrijving
@@ -2774,13 +2772,13 @@ nl:
       <p>De kaarten in doos 4 zijn broos en verschillende zijn bedekt met schimmel. Tijdens de verwerking moeten inademingsbeschermers worden gedragen.</p>
     disposition: Bestemming
     disposition_tooltip: |
-      <p>Een Noot om te beschrijven hoe een bepaalde Aanwinst aan verschillende bronnen kan zijn toegewezen.</p>
+      <p>Een noot om te beschrijven hoe een bepaalde Aanwinst aan verschillende bronnen kan zijn toegewezen.</p>
        <p> Voorbeelden: </p>
       <p>Foto's werden gescheiden en toegewezen aan Foto's 025.</p>
       <p>De brieven aan William Colton werden toegevoegd aan de correspondentiecollectie van William Colton, terwijl de kaarten van lokale landstromen werden toegevoegd aan de archieven van de County River-collectie.</p>
     general_note: Algemene noot
     general_note_tooltip: |
-      <p>Een generiek Nootveld voor alle informatie die niet in één van de meer specifiek gedefinieerde velden past.</p>
+      <p>Een generiek nootveld voor alle informatie die niet in één van de meer specifiek gedefinieerde velden past.</p>
     inventory: Ordening
     inventory_tooltip: |
       <p>Een lijst van de containers en hun inhoud waaruit een toetreding bestaat. De dozenlijst kan in het veld worden samengesteld, gekopieerd en in het veld worden geplakt, of er kan naar worden verwezen als een extern document. De verwijzing naar het externe document kan hier worden opgenomen of in een subrecord Externe documenten.</p>
@@ -3218,8 +3216,8 @@ nl:
     ref_id_auto_generation_message: "-- auto-generated upon save --"
     component_id: Identificatiecode
     component_id_tooltip: |
-      <p>Drukt een unieke ID uit, binnen de context van de archief/collectiebeschrijving, voor het componentonderdeel.</p>
-       <p> Voorbeelden: </p>
+      <p>Drukt een unieke ID uit, binnen de context van de archief/collectiebeschrijving, voor het onderdeel.</p>
+      <p>Voorbeelden: </p>
        <ul>
       <li>Reeks I</li>
       <li>Deelreeks 8</li>
@@ -3405,7 +3403,7 @@ nl:
     ead_id: EAD ID
     ead_id_tooltip: |
       <p>De identificatie voor de EAD die is gegenereerd op basis van de archief/collectiebeschrijving, meestal een bestandsnaam. Moet uniek zijn binnen de repositorycontext.</p>
-    ead_location: EAD Locatie
+    ead_location: EAD locatie
     ead_location_tooltip: |
       <p>De locatie voor de EAD die is gegenereerd op basis van de bronbeschrijving, een URL of een pad naar een bestandsmap. De locatie eindigt meestal.</p>
     finding_aid_tooltip: |
@@ -3446,7 +3444,7 @@ nl:
     finding_aid_script: Schrift van de beschrijving
     finding_aid_script_tooltip: |
       <p>Geeft alle schriftsoorten aan die aanwezig zijn in de toegang die is gegenereerd op basis van de bronbeschrijving.</p>
-    finding_aid_language_note: Taal van beschrijving Noot
+    finding_aid_language_note: Taal van beschrijving noot
     finding_aid_language_note_tooltip: |
       <p>Opmerkingen over de talen die aanwezig zijn in de toegang die zijn gegenereerd op basis van de bronbeschrijving.</p>
     finding_aid_sponsor: Sponsor
@@ -3461,7 +3459,7 @@ nl:
     finding_aid_status: Toegang status
     finding_aid_status_tooltip: |
       <p>Geeft de status van de toegang aan.</p>
-    finding_aid_note: Toegang Noot
+    finding_aid_note: Toegang noot
     finding_aid_note_tooltip: |
       <p>Voor het vastleggen van eventuele aanvullende informatie over het zoekhulpmiddel (niet de beschreven bron) die niet wordt gedekt door de andere gegevenselementen van het zoekhulpmiddel.</p>
     created_by: Gemaakt door
@@ -3809,7 +3807,7 @@ nl:
     resource_browse_section: Archief/Collectie blader door kolommen
     archival_object_browse_section: Archiefonderdeel blader door kolommen
     digital_object_browse_section: Digitaal Object blader door kolommen
-    digital_object_component_browse_section: Digitaal Object Component blader door kolommen
+    digital_object_component_browse_section: Digitaal object-onderdeel blader door kolommen
     subject_browse_section: Onderwerp blader door kolommen
     agent_browse_section: Actor blader door kolommen
     location_browse_section: Locatie blader door kolommen
@@ -4009,7 +4007,7 @@ nl:
       ao: Archiefonderdeel
       digital: Digitaal Object
   trim_whitespace_job:
-    description: Verwijdert begin- en eindspaties uit titels voor Archieven/Collecties, Aanwinsten, Digitale objecten, Archiefonderdelen en Digitale objectcomponenten.
+    description: Verwijdert begin- en eindspaties uit titels voor archieven/collecties, aanwinsten, digitale objecten, archiefonderdelen en digitale object-onderdelen.
   ns2_remover_job:
     description: >
       Archivists' Toolit-era EADs imported into ASpace may have vestigal "ns2" namespace references pre-pended to various EAD tag attributes inside note subrecords. This may produce validation errors on EAD export from ArchivesSpace, as the root <ead> tag doesn't declare the "ns2" namespace. This job bulk deletes "ns2" references within Notes subrecords attached to resource, archival_object, digital_object, and digital_object_component records. As this job works across all repositories, it is restricted to users with <b>System Administrator permissions only</b>.
@@ -4043,7 +4041,7 @@ nl:
     backend_info: Backend Systeeminformatie
     backend_log: Backend Log
   resource_component:
-    _singular: Archief/Collectie Component
+    _singular: Archief/Collectie-onderdeel
   largetree:
     reparent_error:
       title: Kan niet verplaatsen
@@ -4096,10 +4094,10 @@ nl:
     catalog_record: Catalog Record (MARC)
     collections: Collecties
     control_file: Collectie/Controle bestand
-    conservation_note: Conservatie Noot
+    conservation_note: Conservatie noot
     conservation_note_tooltip: <p>Geeft gebieden aan die bijzondere zorg vragen met betrekking tot de instandhouding van de collectie.</p>
     deed_of_gift: Akte van schenking
-    existing_description_notes: Bestaande beschrijving Noten
+    existing_description_notes: Bestaande beschrijving noten
     existing_description_notes_tooltip: <p>Alle verdere informatie over bestaande beschrijving van de materialen.</p>
     finding_aid_ead: Finding Aid (EAD-encoding)
     finding_aid_online: Finding Aid (online)
@@ -4113,7 +4111,7 @@ nl:
     inactive_false: "Nee"
     monetary_value: Financiële waarde
     monetary_value_tooltip: <p>Appraised or estimated market value of the assessed materials (numerical value).</p>
-    monetary_value_note: Financiële waarde Noot
+    monetary_value_note: Financiële waarde noot
     monetary_value_note_tooltip: <p>Geeft aan wie de geldwaarde, de taxatiedatum en andere relevante informatie heeft verstrekt.</p>
     surveyed_by: Onderzocht door
     surveyed_by_tooltip: |
@@ -4134,7 +4132,7 @@ nl:
     review_required_tooltip: <p>Geeft aan of een Review vereist is voor de collectie vanwege de indeling, het onderwerp of de omstandigheden.</p>
     review_required_true: "Ja"
     review_required_false: "Nee"
-    review_note: Review Noot
+    review_note: Review noot
     review_note_tooltip: <p>Toelichting bij de uitkomst van een eventuele speciale Review.</p>
     reviewer: Review uitgevoerd door
     reviewer_tooltip: <p>Geeft aan wie de beoordeling moet uitvoeren. Dit veld is beperkt tot degenen met gebruikersrecords in ArchivesSpace.</p>
@@ -4150,9 +4148,9 @@ nl:
     sensitive_material_false: "Nee"
     general_assessment_note: Algemene opmerking bij de waardering
     general_assessment_note_tooltip: <p>Eventuele verdere opmerkingen over een waardering.</p>
-    special_format_note: Bijzondere formaten Noot
+    special_format_note: Bijzondere formaten noot
     special_format_note_tooltip: <p>Aanvullende of verklarende informatie over de aanwezige speciale formaten.</p>
-    exhibition_value_note: Tentoonstellinsgwaarde Noot
+    exhibition_value_note: Tentoonstellinsgwaarde noot
     exhibition_value_note_tooltip: <p>Geeft aan of de collectie zelf of de afzonderlijke items in de collectie bijzonder geschikt zijn voor tentoonstellingen. Dit veld kan bijvoorbeeld een uniek artefact of een brief of foto van historische betekenis vermelden.</p>
     rating_attributes_value:
       rating_none: Geen score
