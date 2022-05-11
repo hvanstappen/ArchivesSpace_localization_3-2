@@ -694,7 +694,7 @@ nl:
         created: Actor gemaakt
         updated: Actor bewaard
         deleted: Actor verwijderd
-        published: "De actor <strong>%{agent.title}</strong>, de subrecords en componenten zijn gepubliceerd"
+        published: "De actor <strong>%{agent.title}</strong>, de subrecords en onderdelen zijn gepubliceerd"
         delete_conflict: "Actor kon niet worden verwijderd: <pre>%{error}</pre>"
         merge_description: Selecteer een actor om mee samen te voegen
         merged: Actor(en) samengevoegd
@@ -988,7 +988,7 @@ nl:
     _frontend:
       action:
         add: Voeg Taal toe
-        add_note: Voeg Taal Noot toe
+        add_note: Voeg Taal noot toe
   linked_agent:
     _frontend:
       action:
@@ -1057,12 +1057,12 @@ nl:
         raw: Onbewerkt
         raw_title: De onbewerkte inhoud van de noot
         parsed: Geformatteerd
-        parsed_title: Hoe de Noot wordt weergegeven in de Publieke inderface (PUI)
+        parsed_title: Hoe de noot wordt weergegeven in de publieksinterface
         content: Inhoud
       messages:
-        select_a_note_type: "<em>Select een Noot type</em>"
+        select_a_note_type: "<em>Selecteer een noottype</em>"
       action:
-        add: Voeg Noot toe
+        add: Voeg noot toe
         add_for_contact_note: Voeg Contact noot toe
         add_content_item: Voeg Content Item toe
         add_note_orderedlist: Voeg Item toe
@@ -1690,8 +1690,8 @@ nl:
       action:
         create: Maak waardering
         save: Bewaar waardering
-        add_rating_note: Voeg Noot toe
-        remove_rating_note: Verwijder Noot
+        add_rating_note: Voeg noot toe
+        remove_rating_note: Verwijder noot
         create_for_record: Maak waardering
       section:
         basic_information: Basisgegevens
