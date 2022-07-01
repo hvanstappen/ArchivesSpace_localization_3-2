@@ -853,7 +853,7 @@ nl:
     transliteration: Transliteration
     transliteration_tooltip: <p>Indicates the transliteration scheme used in recording the name form.</p>
     _singular: Parallelle Naam
-    _plural: Parallele namen
+    _plural: Parallelle namen
   name_family:
     authority_id: Authority ID
     authority_id_tooltip: "<p>De unieke identificatie voor het naamformulier voor een actor binnen de bron waarvan deze is verkregen (d.w.z. een MADS-record-ID of EAC-record-ID). De identificatie kan worden weergegeven als een URI.</p>\n<p>Zie DACS 13.2</p>\n<p>Voorbeelden:</p>\n <ul>\n<li>nr92045078 <em>voor een LCNAF name heading</em></li>\n<li>500115393 <em>voor een ULAN name heading</em></li>\n<li>http://viaf.org/viaf/134138653 <em>voor een VIAF name heading</em></li>\n </ul>"
