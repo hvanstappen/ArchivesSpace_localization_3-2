@@ -105,7 +105,7 @@ nl:
     export_mets: Download METS
     export_marc: Download MARCXML
     export_dc: Download DC
-    export_csv: Download CSV
+    export_csv: CSV overzicht
     container_template: Download Container Template
     loading: Laden...
     revert: Wijzigingen ongedaan maken
@@ -773,7 +773,7 @@ nl:
         unsuppressed: Archiefonderdeel <strong>%{archival_object.title}</strong> zichtbaar gemaakt
         suppressed: Archiefonderdeel <strong>%{archival_object.title}</strong> verborgen
         suppressed_info: Archiefonderdeel is verborgen en kan niet waorden aangepast
-        has_unpublished_ancestor: Hou er rekening mee dat dit record een voorouder heeft die niet is gepubliceerd.
+        has_unpublished_ancestor: Hou er rekening mee dat dit record een bovenliggende beschrijving heeft die niet is gepubliceerd.
         delete_conflict: "Archiefonderdeel kon niet worden verwijderd: <pre>%{error}</pre>"
       section:
         basic_information: Basisgegevens
@@ -909,7 +909,7 @@ nl:
         unsuppressed: Digitaal object-onderdeel <strong>%{digital_object_component.display_string}</strong> zichtbaar gemaakt
         suppressed: Digitaal object-onderdeel <strong>%{digital_object_component.display_string}</strong> verborgen
         suppressed_info: Digitaal object onderdeel is verborgen en kan niet worden aangepast
-        has_unpublished_ancestor: Hou er rekening mee dat dit record een voorouder heeft die niet is gepubliceerd.
+        has_unpublished_ancestor: Hou er rekening mee dat dit record een bovenliggende beschrijving heeft die niet is gepubliceerd.
       section:
         basic_information: Basisgegevens
       action:
