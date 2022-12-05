@@ -2818,7 +2818,7 @@ nl:
     access_restrictions_tooltip: |
       <p>Een selectievakje om aan te geven of de toegang tot de materialen beperkt is.</p>
       <p>Zie DACS 4.1.5-4.1.6; 4.2.5-4.2.7, 4.3.5-4.3.6</p>
-    access_restrictions_note: Omschrijving toegankelijkheidsbeperkingen
+    access_restrictions_note: Type beperking
     access_restrictions_note_tooltip: |
       <p>Een verklaring waarin wordt aangegeven tot welk materiaal in de Aanwinst de toegang beperkt is, wat de bevoegdheid van de beperking is en hoe lang de beperking van kracht zal zijn. Aanvullende informatie kan ook worden vastgelegd in een subrecord Rechten.</p>
        <p> Voorbeelden: </p>
