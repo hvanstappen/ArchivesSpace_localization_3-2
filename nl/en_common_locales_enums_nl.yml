@@ -640,7 +640,7 @@ nl:
       ngo: Niet-gouvernementele organisatie
       other: Andere
       provincial: State, provincial, territorial, dependent, etc.
-      sac: Autonome of semi-autonome component
+      sac: Autonoom of semi-autonoom onderdeel
       undetermined: Type overheidsinstantie onbepaald
       unknown: Onbekend of de naam een overheidsinstantie is
     identifier_type:
@@ -1535,7 +1535,7 @@ nl:
     note_rights_statement_type:
       additional_information: Aanvullende informatie
       materials: Materialen
-      type_note: Type noot
+      type_note: Noottype
     _note_types:
       abstract: Abstract
       accessrestrict: Voorwaarden voor raadpleging
