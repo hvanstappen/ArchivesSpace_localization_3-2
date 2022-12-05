@@ -216,7 +216,7 @@ nl:
     component_id_tooltip: |
       <p>Een unieke identificatiecode voor het digitale object-onderdeel.</p>
     dates: Datums
-    has_unpublished_ancestor: Heeft niet-gepubliceerde Ancestor?
+    has_unpublished_ancestor: Heeft niet-gepubliceerde bovenliggende beschrijving?
   location:
     title: Locatie
     temporary_question: Tijdelijk?
@@ -265,7 +265,7 @@ nl:
     coordinate_3_indicator_tooltip: |
       <p>Wordt gebruikt om een indicator op te nemen, zoals een cijfer of letter, die een unieke locatie identificeert in combinatie met het bijbehorende coördinaat label.</p>
     display_string: Getoonde tekst
-    has_unpublished_ancestor: Heeft niet-gepubliceerde Ancestor?
+    has_unpublished_ancestor: Heeft niet-gepubliceerde bovenliggende beschrijving?
     holdings: Bezit
     owner_repo: Gereserveerd voor
     owner_repo_tooltip: Een repository dat deze locatie heeft gereserveerd
@@ -303,7 +303,7 @@ nl:
     coordinate_3_indicator: Coordinaat Indicator 3
     coordinate_3_indicator_tooltip: <p>Wordt gebruikt om een indicator op te nemen, zoals een cijfer of letter, die een unieke locatie identificeert in combinatie met het bijbehorende coördinaat label.</p>
     display_string: Getoonde tekst
-    has_unpublished_ancestor: Heeft niet-gepubliceerde Ancestor?
+    has_unpublished_ancestor: Heeft niet-gepubliceerde bovenliggende beschrijving?
     holdings: Bezit
     owner_repo: Gereserveerd voor
     owner_repo_tooltip: Een repository dat deze locatie heeft gereserveerd
@@ -2814,7 +2814,7 @@ nl:
     script: Schrift van de beschrijving
     script_tooltip: |
       <p>Aanduiding van alle schriften die voorkomen in de beschrijving van de aanwinst.</p>
-    access_restrictions: Toegankelijkheidsbeperkingen?
+    access_restrictions: Toegang beperkt?
     access_restrictions_tooltip: |
       <p>Een selectievakje om aan te geven of de toegang tot de materialen beperkt is.</p>
       <p>Zie DACS 4.1.5-4.1.6; 4.2.5-4.2.7, 4.3.5-4.3.6</p>
@@ -2825,10 +2825,10 @@ nl:
        <ul>
       <li>Dagboeken in box 10 zijn tot 2030 door de donor beperkt.</li>
        </ul>
-    use_restrictions: Gebruiksbeperkingen?
+    use_restrictions: Gebruik beperkt?
     use_restrictions_tooltip: |
       <p>Een selectievakje om aan te geven dat er gebruiksbeperkingen zijn voor materialen bij de Aanwinst.</p>
-    use_restrictions_note: Omschrijving gebruiksbeperkingen
+    use_restrictions_note: Type beperking
     use_restrictions_note_tooltip: |
       <p>Een verklaring die aangeeft voor welke materialen gebruiksbeperkingen gelden, hoe de materialen kunnen worden gebruikt, wat de autoriteit van de beperking is en hoe lang de beperking van kracht zal zijn. Aanvullende informatie kan ook worden vastgelegd in een onderregistratie Rechten.</p>
        <p> Voorbeelden: </p>
@@ -3253,7 +3253,7 @@ nl:
       <p>Een toepassingsspecifiek veld voor het vastleggen van informatie over de verwerking van de materialen. Deze notitie is niet opgenomen in export of rapporten, en wordt niet gevuld door import.</p>
     automate_title: Genereer Titel automatisch
     "[:resource_id, :ref_id]": Referentie ID
-    has_unpublished_ancestor: Heeft niet-gepubliceerde Ancestor?
+    has_unpublished_ancestor: Heeft niet-gepubliceerde bovenliggende beschrijving?
     _singular: Archiefonderdeel
     _plural: Archiefonderdelen
   group:
